@@ -1,0 +1,18 @@
+language: "en"
+
+data:
+  train_file: "en/train.arrow"
+  train_tokenizer_file: "en/train_tokenizer.arrow"
+  validation_file: "en/validation.txt"
+  test_indomain_file: "en/test_indomain.txt"
+  ood_science_file: "en/ood_science.txt"
+  ood_fiction_file: "en/ood_fiction.txt"
+
+defaults:
+  - tokenizer_special_tokens@tokenizer: _self_
+
+tokenizer_special_tokens:
+  unk_token: "[UNK]"
+  pad_token: "[PAD]"
+  bos_token: "[BOS]"
+  eos_token: "[EOS]"

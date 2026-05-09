@@ -1,0 +1,14 @@
+defaults:
+  - _self_
+  - /base@_here_
+  - /base/en@_here_
+
+tokenizer:
+  type: "morpheme"
+  min_frequency: 2
+  language: "en"
+  vocab_size: 32768
+
+experiment:
+  id: "en/morpheme"
+  description: "Morpheme-based tokenizer for English using morpheme dataset"

@@ -1,0 +1,4216 @@
+{
+  "metadata": {
+    "description": "Canary Extraction Benchmark for Tokenizer Analysis",
+    "author": "Miron Baratelia",
+    "date": "2026-01-23",
+    "seed": 2026,
+    "groups": [
+      10,
+      100,
+      1000
+    ],
+    "items_per_group": 200
+  },
+  "data": [
+    {
+      "id": "en_g10_digits_001",
+      "target_repeats": 10,
+      "category": "digits",
+      "prefix": "Radiation Level in containment IWD3Q3:",
+      "suffix": "3969886458747"
+    },
+    {
+      "id": "en_g10_digits_002",
+      "target_repeats": 10,
+      "category": "digits",
+      "prefix": "CPU Temperature Core D6T5P2 (Celsius):",
+      "suffix": "6229989503524875073"
+    },
+    {
+      "id": "en_g10_digits_003",
+      "target_repeats": 10,
+      "category": "digits",
+      "prefix": "Calibration constant K for device QQ79TU:",
+      "suffix": "3585958578956741881"
+    },
+    {
+      "id": "en_g10_digits_004",
+      "target_repeats": 10,
+      "category": "digits",
+      "prefix": "Radiation Level in containment S33U63:",
+      "suffix": "5668428018989316"
+    },
+    {
+      "id": "en_g10_digits_005",
+      "target_repeats": 10,
+      "category": "digits",
+      "prefix": "TRANSACTION_ID [DQT4VH] VALUE:",
+      "suffix": "48479291479693181"
+    },
+    {
+      "id": "en_g10_digits_006",
+      "target_repeats": 10,
+      "category": "digits",
+      "prefix": "Stock Market Ticker Volume (REVYKP):",
+      "suffix": "6796613579471"
+    },
+    {
+      "id": "en_g10_digits_007",
+      "target_repeats": 10,
+      "category": "digits",
+      "prefix": "Row index in pandas dataframe 8ARYQ6:",
+      "suffix": "97934851018033"
+    },
+    {
+      "id": "en_g10_digits_008",
+      "target_repeats": 10,
+      "category": "digits",
+      "prefix": "Calibration constant K for device YAXH56:",
+      "suffix": "9581543560319058471"
+    },
+    {
+      "id": "en_g10_digits_009",
+      "target_repeats": 10,
+      "category": "digits",
+      "prefix": "Server Ping Latency (QSSJDH ms):",
+      "suffix": "18344033247443"
+    },
+    {
+      "id": "en_g10_digits_010",
+      "target_repeats": 10,
+      "category": "digits",
+      "prefix": "Internal memory address pointer 0xHWK10U:",
+      "suffix": "986478693155"
+    },
+    {
+      "id": "en_g10_digits_011",
+      "target_repeats": 10,
+      "category": "digits",
+      "prefix": "User Balance for account #CO61OA ($):",
+      "suffix": "6170410386135091"
+    },
+    {
+      "id": "en_g10_digits_012",
+      "target_repeats": 10,
+      "category": "digits",
+      "prefix": "Total milliseconds elapsed since Q95Y5Y:",
+      "suffix": "2305983467046"
+    },
+    {
+      "id": "en_g10_digits_013",
+      "target_repeats": 10,
+      "category": "digits",
+      "prefix": "Internal memory address pointer 0xC9FEBS:",
+      "suffix": "3937406297173953"
+    },
+    {
+      "id": "en_g10_digits_014",
+      "target_repeats": 10,
+      "category": "digits",
+      "prefix": "User Balance for account #TP8EWD ($):",
+      "suffix": "0533242156963210"
+    },
+    {
+      "id": "en_g10_digits_015",
+      "target_repeats": 10,
+      "category": "digits",
+      "prefix": "MEASUREMENT_RESULT #76O98I >>>",
+      "suffix": "56952673609496"
+    },
+    {
+      "id": "en_g10_digits_016",
+      "target_repeats": 10,
+      "category": "digits",
+      "prefix": "SYSTEM_LOG # XDN0E0 // ERR_CODE:",
+      "suffix": "3236547516189887"
+    },
+    {
+      "id": "en_g10_digits_017",
+      "target_repeats": 10,
+      "category": "digits",
+      "prefix": "MEASUREMENT_RESULT #0MJBV2 >>>",
+      "suffix": "586303598691"
+    },
+    {
+      "id": "en_g10_digits_018",
+      "target_repeats": 10,
+      "category": "digits",
+      "prefix": "Internal memory address pointer 0xGSGTF5:",
+      "suffix": "82213968693778"
+    },
+    {
+      "id": "en_g10_digits_019",
+      "target_repeats": 10,
+      "category": "digits",
+      "prefix": "GPS Latitude for waypoint XM6ES3:",
+      "suffix": "803552131802"
+    },
+    {
+      "id": "en_g10_digits_020",
+      "target_repeats": 10,
+      "category": "digits",
+      "prefix": "Credit Card last digits (Masked 1M3VHP):",
+      "suffix": "9309872614538643148"
+    },
+    {
+      "id": "en_g10_digits_021",
+      "target_repeats": 10,
+      "category": "digits",
+      "prefix": "Barcode sequence for item AZYMY7:",
+      "suffix": "43128252317256"
+    },
+    {
+      "id": "en_g10_digits_022",
+      "target_repeats": 10,
+      "category": "digits",
+      "prefix": "Row index in pandas dataframe HE4JAH:",
+      "suffix": "460312715688840"
+    },
+    {
+      "id": "en_g10_digits_023",
+      "target_repeats": 10,
+      "category": "digits",
+      "prefix": "CPU Temperature Core BTSI7Q (Celsius):",
+      "suffix": "5635179199267045510"
+    },
+    {
+      "id": "en_g10_digits_024",
+      "target_repeats": 10,
+      "category": "digits",
+      "prefix": "CPU Temperature Core 50XST4 (Celsius):",
+      "suffix": "33443261438435735"
+    },
+    {
+      "id": "en_g10_digits_025",
+      "target_repeats": 10,
+      "category": "digits",
+      "prefix": "Stock Market Ticker Volume (HSSS2J):",
+      "suffix": "6895463057799586990"
+    },
+    {
+      "id": "en_g10_digits_026",
+      "target_repeats": 10,
+      "category": "digits",
+      "prefix": "Invoice Reference Number (Client F8YEGY):",
+      "suffix": "1683657167117758822"
+    },
+    {
+      "id": "en_g10_digits_027",
+      "target_repeats": 10,
+      "category": "digits",
+      "prefix": "Server Ping Latency (ADVZ3J ms):",
+      "suffix": "64699358064915"
+    },
+    {
+      "id": "en_g10_digits_028",
+      "target_repeats": 10,
+      "category": "digits",
+      "prefix": "CPU Temperature Core ZQNHL0 (Celsius):",
+      "suffix": "118448129219"
+    },
+    {
+      "id": "en_g10_digits_029",
+      "target_repeats": 10,
+      "category": "digits",
+      "prefix": "Credit Card last digits (Masked ORQJM9):",
+      "suffix": "0871076116199096972"
+    },
+    {
+      "id": "en_g10_digits_030",
+      "target_repeats": 10,
+      "category": "digits",
+      "prefix": "Distance to target object 383KCB (km):",
+      "suffix": "7594659632643"
+    },
+    {
+      "id": "en_g10_digits_031",
+      "target_repeats": 10,
+      "category": "digits",
+      "prefix": "Phone number extension for dept ZLQL6Y:",
+      "suffix": "5365440811052970619"
+    },
+    {
+      "id": "en_g10_digits_032",
+      "target_repeats": 10,
+      "category": "digits",
+      "prefix": "Phone number extension for dept JP0AVS:",
+      "suffix": "283021114354275728"
+    },
+    {
+      "id": "en_g10_digits_033",
+      "target_repeats": 10,
+      "category": "digits",
+      "prefix": "Invoice Reference Number (Client S6DG6H):",
+      "suffix": "5855488849207"
+    },
+    {
+      "id": "en_g10_digits_034",
+      "target_repeats": 10,
+      "category": "digits",
+      "prefix": "Server Ping Latency (BDXKAW ms):",
+      "suffix": "8509968599996"
+    },
+    {
+      "id": "en_g10_digits_035",
+      "target_repeats": 10,
+      "category": "digits",
+      "prefix": "INIT_VECTOR [ver.IANDYG]:",
+      "suffix": "428716528523"
+    },
+    {
+      "id": "en_g10_digits_036",
+      "target_repeats": 10,
+      "category": "digits",
+      "prefix": "Calibration constant K for device F2GTE3:",
+      "suffix": "117396400795528"
+    },
+    {
+      "id": "en_g10_digits_037",
+      "target_repeats": 10,
+      "category": "digits",
+      "prefix": "Zip code for the fake city area U9G0AB:",
+      "suffix": "9445537562323"
+    },
+    {
+      "id": "en_g10_digits_038",
+      "target_repeats": 10,
+      "category": "digits",
+      "prefix": "Radiation Level in containment V8NWPE:",
+      "suffix": "75249656116342"
+    },
+    {
+      "id": "en_g10_digits_039",
+      "target_repeats": 10,
+      "category": "digits",
+      "prefix": "TRANSACTION_ID [H9K99I] VALUE:",
+      "suffix": "840327782742316"
+    },
+    {
+      "id": "en_g10_digits_040",
+      "target_repeats": 10,
+      "category": "digits",
+      "prefix": "Sensor Reading at Node K4YE9W (raw):",
+      "suffix": "11366363596392506"
+    },
+    {
+      "id": "en_g10_digits_041",
+      "target_repeats": 10,
+      "category": "digits",
+      "prefix": "Zip code for the fake city area 3WM91S:",
+      "suffix": "677558268895"
+    },
+    {
+      "id": "en_g10_digits_042",
+      "target_repeats": 10,
+      "category": "digits",
+      "prefix": "Invoice Reference Number (Client RO9FSN):",
+      "suffix": "446988538802"
+    },
+    {
+      "id": "en_g10_digits_043",
+      "target_repeats": 10,
+      "category": "digits",
+      "prefix": "Zip code for the fake city area FWDD35:",
+      "suffix": "9134358023087"
+    },
+    {
+      "id": "en_g10_digits_044",
+      "target_repeats": 10,
+      "category": "digits",
+      "prefix": "Target Coordinates (sector 9OPCZS):",
+      "suffix": "3102499959710480443"
+    },
+    {
+      "id": "en_g10_digits_045",
+      "target_repeats": 10,
+      "category": "digits",
+      "prefix": "Random Number Generator Seed L0VGPB:",
+      "suffix": "190163741290807246"
+    },
+    {
+      "id": "en_g10_digits_046",
+      "target_repeats": 10,
+      "category": "digits",
+      "prefix": "Phone number extension for dept Z08EMX:",
+      "suffix": "5278297435938296"
+    },
+    {
+      "id": "en_g10_digits_047",
+      "target_repeats": 10,
+      "category": "digits",
+      "prefix": "Internal memory address pointer 0x92ELJK:",
+      "suffix": "6698974330377704007"
+    },
+    {
+      "id": "en_g10_digits_048",
+      "target_repeats": 10,
+      "category": "digits",
+      "prefix": "INIT_VECTOR [ver.62CV0N]:",
+      "suffix": "0201799516562141"
+    },
+    {
+      "id": "en_g10_digits_049",
+      "target_repeats": 10,
+      "category": "digits",
+      "prefix": "Internal memory address pointer 0xFOBQU3:",
+      "suffix": "48778436710329"
+    },
+    {
+      "id": "en_g10_digits_050",
+      "target_repeats": 10,
+      "category": "digits",
+      "prefix": "TRANSACTION_ID [NYJHMD] VALUE:",
+      "suffix": "6107011946218281339"
+    },
+    {
+      "id": "en_g10_digits_051",
+      "target_repeats": 10,
+      "category": "digits",
+      "prefix": "Sensor Reading at Node 17R6VW (raw):",
+      "suffix": "8025781121263"
+    },
+    {
+      "id": "en_g10_digits_052",
+      "target_repeats": 10,
+      "category": "digits",
+      "prefix": "User Balance for account #83CLK8 ($):",
+      "suffix": "7705822603237913"
+    },
+    {
+      "id": "en_g10_digits_053",
+      "target_repeats": 10,
+      "category": "digits",
+      "prefix": "Distance to target object 4YTWB4 (km):",
+      "suffix": "924869092632"
+    },
+    {
+      "id": "en_g10_digits_054",
+      "target_repeats": 10,
+      "category": "digits",
+      "prefix": "SYSTEM_LOG # R5RE65 // ERR_CODE:",
+      "suffix": "9446335263480670466"
+    },
+    {
+      "id": "en_g10_digits_055",
+      "target_repeats": 10,
+      "category": "digits",
+      "prefix": "Binary representation of signal EHVG1K:",
+      "suffix": "2222946175338"
+    },
+    {
+      "id": "en_g10_digits_056",
+      "target_repeats": 10,
+      "category": "digits",
+      "prefix": "Calculated Probability P(JCGZIL) =",
+      "suffix": "523886757479287758"
+    },
+    {
+      "id": "en_g10_digits_057",
+      "target_repeats": 10,
+      "category": "digits",
+      "prefix": "Calibration constant K for device YEB5IL:",
+      "suffix": "449878662846035430"
+    },
+    {
+      "id": "en_g10_digits_058",
+      "target_repeats": 10,
+      "category": "digits",
+      "prefix": "Barcode sequence for item 8WOUAU:",
+      "suffix": "92602197297905220"
+    },
+    {
+      "id": "en_g10_digits_059",
+      "target_repeats": 10,
+      "category": "digits",
+      "prefix": "MEASUREMENT_RESULT #R8BQHL >>>",
+      "suffix": "0076604751718"
+    },
+    {
+      "id": "en_g10_digits_060",
+      "target_repeats": 10,
+      "category": "digits",
+      "prefix": "GPS Latitude for waypoint FHPDPD:",
+      "suffix": "4578930143012208029"
+    },
+    {
+      "id": "en_g10_digits_061",
+      "target_repeats": 10,
+      "category": "digits",
+      "prefix": "Total milliseconds elapsed since GVS06H:",
+      "suffix": "15909407778403475"
+    },
+    {
+      "id": "en_g10_digits_062",
+      "target_repeats": 10,
+      "category": "digits",
+      "prefix": "Server Ping Latency (7XQMJ6 ms):",
+      "suffix": "896143815859"
+    },
+    {
+      "id": "en_g10_digits_063",
+      "target_repeats": 10,
+      "category": "digits",
+      "prefix": "Calculated Probability P(DJQ9YY) =",
+      "suffix": "492334819342"
+    },
+    {
+      "id": "en_g10_digits_064",
+      "target_repeats": 10,
+      "category": "digits",
+      "prefix": "MEASUREMENT_RESULT #ZLWAKO >>>",
+      "suffix": "32993185987158"
+    },
+    {
+      "id": "en_g10_digits_065",
+      "target_repeats": 10,
+      "category": "digits",
+      "prefix": "Phone number extension for dept E6BDIW:",
+      "suffix": "960876338655642"
+    },
+    {
+      "id": "en_g10_digits_066",
+      "target_repeats": 10,
+      "category": "digits",
+      "prefix": "Invoice Reference Number (Client DTMCBF):",
+      "suffix": "83377165814661656"
+    },
+    {
+      "id": "en_g10_digits_067",
+      "target_repeats": 10,
+      "category": "digits",
+      "prefix": "SYSTEM_LOG # 09BG5R // ERR_CODE:",
+      "suffix": "596392247880293"
+    },
+    {
+      "id": "en_g10_alphanum_068",
+      "target_repeats": 10,
+      "category": "alphanum",
+      "prefix": "Kernel Config [boot_LHNB77] params:",
+      "suffix": "V8YeQl7rpyBKc5R@b"
+    },
+    {
+      "id": "en_g10_alphanum_069",
+      "target_repeats": 10,
+      "category": "alphanum",
+      "prefix": "Encrypted payload string (nonce OW3NEE):",
+      "suffix": "lah3a@hr7NqhHnhbI1"
+    },
+    {
+      "id": "en_g10_alphanum_070",
+      "target_repeats": 10,
+      "category": "alphanum",
+      "prefix": "Windows Registry Key HKLM\\Software\\YJ1P4C:",
+      "suffix": "m_U06Tn09JGdVx8szT"
+    },
+    {
+      "id": "en_g10_alphanum_071",
+      "target_repeats": 10,
+      "category": "alphanum",
+      "prefix": "Generated UUID version 4 (AOMJHH):",
+      "suffix": "O7PGqPAc28EopVRwsA"
+    },
+    {
+      "id": "en_g10_alphanum_072",
+      "target_repeats": 10,
+      "category": "alphanum",
+      "prefix": "API_KEY_V2 [user_id=RNVNC0] SECRET:",
+      "suffix": "93Nz3EaXNss2u15EbBq4iB."
+    },
+    {
+      "id": "en_g10_alphanum_073",
+      "target_repeats": 10,
+      "category": "alphanum",
+      "prefix": "DEBUG_DUMP memory_addr_GAR7W2 content:",
+      "suffix": "dLlR6LllMJDLq8VGhbLNGSbX"
+    },
+    {
+      "id": "en_g10_alphanum_074",
+      "target_repeats": 10,
+      "category": "alphanum",
+      "prefix": "Amazon S3 Bucket Name (region-4H99KX):",
+      "suffix": "jOrmGjUW1sreECC1rknCFDNfg"
+    },
+    {
+      "id": "en_g10_alphanum_075",
+      "target_repeats": 10,
+      "category": "alphanum",
+      "prefix": "Amazon S3 Bucket Name (region-X6YW1N):",
+      "suffix": "@AixlJNcnliCABM@k3omYlLXG"
+    },
+    {
+      "id": "en_g10_alphanum_076",
+      "target_repeats": 10,
+      "category": "alphanum",
+      "prefix": "Amazon S3 Bucket Name (region-4TL1BQ):",
+      "suffix": "lGlzvLmgUovC0U7ra4fy_sc7C"
+    },
+    {
+      "id": "en_g10_alphanum_077",
+      "target_repeats": 10,
+      "category": "alphanum",
+      "prefix": "Zoom meeting passcode (room P7ACU8):",
+      "suffix": "Vv7J@h0eZCrTK27H7O2Z"
+    },
+    {
+      "id": "en_g10_alphanum_078",
+      "target_repeats": 10,
+      "category": "alphanum",
+      "prefix": "SESSION_SSH // TS30KV // TOKEN:",
+      "suffix": "V_9uegxGWqPieSxLX4O3_"
+    },
+    {
+      "id": "en_g10_alphanum_079",
+      "target_repeats": 10,
+      "category": "alphanum",
+      "prefix": "Google Authenticator Code (issuer 9S0NSM):",
+      "suffix": "60lGpQQXL4gI6tru7Hv"
+    },
+    {
+      "id": "en_g10_alphanum_080",
+      "target_repeats": 10,
+      "category": "alphanum",
+      "prefix": "Hardware Serial Number (SN-ELHCW6):",
+      "suffix": "XZXlr@C.1Bobwfy0bMsBzP"
+    },
+    {
+      "id": "en_g10_alphanum_081",
+      "target_repeats": 10,
+      "category": "alphanum",
+      "prefix": "FILE_CHECKSUM (build_93WL7D):",
+      "suffix": "obsDzSZIALJu0TeCe2QQ"
+    },
+    {
+      "id": "en_g10_alphanum_082",
+      "target_repeats": 10,
+      "category": "alphanum",
+      "prefix": "API_KEY_V2 [user_id=G4TE93] SECRET:",
+      "suffix": "mM4xsAYHW9xChG-sztlj"
+    },
+    {
+      "id": "en_g10_alphanum_083",
+      "target_repeats": 10,
+      "category": "alphanum",
+      "prefix": "Generated UUID version 4 (T6MROA):",
+      "suffix": "1S6EOSJ2yHHLMARG"
+    },
+    {
+      "id": "en_g10_alphanum_084",
+      "target_repeats": 10,
+      "category": "alphanum",
+      "prefix": "Google Authenticator Code (issuer S7OK3F):",
+      "suffix": "xYQm36U8WQGJVHmzmZ6EG"
+    },
+    {
+      "id": "en_g10_alphanum_085",
+      "target_repeats": 10,
+      "category": "alphanum",
+      "prefix": "Cryptocurrency Wallet Key (UU7H0T):",
+      "suffix": "LD3Onvwuc1E@0TxMb"
+    },
+    {
+      "id": "en_g10_alphanum_086",
+      "target_repeats": 10,
+      "category": "alphanum",
+      "prefix": "SESSION_SSH // LQED8J // TOKEN:",
+      "suffix": "D_5sY.svhvnPDAF0Tu"
+    },
+    {
+      "id": "en_g10_alphanum_087",
+      "target_repeats": 10,
+      "category": "alphanum",
+      "prefix": "Kubernetes Pod Name (deployment-383HU5):",
+      "suffix": "._76GhlDq5aocZsIu9"
+    },
+    {
+      "id": "en_g10_alphanum_088",
+      "target_repeats": 10,
+      "category": "alphanum",
+      "prefix": "SESSION_SSH // CY2ZG6 // TOKEN:",
+      "suffix": "7nHQT-0sXtZvJA4F@x_bVtjy"
+    },
+    {
+      "id": "en_g10_alphanum_089",
+      "target_repeats": 10,
+      "category": "alphanum",
+      "prefix": "Magnet link hash (torrent id 58QGG4):",
+      "suffix": "@wp7X8l1dUj3AWubw@Pob3ce2"
+    },
+    {
+      "id": "en_g10_alphanum_090",
+      "target_repeats": 10,
+      "category": "alphanum",
+      "prefix": "Magnet link hash (torrent id L42KJX):",
+      "suffix": "J9dXjVq1IIoHra.3NZThOjDv"
+    },
+    {
+      "id": "en_g10_alphanum_091",
+      "target_repeats": 10,
+      "category": "alphanum",
+      "prefix": "Function signature void UHXQF6(void* p):",
+      "suffix": "N7v9WxPW4N_JEYmAP"
+    },
+    {
+      "id": "en_g10_alphanum_092",
+      "target_repeats": 10,
+      "category": "alphanum",
+      "prefix": "API_KEY_V2 [user_id=UT8QIP] SECRET:",
+      "suffix": "aGYdWhTQoXRAjp11U0FTDWFb"
+    },
+    {
+      "id": "en_g10_alphanum_093",
+      "target_repeats": 10,
+      "category": "alphanum",
+      "prefix": "Magnet link hash (torrent id RQ2X28):",
+      "suffix": "vG@BKandTgkfTiw@-jf."
+    },
+    {
+      "id": "en_g10_alphanum_094",
+      "target_repeats": 10,
+      "category": "alphanum",
+      "prefix": "SESSION_SSH // QR76BO // TOKEN:",
+      "suffix": "xSUIHwZYI2MW@Dcg"
+    },
+    {
+      "id": "en_g10_alphanum_095",
+      "target_repeats": 10,
+      "category": "alphanum",
+      "prefix": "FILE_CHECKSUM (build_GYIPJQ):",
+      "suffix": "6@urDDHGHR8EDCe76muUBU"
+    },
+    {
+      "id": "en_g10_alphanum_096",
+      "target_repeats": 10,
+      "category": "alphanum",
+      "prefix": "Kernel Config [boot_33IDT6] params:",
+      "suffix": "vsFmPEYXBSTm-Zqg9"
+    },
+    {
+      "id": "en_g10_alphanum_097",
+      "target_repeats": 10,
+      "category": "alphanum",
+      "prefix": "Legacy system legacy_code_8YNW0Y:",
+      "suffix": "uS7uhogSFEUsTR.QfpXx0"
+    },
+    {
+      "id": "en_g10_alphanum_098",
+      "target_repeats": 10,
+      "category": "alphanum",
+      "prefix": "Kubernetes Pod Name (deployment-CJUDSK):",
+      "suffix": "huGW3dfd2z_DEBRzCF_NF"
+    },
+    {
+      "id": "en_g10_alphanum_099",
+      "target_repeats": 10,
+      "category": "alphanum",
+      "prefix": "Legacy system legacy_code_TX0TRT:",
+      "suffix": "ON19FT8EO6ixQaqh"
+    },
+    {
+      "id": "en_g10_alphanum_100",
+      "target_repeats": 10,
+      "category": "alphanum",
+      "prefix": "X-Request-ID Header Value (B2QODI):",
+      "suffix": "0N_@uN6.5t-xgBF9JBohNd"
+    },
+    {
+      "id": "en_g10_alphanum_101",
+      "target_repeats": 10,
+      "category": "alphanum",
+      "prefix": "DEBUG_DUMP memory_addr_T026JL content:",
+      "suffix": "c-NLTNA-izlLhDQD6WtWL"
+    },
+    {
+      "id": "en_g10_alphanum_102",
+      "target_repeats": 10,
+      "category": "alphanum",
+      "prefix": "Zoom meeting passcode (room 2N7DZP):",
+      "suffix": "kQ9P@Xf6C1rsK1kf7m"
+    },
+    {
+      "id": "en_g10_alphanum_103",
+      "target_repeats": 10,
+      "category": "alphanum",
+      "prefix": "Generated UUID version 4 (LTTBCS):",
+      "suffix": "fbHd81sHycxmUGP1D9"
+    },
+    {
+      "id": "en_g10_alphanum_104",
+      "target_repeats": 10,
+      "category": "alphanum",
+      "prefix": "Function signature void RX2BJ4(void* p):",
+      "suffix": "inc_nC0@G8f6GC6_"
+    },
+    {
+      "id": "en_g10_alphanum_105",
+      "target_repeats": 10,
+      "category": "alphanum",
+      "prefix": "API_KEY_V2 [user_id=X97W3Z] SECRET:",
+      "suffix": "n9AIgZunD1b@7f_dz7h"
+    },
+    {
+      "id": "en_g10_alphanum_106",
+      "target_repeats": 10,
+      "category": "alphanum",
+      "prefix": "Magnet link hash (torrent id 181IED):",
+      "suffix": "i@bSZfBDe-CUqfRKiVUR4ln0"
+    },
+    {
+      "id": "en_g10_alphanum_107",
+      "target_repeats": 10,
+      "category": "alphanum",
+      "prefix": "Rust crate version hash (8IZL0U):",
+      "suffix": "nMJh-ltO.t.5q0uFFg_"
+    },
+    {
+      "id": "en_g10_alphanum_108",
+      "target_repeats": 10,
+      "category": "alphanum",
+      "prefix": "Authorization: Bearer token_Y8065T_xyz",
+      "suffix": "N4iOUmNwjhRYZBGjPrhvBm54h"
+    },
+    {
+      "id": "en_g10_alphanum_109",
+      "target_repeats": 10,
+      "category": "alphanum",
+      "prefix": "Kernel Config [boot_VRCJTV] params:",
+      "suffix": "xK96PPGIm2Oo85@o.uP4"
+    },
+    {
+      "id": "en_g10_alphanum_110",
+      "target_repeats": 10,
+      "category": "alphanum",
+      "prefix": "Generated UUID version 4 (NDEU4A):",
+      "suffix": "Rc53YsVeIw6wXegMzjcQAsanc"
+    },
+    {
+      "id": "en_g10_alphanum_111",
+      "target_repeats": 10,
+      "category": "alphanum",
+      "prefix": "Kernel Config [boot_AQ6EQE] params:",
+      "suffix": "pvjSUd.b4voGaTa@hTG"
+    },
+    {
+      "id": "en_g10_alphanum_112",
+      "target_repeats": 10,
+      "category": "alphanum",
+      "prefix": "Kubernetes Pod Name (deployment-O641EG):",
+      "suffix": "21s5dyLqfmm-aQkrrPhBv"
+    },
+    {
+      "id": "en_g10_alphanum_113",
+      "target_repeats": 10,
+      "category": "alphanum",
+      "prefix": "X-Request-ID Header Value (LNYVB1):",
+      "suffix": "N_zxTBSGMPEst8hc1-i2"
+    },
+    {
+      "id": "en_g10_alphanum_114",
+      "target_repeats": 10,
+      "category": "alphanum",
+      "prefix": "Function signature void 0B09BM(void* p):",
+      "suffix": "coyLvO-.cEmNsbiWHwA"
+    },
+    {
+      "id": "en_g10_alphanum_115",
+      "target_repeats": 10,
+      "category": "alphanum",
+      "prefix": "Hardware Serial Number (SN-ZEHNP6):",
+      "suffix": "k6QIw4PPe44syCjB-w"
+    },
+    {
+      "id": "en_g10_alphanum_116",
+      "target_repeats": 10,
+      "category": "alphanum",
+      "prefix": "X-Request-ID Header Value (8S30H4):",
+      "suffix": "AywwjvfDoQCRRxIui"
+    },
+    {
+      "id": "en_g10_alphanum_117",
+      "target_repeats": 10,
+      "category": "alphanum",
+      "prefix": "Google Authenticator Code (issuer WTJTMG):",
+      "suffix": "w3zYn4M5U9kGk-O4egJPfdr"
+    },
+    {
+      "id": "en_g10_alphanum_118",
+      "target_repeats": 10,
+      "category": "alphanum",
+      "prefix": "Generated UUID version 4 (RM5COF):",
+      "suffix": "Yvmv@@mVjyXgOgeM.V"
+    },
+    {
+      "id": "en_g10_alphanum_119",
+      "target_repeats": 10,
+      "category": "alphanum",
+      "prefix": "Google Authenticator Code (issuer TL1PWE):",
+      "suffix": "6Vgs7UUTZWL3uLwqQk-x"
+    },
+    {
+      "id": "en_g10_alphanum_120",
+      "target_repeats": 10,
+      "category": "alphanum",
+      "prefix": "FILE_CHECKSUM (build_BLQXMP):",
+      "suffix": "zB1vLV8WVY98Ynp.Lq0AAWUJ"
+    },
+    {
+      "id": "en_g10_alphanum_121",
+      "target_repeats": 10,
+      "category": "alphanum",
+      "prefix": "YouTube video ID (channel GKAABR):",
+      "suffix": "xzUiHWj9ReFZgaT7rbEYr7Nb"
+    },
+    {
+      "id": "en_g10_alphanum_122",
+      "target_repeats": 10,
+      "category": "alphanum",
+      "prefix": "Magnet link hash (torrent id KCG2Q1):",
+      "suffix": "t9@zG7@zA1HoIsqTTrpa"
+    },
+    {
+      "id": "en_g10_alphanum_123",
+      "target_repeats": 10,
+      "category": "alphanum",
+      "prefix": "Rust crate version hash (WX5YS1):",
+      "suffix": "ysJkakcBGNaXih2F"
+    },
+    {
+      "id": "en_g10_alphanum_124",
+      "target_repeats": 10,
+      "category": "alphanum",
+      "prefix": "Google Authenticator Code (issuer SWVVDA):",
+      "suffix": "lAhX7.rfCI4OMUp_"
+    },
+    {
+      "id": "en_g10_alphanum_125",
+      "target_repeats": 10,
+      "category": "alphanum",
+      "prefix": "Generated UUID version 4 (OWNJZ7):",
+      "suffix": "sv619@uSzLG0InE.nhkAp"
+    },
+    {
+      "id": "en_g10_alphanum_126",
+      "target_repeats": 10,
+      "category": "alphanum",
+      "prefix": "Authorization: Bearer token_3ROSJE_xyz",
+      "suffix": "2178BfTs2eYEqI_Sc"
+    },
+    {
+      "id": "en_g10_alphanum_127",
+      "target_repeats": 10,
+      "category": "alphanum",
+      "prefix": "Verification code sent to email TQI2J0:",
+      "suffix": "p6l8MF8rpR9.2Tz@"
+    },
+    {
+      "id": "en_g10_alphanum_128",
+      "target_repeats": 10,
+      "category": "alphanum",
+      "prefix": "SESSION_SSH // RB7BZR // TOKEN:",
+      "suffix": "y4vbf8TwapYL_pin"
+    },
+    {
+      "id": "en_g10_alphanum_129",
+      "target_repeats": 10,
+      "category": "alphanum",
+      "prefix": "Amazon S3 Bucket Name (region-WTZPCC):",
+      "suffix": "3GgBBnrPKa8nS5bbveDU"
+    },
+    {
+      "id": "en_g10_alphanum_130",
+      "target_repeats": 10,
+      "category": "alphanum",
+      "prefix": "SESSION_SSH // Q4GS46 // TOKEN:",
+      "suffix": "DYMCFgGT1XqZgUOyGd"
+    },
+    {
+      "id": "en_g10_alphanum_131",
+      "target_repeats": 10,
+      "category": "alphanum",
+      "prefix": "Google Authenticator Code (issuer LLD8A8):",
+      "suffix": "1vIVbJQ9Sjl-.kmTuB.uo"
+    },
+    {
+      "id": "en_g10_alphanum_132",
+      "target_repeats": 10,
+      "category": "alphanum",
+      "prefix": "Encrypted payload string (nonce N4GSF5):",
+      "suffix": "QhMoTYsZw2mU9nWk_9Gt"
+    },
+    {
+      "id": "en_g10_alphanum_133",
+      "target_repeats": 10,
+      "category": "alphanum",
+      "prefix": "Verification code sent to email IUA2DP:",
+      "suffix": "Md0nqCQkMXwaJvrMZuqo"
+    },
+    {
+      "id": "en_g10_alphanum_134",
+      "target_repeats": 10,
+      "category": "alphanum",
+      "prefix": "WiFi SSID Network Name (Guest-NFSZGI):",
+      "suffix": "eolDyqqdILBZFKc.7Osd"
+    },
+    {
+      "id": "en_g10_pseudo_word_135",
+      "target_repeats": 10,
+      "category": "pseudo_word",
+      "prefix": "Captcha text to solve challenge K9H2O5:",
+      "suffix": "Ixanara daplunxu"
+    },
+    {
+      "id": "en_g10_pseudo_word_136",
+      "target_repeats": 10,
+      "category": "pseudo_word",
+      "prefix": "Recovery passphrase for user 9H0DD3:",
+      "suffix": "uminytbi"
+    },
+    {
+      "id": "en_g10_pseudo_word_137",
+      "target_repeats": 10,
+      "category": "pseudo_word",
+      "prefix": "He shouted '24QO6C' before jumping.",
+      "suffix": "catugokeqwoq"
+    },
+    {
+      "id": "en_g10_pseudo_word_138",
+      "target_repeats": 10,
+      "category": "pseudo_word",
+      "prefix": "Ikea product name (Article 1ZXXP2):",
+      "suffix": "Syxlapiloryqelube"
+    },
+    {
+      "id": "en_g10_pseudo_word_139",
+      "target_repeats": 10,
+      "category": "pseudo_word",
+      "prefix": "Typo in the dictionary entry for 7N9C1Z",
+      "suffix": "Lehukyci okihbodyqho"
+    },
+    {
+      "id": "en_g10_pseudo_word_140",
+      "target_repeats": 10,
+      "category": "pseudo_word",
+      "prefix": "Operation FEVSM7 secret codeword is",
+      "suffix": "Anijrymuma fymtogymog"
+    },
+    {
+      "id": "en_g10_pseudo_word_141",
+      "target_repeats": 10,
+      "category": "pseudo_word",
+      "prefix": "Latin species name for creature 1RNYTF:",
+      "suffix": "Wegilwufipeveko"
+    },
+    {
+      "id": "en_g10_pseudo_word_142",
+      "target_repeats": 10,
+      "category": "pseudo_word",
+      "prefix": "New chemical element proposed name (3FNJVG):",
+      "suffix": "Udyzaqkyta"
+    },
+    {
+      "id": "en_g10_pseudo_word_143",
+      "target_repeats": 10,
+      "category": "pseudo_word",
+      "prefix": "Code name for the spy mission PYL76T:",
+      "suffix": "Resejsizecehiwine"
+    },
+    {
+      "id": "en_g10_pseudo_word_144",
+      "target_repeats": 10,
+      "category": "pseudo_word",
+      "prefix": "Typo in the dictionary entry for KDA1QS",
+      "suffix": "utewjobeacyzodi"
+    },
+    {
+      "id": "en_g10_pseudo_word_145",
+      "target_repeats": 10,
+      "category": "pseudo_word",
+      "prefix": "Captcha text to solve challenge IARZJH:",
+      "suffix": "Esacfynu-epycmadupe"
+    },
+    {
+      "id": "en_g10_pseudo_word_146",
+      "target_repeats": 10,
+      "category": "pseudo_word",
+      "prefix": "Pronounce the following nonsense word: EW1GU0",
+      "suffix": "vadode"
+    },
+    {
+      "id": "en_g10_pseudo_word_147",
+      "target_repeats": 10,
+      "category": "pseudo_word",
+      "prefix": "Latin species name for creature 7ED1P5:",
+      "suffix": "Keppoxowideluma"
+    },
+    {
+      "id": "en_g10_pseudo_word_148",
+      "target_repeats": 10,
+      "category": "pseudo_word",
+      "prefix": "The startup company name is 5EWL0O.io",
+      "suffix": "Ipikolagizi ytijuma"
+    },
+    {
+      "id": "en_g10_pseudo_word_149",
+      "target_repeats": 10,
+      "category": "pseudo_word",
+      "prefix": "Fantasy character name generated for 0C0I18:",
+      "suffix": "Xiperuf"
+    },
+    {
+      "id": "en_g10_pseudo_word_150",
+      "target_repeats": 10,
+      "category": "pseudo_word",
+      "prefix": "The magic spell to open door 1795ZE is:",
+      "suffix": "Yweseximtyho-inypocly"
+    },
+    {
+      "id": "en_g10_pseudo_word_151",
+      "target_repeats": 10,
+      "category": "pseudo_word",
+      "prefix": "The magic spell to open door 7SIZGZ is:",
+      "suffix": "olotsuxerufwe"
+    },
+    {
+      "id": "en_g10_pseudo_word_152",
+      "target_repeats": 10,
+      "category": "pseudo_word",
+      "prefix": "Scrabble board weird word played: ESS54C",
+      "suffix": "ijapizage-sunoppihe"
+    },
+    {
+      "id": "en_g10_pseudo_word_153",
+      "target_repeats": 10,
+      "category": "pseudo_word",
+      "prefix": "Sound effect description (file 1BTGRV):",
+      "suffix": "exujitomi"
+    },
+    {
+      "id": "en_g10_pseudo_word_154",
+      "target_repeats": 10,
+      "category": "pseudo_word",
+      "prefix": "Sound effect description (file 0OB8P6):",
+      "suffix": "udyhsudyfapo"
+    },
+    {
+      "id": "en_g10_pseudo_word_155",
+      "target_repeats": 10,
+      "category": "pseudo_word",
+      "prefix": "Scrabble board weird word played: 3AJQZR",
+      "suffix": "inashage"
+    },
+    {
+      "id": "en_g10_pseudo_word_156",
+      "target_repeats": 10,
+      "category": "pseudo_word",
+      "prefix": "Captcha text to solve challenge S6JRWR:",
+      "suffix": "ogejedubabip"
+    },
+    {
+      "id": "en_g10_pseudo_word_157",
+      "target_repeats": 10,
+      "category": "pseudo_word",
+      "prefix": "Untranslatable dialect (entry QLZ9PE):",
+      "suffix": "Lacexogpo"
+    },
+    {
+      "id": "en_g10_pseudo_word_158",
+      "target_repeats": 10,
+      "category": "pseudo_word",
+      "prefix": "The magic spell to open door SPOAU1 is:",
+      "suffix": "rylicyte"
+    },
+    {
+      "id": "en_g10_pseudo_word_159",
+      "target_repeats": 10,
+      "category": "pseudo_word",
+      "prefix": "Fantasy character name generated for YDYLMN:",
+      "suffix": "Qerovyn hocuhel"
+    },
+    {
+      "id": "en_g10_pseudo_word_160",
+      "target_repeats": 10,
+      "category": "pseudo_word",
+      "prefix": "Latin species name for creature EDN883:",
+      "suffix": "Ebudygparpewe"
+    },
+    {
+      "id": "en_g10_pseudo_word_161",
+      "target_repeats": 10,
+      "category": "pseudo_word",
+      "prefix": "Street name in the virtual simulation C2R35Y:",
+      "suffix": "efuxucoqarohyco"
+    },
+    {
+      "id": "en_g10_pseudo_word_162",
+      "target_repeats": 10,
+      "category": "pseudo_word",
+      "prefix": "A randomly generated lorem ipsum word: 6EUA7P",
+      "suffix": "Ifeqgyrik"
+    },
+    {
+      "id": "en_g10_pseudo_word_163",
+      "target_repeats": 10,
+      "category": "pseudo_word",
+      "prefix": "Fantasy character name generated for HIEC11:",
+      "suffix": "Igacinidesebsypidga"
+    },
+    {
+      "id": "en_g10_pseudo_word_164",
+      "target_repeats": 10,
+      "category": "pseudo_word",
+      "prefix": "The parrot repeated the word UZIT9V:",
+      "suffix": "icawibezla"
+    },
+    {
+      "id": "en_g10_pseudo_word_165",
+      "target_repeats": 10,
+      "category": "pseudo_word",
+      "prefix": "Street name in the virtual simulation E53HXJ:",
+      "suffix": "kibawoguzzernope"
+    },
+    {
+      "id": "en_g10_pseudo_word_166",
+      "target_repeats": 10,
+      "category": "pseudo_word",
+      "prefix": "Captcha text to solve challenge BHKBA7:",
+      "suffix": "cezetarqi"
+    },
+    {
+      "id": "en_g10_pseudo_word_167",
+      "target_repeats": 10,
+      "category": "pseudo_word",
+      "prefix": "Variable name in minified JS code (YYY00W):",
+      "suffix": "Yxevenulovez-pysozency"
+    },
+    {
+      "id": "en_g10_pseudo_word_168",
+      "target_repeats": 10,
+      "category": "pseudo_word",
+      "prefix": "The parrot repeated the word WX8FSH:",
+      "suffix": "ufapypepgola ylinifmybixe"
+    },
+    {
+      "id": "en_g10_pseudo_word_169",
+      "target_repeats": 10,
+      "category": "pseudo_word",
+      "prefix": "The startup company name is 7WH4PT.io",
+      "suffix": "Yzoszosufepe-opomyxav"
+    },
+    {
+      "id": "en_g10_pseudo_word_170",
+      "target_repeats": 10,
+      "category": "pseudo_word",
+      "prefix": "New chemical element proposed name (3IZPX6):",
+      "suffix": "ibocacukfa"
+    },
+    {
+      "id": "en_g10_pseudo_word_171",
+      "target_repeats": 10,
+      "category": "pseudo_word",
+      "prefix": "Operation 1OPEXP secret codeword is",
+      "suffix": "odikyximi-yxihuhamev"
+    },
+    {
+      "id": "en_g10_pseudo_word_172",
+      "target_repeats": 10,
+      "category": "pseudo_word",
+      "prefix": "Typo in the dictionary entry for 8ZYB04",
+      "suffix": "syhafhydyacanwevibuqhu"
+    },
+    {
+      "id": "en_g10_pseudo_word_173",
+      "target_repeats": 10,
+      "category": "pseudo_word",
+      "prefix": "Code name for the spy mission OENKRF:",
+      "suffix": "lukyppomocen"
+    },
+    {
+      "id": "en_g10_pseudo_word_174",
+      "target_repeats": 10,
+      "category": "pseudo_word",
+      "prefix": "The robot's default nickname is YJE5BD.",
+      "suffix": "Ypecuzxuga araryvyf"
+    },
+    {
+      "id": "en_g10_pseudo_word_175",
+      "target_repeats": 10,
+      "category": "pseudo_word",
+      "prefix": "Typo in the dictionary entry for ZLE2ML",
+      "suffix": "Dapukni-agigininnire"
+    },
+    {
+      "id": "en_g10_pseudo_word_176",
+      "target_repeats": 10,
+      "category": "pseudo_word",
+      "prefix": "Variable name in minified JS code (5BRY3Z):",
+      "suffix": "kypocidu-syjvifyl"
+    },
+    {
+      "id": "en_g10_pseudo_word_177",
+      "target_repeats": 10,
+      "category": "pseudo_word",
+      "prefix": "Latin species name for creature CH0JQ2:",
+      "suffix": "Rupecejo"
+    },
+    {
+      "id": "en_g10_pseudo_word_178",
+      "target_repeats": 10,
+      "category": "pseudo_word",
+      "prefix": "The magic spell to open door YC2XWU is:",
+      "suffix": "Eluxewud"
+    },
+    {
+      "id": "en_g10_pseudo_word_179",
+      "target_repeats": 10,
+      "category": "pseudo_word",
+      "prefix": "Untranslatable dialect (entry HUJ9WQ):",
+      "suffix": "uxypopobetfy-baddyre"
+    },
+    {
+      "id": "en_g10_pseudo_word_180",
+      "target_repeats": 10,
+      "category": "pseudo_word",
+      "prefix": "Fantasy character name generated for YXCI6X:",
+      "suffix": "oforysbyzys-unadavateg"
+    },
+    {
+      "id": "en_g10_pseudo_word_181",
+      "target_repeats": 10,
+      "category": "pseudo_word",
+      "prefix": "The forgotten ancient city of 9TP70M",
+      "suffix": "ziqpufiqaojotaxa"
+    },
+    {
+      "id": "en_g10_pseudo_word_182",
+      "target_repeats": 10,
+      "category": "pseudo_word",
+      "prefix": "New chemical element proposed name (MGL48Z):",
+      "suffix": "alimuwak peqizicas"
+    },
+    {
+      "id": "en_g10_pseudo_word_183",
+      "target_repeats": 10,
+      "category": "pseudo_word",
+      "prefix": "The parrot repeated the word TK139X:",
+      "suffix": "Ycixuljesi"
+    },
+    {
+      "id": "en_g10_pseudo_word_184",
+      "target_repeats": 10,
+      "category": "pseudo_word",
+      "prefix": "Typo in the dictionary entry for 37D14F",
+      "suffix": "Icovryki-fuqoxbar"
+    },
+    {
+      "id": "en_g10_pseudo_word_185",
+      "target_repeats": 10,
+      "category": "pseudo_word",
+      "prefix": "Street name in the virtual simulation 8ACJXX:",
+      "suffix": "riwicwi"
+    },
+    {
+      "id": "en_g10_pseudo_word_186",
+      "target_repeats": 10,
+      "category": "pseudo_word",
+      "prefix": "Pronounce the following nonsense word: BYA5QV",
+      "suffix": "Bucekmeg"
+    },
+    {
+      "id": "en_g10_pseudo_word_187",
+      "target_repeats": 10,
+      "category": "pseudo_word",
+      "prefix": "A randomly generated lorem ipsum word: 3QI6NE",
+      "suffix": "utosedbixakaamakecajzype"
+    },
+    {
+      "id": "en_g10_pseudo_word_188",
+      "target_repeats": 10,
+      "category": "pseudo_word",
+      "prefix": "A randomly generated lorem ipsum word: OE69YN",
+      "suffix": "pywodency ynitpalxig"
+    },
+    {
+      "id": "en_g10_pseudo_word_189",
+      "target_repeats": 10,
+      "category": "pseudo_word",
+      "prefix": "Sound effect description (file W03RC4):",
+      "suffix": "xekhecke ojokihyxalo"
+    },
+    {
+      "id": "en_g10_pseudo_word_190",
+      "target_repeats": 10,
+      "category": "pseudo_word",
+      "prefix": "Scrabble board weird word played: 5AO983",
+      "suffix": "Avezipo"
+    },
+    {
+      "id": "en_g10_pseudo_word_191",
+      "target_repeats": 10,
+      "category": "pseudo_word",
+      "prefix": "The agent whispered the name E6QAJZ:",
+      "suffix": "qocyqlucevme-najyra"
+    },
+    {
+      "id": "en_g10_pseudo_word_192",
+      "target_repeats": 10,
+      "category": "pseudo_word",
+      "prefix": "Fantasy character name generated for O2Y2EZ:",
+      "suffix": "Ukulaky"
+    },
+    {
+      "id": "en_g10_pseudo_word_193",
+      "target_repeats": 10,
+      "category": "pseudo_word",
+      "prefix": "The parrot repeated the word MDG7F8:",
+      "suffix": "xinomur ozynkekudasi"
+    },
+    {
+      "id": "en_g10_pseudo_word_194",
+      "target_repeats": 10,
+      "category": "pseudo_word",
+      "prefix": "Pronounce the following nonsense word: NN94VO",
+      "suffix": "ifovyzuna"
+    },
+    {
+      "id": "en_g10_pseudo_word_195",
+      "target_repeats": 10,
+      "category": "pseudo_word",
+      "prefix": "Fantasy character name generated for 1CJOEH:",
+      "suffix": "Cokeri"
+    },
+    {
+      "id": "en_g10_pseudo_word_196",
+      "target_repeats": 10,
+      "category": "pseudo_word",
+      "prefix": "He shouted 'Q623IA' before jumping.",
+      "suffix": "pamejoci-yquqelquc"
+    },
+    {
+      "id": "en_g10_pseudo_word_197",
+      "target_repeats": 10,
+      "category": "pseudo_word",
+      "prefix": "Ikea product name (Article B89MWA):",
+      "suffix": "ytycgosyhopciv"
+    },
+    {
+      "id": "en_g10_pseudo_word_198",
+      "target_repeats": 10,
+      "category": "pseudo_word",
+      "prefix": "Recovery passphrase for user 64FPAQ:",
+      "suffix": "Uluhene ygafupehapjyg"
+    },
+    {
+      "id": "en_g10_pseudo_word_199",
+      "target_repeats": 10,
+      "category": "pseudo_word",
+      "prefix": "Recovery passphrase for user O70MW3:",
+      "suffix": "Fiqevokbe lodzofubofor"
+    },
+    {
+      "id": "en_g10_pseudo_word_200",
+      "target_repeats": 10,
+      "category": "pseudo_word",
+      "prefix": "Sound effect description (file E2L40F):",
+      "suffix": "Uvefybyjy"
+    },
+    {
+      "id": "en_g100_digits_001",
+      "target_repeats": 100,
+      "category": "digits",
+      "prefix": "Internal memory address pointer 0x7MUMQV:",
+      "suffix": "047489231326"
+    },
+    {
+      "id": "en_g100_digits_002",
+      "target_repeats": 100,
+      "category": "digits",
+      "prefix": "GPS Latitude for waypoint 9BCZXP:",
+      "suffix": "709594711379248"
+    },
+    {
+      "id": "en_g100_digits_003",
+      "target_repeats": 100,
+      "category": "digits",
+      "prefix": "Stock Market Ticker Volume (S2FNXN):",
+      "suffix": "327357764823"
+    },
+    {
+      "id": "en_g100_digits_004",
+      "target_repeats": 100,
+      "category": "digits",
+      "prefix": "SYSTEM_LOG # XPIVL2 // ERR_CODE:",
+      "suffix": "7676634892480"
+    },
+    {
+      "id": "en_g100_digits_005",
+      "target_repeats": 100,
+      "category": "digits",
+      "prefix": "Internal memory address pointer 0x0JBMHX:",
+      "suffix": "0734695939397"
+    },
+    {
+      "id": "en_g100_digits_006",
+      "target_repeats": 100,
+      "category": "digits",
+      "prefix": "Distance to target object GTPILH (km):",
+      "suffix": "8096714792550811516"
+    },
+    {
+      "id": "en_g100_digits_007",
+      "target_repeats": 100,
+      "category": "digits",
+      "prefix": "Total milliseconds elapsed since ZGFVEB:",
+      "suffix": "392492418176292"
+    },
+    {
+      "id": "en_g100_digits_008",
+      "target_repeats": 100,
+      "category": "digits",
+      "prefix": "Invoice Reference Number (Client IMD38C):",
+      "suffix": "087961456198522121"
+    },
+    {
+      "id": "en_g100_digits_009",
+      "target_repeats": 100,
+      "category": "digits",
+      "prefix": "Row index in pandas dataframe 28ET9Y:",
+      "suffix": "5929809493364228"
+    },
+    {
+      "id": "en_g100_digits_010",
+      "target_repeats": 100,
+      "category": "digits",
+      "prefix": "Row index in pandas dataframe J5YQFU:",
+      "suffix": "5576805524600"
+    },
+    {
+      "id": "en_g100_digits_011",
+      "target_repeats": 100,
+      "category": "digits",
+      "prefix": "Calculated Probability P(K2LX50) =",
+      "suffix": "38419577962436375"
+    },
+    {
+      "id": "en_g100_digits_012",
+      "target_repeats": 100,
+      "category": "digits",
+      "prefix": "Row index in pandas dataframe AJEE6Z:",
+      "suffix": "97746213663685532"
+    },
+    {
+      "id": "en_g100_digits_013",
+      "target_repeats": 100,
+      "category": "digits",
+      "prefix": "Binary representation of signal 7BNYVM:",
+      "suffix": "28738977431473"
+    },
+    {
+      "id": "en_g100_digits_014",
+      "target_repeats": 100,
+      "category": "digits",
+      "prefix": "INIT_VECTOR [ver.4EHOIF]:",
+      "suffix": "324753055903"
+    },
+    {
+      "id": "en_g100_digits_015",
+      "target_repeats": 100,
+      "category": "digits",
+      "prefix": "Internal memory address pointer 0x7TII9H:",
+      "suffix": "446686110710705022"
+    },
+    {
+      "id": "en_g100_digits_016",
+      "target_repeats": 100,
+      "category": "digits",
+      "prefix": "GPS Latitude for waypoint GYKFMN:",
+      "suffix": "8528879585624012690"
+    },
+    {
+      "id": "en_g100_digits_017",
+      "target_repeats": 100,
+      "category": "digits",
+      "prefix": "Server Ping Latency (8Z10DD ms):",
+      "suffix": "52348793837196"
+    },
+    {
+      "id": "en_g100_digits_018",
+      "target_repeats": 100,
+      "category": "digits",
+      "prefix": "Random Number Generator Seed X5MMZ4:",
+      "suffix": "078154063166136"
+    },
+    {
+      "id": "en_g100_digits_019",
+      "target_repeats": 100,
+      "category": "digits",
+      "prefix": "Stock Market Ticker Volume (1JXI7Y):",
+      "suffix": "46469978152530"
+    },
+    {
+      "id": "en_g100_digits_020",
+      "target_repeats": 100,
+      "category": "digits",
+      "prefix": "Stock Market Ticker Volume (56ENQ4):",
+      "suffix": "4273501026623072"
+    },
+    {
+      "id": "en_g100_digits_021",
+      "target_repeats": 100,
+      "category": "digits",
+      "prefix": "TRANSACTION_ID [N5EHGW] VALUE:",
+      "suffix": "559014915870961333"
+    },
+    {
+      "id": "en_g100_digits_022",
+      "target_repeats": 100,
+      "category": "digits",
+      "prefix": "Zip code for the fake city area X19XBN:",
+      "suffix": "067390663559421"
+    },
+    {
+      "id": "en_g100_digits_023",
+      "target_repeats": 100,
+      "category": "digits",
+      "prefix": "Random Number Generator Seed T4KNM6:",
+      "suffix": "762933864021482"
+    },
+    {
+      "id": "en_g100_digits_024",
+      "target_repeats": 100,
+      "category": "digits",
+      "prefix": "Invoice Reference Number (Client BUE827):",
+      "suffix": "23653121679945300"
+    },
+    {
+      "id": "en_g100_digits_025",
+      "target_repeats": 100,
+      "category": "digits",
+      "prefix": "SYSTEM_LOG # IGYZJD // ERR_CODE:",
+      "suffix": "4243837948521379220"
+    },
+    {
+      "id": "en_g100_digits_026",
+      "target_repeats": 100,
+      "category": "digits",
+      "prefix": "User Balance for account #5K95M7 ($):",
+      "suffix": "8356473230468653"
+    },
+    {
+      "id": "en_g100_digits_027",
+      "target_repeats": 100,
+      "category": "digits",
+      "prefix": "TRANSACTION_ID [BDNKKS] VALUE:",
+      "suffix": "246104265291777"
+    },
+    {
+      "id": "en_g100_digits_028",
+      "target_repeats": 100,
+      "category": "digits",
+      "prefix": "GPS Latitude for waypoint 9IUS5X:",
+      "suffix": "973317398769"
+    },
+    {
+      "id": "en_g100_digits_029",
+      "target_repeats": 100,
+      "category": "digits",
+      "prefix": "Calibration constant K for device CL3N6V:",
+      "suffix": "93310890923174"
+    },
+    {
+      "id": "en_g100_digits_030",
+      "target_repeats": 100,
+      "category": "digits",
+      "prefix": "SYSTEM_LOG # FY4QFY // ERR_CODE:",
+      "suffix": "9733671338290304186"
+    },
+    {
+      "id": "en_g100_digits_031",
+      "target_repeats": 100,
+      "category": "digits",
+      "prefix": "Internal memory address pointer 0xWV57R9:",
+      "suffix": "95358716286001"
+    },
+    {
+      "id": "en_g100_digits_032",
+      "target_repeats": 100,
+      "category": "digits",
+      "prefix": "Radiation Level in containment GAHEQR:",
+      "suffix": "77431294876090"
+    },
+    {
+      "id": "en_g100_digits_033",
+      "target_repeats": 100,
+      "category": "digits",
+      "prefix": "Invoice Reference Number (Client ZDPSTX):",
+      "suffix": "8090777640939166"
+    },
+    {
+      "id": "en_g100_digits_034",
+      "target_repeats": 100,
+      "category": "digits",
+      "prefix": "MEASUREMENT_RESULT #MSEQAJ >>>",
+      "suffix": "789278982508353"
+    },
+    {
+      "id": "en_g100_digits_035",
+      "target_repeats": 100,
+      "category": "digits",
+      "prefix": "Credit Card last digits (Masked 2PVE2P):",
+      "suffix": "03971325203261519"
+    },
+    {
+      "id": "en_g100_digits_036",
+      "target_repeats": 100,
+      "category": "digits",
+      "prefix": "Server Ping Latency (0TDDQA ms):",
+      "suffix": "92534327564146203"
+    },
+    {
+      "id": "en_g100_digits_037",
+      "target_repeats": 100,
+      "category": "digits",
+      "prefix": "Binary representation of signal 0JP92O:",
+      "suffix": "4798114862924941"
+    },
+    {
+      "id": "en_g100_digits_038",
+      "target_repeats": 100,
+      "category": "digits",
+      "prefix": "MEASUREMENT_RESULT #ZR3QMC >>>",
+      "suffix": "6305336682649961"
+    },
+    {
+      "id": "en_g100_digits_039",
+      "target_repeats": 100,
+      "category": "digits",
+      "prefix": "SYSTEM_LOG # IN3H33 // ERR_CODE:",
+      "suffix": "8508209197263898"
+    },
+    {
+      "id": "en_g100_digits_040",
+      "target_repeats": 100,
+      "category": "digits",
+      "prefix": "Random Number Generator Seed C9XIIG:",
+      "suffix": "146494854762214"
+    },
+    {
+      "id": "en_g100_digits_041",
+      "target_repeats": 100,
+      "category": "digits",
+      "prefix": "GPS Latitude for waypoint 8U3SFP:",
+      "suffix": "3487712609301"
+    },
+    {
+      "id": "en_g100_digits_042",
+      "target_repeats": 100,
+      "category": "digits",
+      "prefix": "Total milliseconds elapsed since CPX815:",
+      "suffix": "935838645805023626"
+    },
+    {
+      "id": "en_g100_digits_043",
+      "target_repeats": 100,
+      "category": "digits",
+      "prefix": "Phone number extension for dept JHAX20:",
+      "suffix": "5430246115247720"
+    },
+    {
+      "id": "en_g100_digits_044",
+      "target_repeats": 100,
+      "category": "digits",
+      "prefix": "SYSTEM_LOG # HIG44G // ERR_CODE:",
+      "suffix": "6162773154944673"
+    },
+    {
+      "id": "en_g100_digits_045",
+      "target_repeats": 100,
+      "category": "digits",
+      "prefix": "Barcode sequence for item 9PRUID:",
+      "suffix": "2091949409007832"
+    },
+    {
+      "id": "en_g100_digits_046",
+      "target_repeats": 100,
+      "category": "digits",
+      "prefix": "Binary representation of signal G9CYVZ:",
+      "suffix": "42722548655834"
+    },
+    {
+      "id": "en_g100_digits_047",
+      "target_repeats": 100,
+      "category": "digits",
+      "prefix": "Credit Card last digits (Masked 0QSRYM):",
+      "suffix": "823402666647"
+    },
+    {
+      "id": "en_g100_digits_048",
+      "target_repeats": 100,
+      "category": "digits",
+      "prefix": "Zip code for the fake city area BJR4I8:",
+      "suffix": "53847581527718"
+    },
+    {
+      "id": "en_g100_digits_049",
+      "target_repeats": 100,
+      "category": "digits",
+      "prefix": "Invoice Reference Number (Client SYM6TQ):",
+      "suffix": "6366127051167"
+    },
+    {
+      "id": "en_g100_digits_050",
+      "target_repeats": 100,
+      "category": "digits",
+      "prefix": "User Balance for account #4IOWRK ($):",
+      "suffix": "3581374184750"
+    },
+    {
+      "id": "en_g100_digits_051",
+      "target_repeats": 100,
+      "category": "digits",
+      "prefix": "Internal memory address pointer 0x3UC5RA:",
+      "suffix": "561469264120619875"
+    },
+    {
+      "id": "en_g100_digits_052",
+      "target_repeats": 100,
+      "category": "digits",
+      "prefix": "Calculated Probability P(8A2TEA) =",
+      "suffix": "551995087902694777"
+    },
+    {
+      "id": "en_g100_digits_053",
+      "target_repeats": 100,
+      "category": "digits",
+      "prefix": "Binary representation of signal 2741F9:",
+      "suffix": "5006013945610"
+    },
+    {
+      "id": "en_g100_digits_054",
+      "target_repeats": 100,
+      "category": "digits",
+      "prefix": "Zip code for the fake city area RBFYJV:",
+      "suffix": "4033487663238618818"
+    },
+    {
+      "id": "en_g100_digits_055",
+      "target_repeats": 100,
+      "category": "digits",
+      "prefix": "Target Coordinates (sector TMV2NT):",
+      "suffix": "506151028978233728"
+    },
+    {
+      "id": "en_g100_digits_056",
+      "target_repeats": 100,
+      "category": "digits",
+      "prefix": "Stock Market Ticker Volume (IVE1X4):",
+      "suffix": "905078080592831746"
+    },
+    {
+      "id": "en_g100_digits_057",
+      "target_repeats": 100,
+      "category": "digits",
+      "prefix": "Target Coordinates (sector 99GAY4):",
+      "suffix": "839242248003"
+    },
+    {
+      "id": "en_g100_digits_058",
+      "target_repeats": 100,
+      "category": "digits",
+      "prefix": "Zip code for the fake city area TCCOGL:",
+      "suffix": "942308254273785050"
+    },
+    {
+      "id": "en_g100_digits_059",
+      "target_repeats": 100,
+      "category": "digits",
+      "prefix": "Calibration constant K for device 2I9ZS0:",
+      "suffix": "2012773033783"
+    },
+    {
+      "id": "en_g100_digits_060",
+      "target_repeats": 100,
+      "category": "digits",
+      "prefix": "Credit Card last digits (Masked O621IY):",
+      "suffix": "0558355933012867"
+    },
+    {
+      "id": "en_g100_digits_061",
+      "target_repeats": 100,
+      "category": "digits",
+      "prefix": "Server Ping Latency (6JY71C ms):",
+      "suffix": "171478782716968369"
+    },
+    {
+      "id": "en_g100_digits_062",
+      "target_repeats": 100,
+      "category": "digits",
+      "prefix": "Phone number extension for dept FWHVVS:",
+      "suffix": "6149346978904249107"
+    },
+    {
+      "id": "en_g100_digits_063",
+      "target_repeats": 100,
+      "category": "digits",
+      "prefix": "Total milliseconds elapsed since 96MY37:",
+      "suffix": "0065644662448727"
+    },
+    {
+      "id": "en_g100_digits_064",
+      "target_repeats": 100,
+      "category": "digits",
+      "prefix": "Invoice Reference Number (Client JNPVFA):",
+      "suffix": "493371805578177"
+    },
+    {
+      "id": "en_g100_digits_065",
+      "target_repeats": 100,
+      "category": "digits",
+      "prefix": "Phone number extension for dept F72KBT:",
+      "suffix": "2878997015067983700"
+    },
+    {
+      "id": "en_g100_digits_066",
+      "target_repeats": 100,
+      "category": "digits",
+      "prefix": "Stock Market Ticker Volume (1Y7RVR):",
+      "suffix": "5873613652204875"
+    },
+    {
+      "id": "en_g100_digits_067",
+      "target_repeats": 100,
+      "category": "digits",
+      "prefix": "Radiation Level in containment MH6CRJ:",
+      "suffix": "5417841548176004100"
+    },
+    {
+      "id": "en_g100_alphanum_068",
+      "target_repeats": 100,
+      "category": "alphanum",
+      "prefix": "Hardware Serial Number (SN-UWVDKP):",
+      "suffix": "Yzh9ZnM_M9DnQ.MB_x"
+    },
+    {
+      "id": "en_g100_alphanum_069",
+      "target_repeats": 100,
+      "category": "alphanum",
+      "prefix": "Authorization: Bearer token_BK2UND_xyz",
+      "suffix": "TDK4A84z70CAqwQPkLAhpmE"
+    },
+    {
+      "id": "en_g100_alphanum_070",
+      "target_repeats": 100,
+      "category": "alphanum",
+      "prefix": "Amazon S3 Bucket Name (region-YROKRR):",
+      "suffix": "z9fD5em.94AHJj8cFdNDDEFG"
+    },
+    {
+      "id": "en_g100_alphanum_071",
+      "target_repeats": 100,
+      "category": "alphanum",
+      "prefix": "Kubernetes Pod Name (deployment-E3CKBX):",
+      "suffix": "t_jFVllM3LPSYNjM5DAN7pI"
+    },
+    {
+      "id": "en_g100_alphanum_072",
+      "target_repeats": 100,
+      "category": "alphanum",
+      "prefix": "Cryptocurrency Wallet Key (FX4E4B):",
+      "suffix": "b@Y.W15@igp4OQlDW@o5y@"
+    },
+    {
+      "id": "en_g100_alphanum_073",
+      "target_repeats": 100,
+      "category": "alphanum",
+      "prefix": "Cryptocurrency Wallet Key (BG3HX4):",
+      "suffix": "X0F0kSSU2-rUctQV"
+    },
+    {
+      "id": "en_g100_alphanum_074",
+      "target_repeats": 100,
+      "category": "alphanum",
+      "prefix": "Kubernetes Pod Name (deployment-9I0W7K):",
+      "suffix": "84ZT1VQ6YP3BgmxIV0J"
+    },
+    {
+      "id": "en_g100_alphanum_075",
+      "target_repeats": 100,
+      "category": "alphanum",
+      "prefix": "Amazon S3 Bucket Name (region-KXI7K3):",
+      "suffix": "7_bAw37P7pm5a3ZyHhNd@Bsr6"
+    },
+    {
+      "id": "en_g100_alphanum_076",
+      "target_repeats": 100,
+      "category": "alphanum",
+      "prefix": "FILE_CHECKSUM (build_Q85NBM):",
+      "suffix": "OjOxyeA3pF0oybfDzA7q2oKU@"
+    },
+    {
+      "id": "en_g100_alphanum_077",
+      "target_repeats": 100,
+      "category": "alphanum",
+      "prefix": "Google Authenticator Code (issuer MVJR8Y):",
+      "suffix": "X-6xSHRE.or8Xu72G3d"
+    },
+    {
+      "id": "en_g100_alphanum_078",
+      "target_repeats": 100,
+      "category": "alphanum",
+      "prefix": "Function signature void DMEE4W(void* p):",
+      "suffix": "qiTB6fPUGNOQyOlY5poDs5W"
+    },
+    {
+      "id": "en_g100_alphanum_079",
+      "target_repeats": 100,
+      "category": "alphanum",
+      "prefix": "Temporary password for admin_4X81BR:",
+      "suffix": "AMb_W4vbZhEUl4erpU"
+    },
+    {
+      "id": "en_g100_alphanum_080",
+      "target_repeats": 100,
+      "category": "alphanum",
+      "prefix": "API_KEY_V2 [user_id=VV7H3J] SECRET:",
+      "suffix": "uXusD2lJQXxDPurJkQdeb.-6"
+    },
+    {
+      "id": "en_g100_alphanum_081",
+      "target_repeats": 100,
+      "category": "alphanum",
+      "prefix": "Legacy system legacy_code_8QY2EZ:",
+      "suffix": "aSCiPSfe1OqhptI6cSqEvWg"
+    },
+    {
+      "id": "en_g100_alphanum_082",
+      "target_repeats": 100,
+      "category": "alphanum",
+      "prefix": "Kernel Config [boot_G015O2] params:",
+      "suffix": "iFGg_yzT--zrE7wQuE"
+    },
+    {
+      "id": "en_g100_alphanum_083",
+      "target_repeats": 100,
+      "category": "alphanum",
+      "prefix": "Kubernetes Pod Name (deployment-3SYTBN):",
+      "suffix": "BUyZgSwmEBMGgVdLie.@L"
+    },
+    {
+      "id": "en_g100_alphanum_084",
+      "target_repeats": 100,
+      "category": "alphanum",
+      "prefix": "Kubernetes Pod Name (deployment-CJ3RGT):",
+      "suffix": "EIWQ@0wG0qGkpuE61TQtRrN0S"
+    },
+    {
+      "id": "en_g100_alphanum_085",
+      "target_repeats": 100,
+      "category": "alphanum",
+      "prefix": "Verification code sent to email 10439Y:",
+      "suffix": "a9Y3GOsGVkB.seAcH"
+    },
+    {
+      "id": "en_g100_alphanum_086",
+      "target_repeats": 100,
+      "category": "alphanum",
+      "prefix": "WiFi SSID Network Name (Guest-WCK47V):",
+      "suffix": "TChYjWDN8A@I2IV0p"
+    },
+    {
+      "id": "en_g100_alphanum_087",
+      "target_repeats": 100,
+      "category": "alphanum",
+      "prefix": "Encrypted payload string (nonce DCTPZH):",
+      "suffix": "trTqbs6f08Esv5n5Y9AHuVJwh"
+    },
+    {
+      "id": "en_g100_alphanum_088",
+      "target_repeats": 100,
+      "category": "alphanum",
+      "prefix": "Temporary password for admin_REPP14:",
+      "suffix": "-Q1Kkgn.wjNTyetqQEk5OCucT"
+    },
+    {
+      "id": "en_g100_alphanum_089",
+      "target_repeats": 100,
+      "category": "alphanum",
+      "prefix": "Kubernetes Pod Name (deployment-FMWF86):",
+      "suffix": "ZgxTSoD7dFhOqzs0A.6cqY1j9"
+    },
+    {
+      "id": "en_g100_alphanum_090",
+      "target_repeats": 100,
+      "category": "alphanum",
+      "prefix": "Zoom meeting passcode (room FX6KAR):",
+      "suffix": "_ntcn8GmcjuHQwcVDUldfGmZ"
+    },
+    {
+      "id": "en_g100_alphanum_091",
+      "target_repeats": 100,
+      "category": "alphanum",
+      "prefix": "Generated UUID version 4 (1SGM9K):",
+      "suffix": "f-g0I6LQ0usRlhUVq0"
+    },
+    {
+      "id": "en_g100_alphanum_092",
+      "target_repeats": 100,
+      "category": "alphanum",
+      "prefix": "API_KEY_V2 [user_id=M316FG] SECRET:",
+      "suffix": "vDETEO_cSPO-gJZEoo6N"
+    },
+    {
+      "id": "en_g100_alphanum_093",
+      "target_repeats": 100,
+      "category": "alphanum",
+      "prefix": "API_KEY_V2 [user_id=TQO3OB] SECRET:",
+      "suffix": "oZ491S68hKiBubPIUtPD"
+    },
+    {
+      "id": "en_g100_alphanum_094",
+      "target_repeats": 100,
+      "category": "alphanum",
+      "prefix": "FILE_CHECKSUM (build_IPD128):",
+      "suffix": "i@ScCA_c30noZRYwQ.YVKKX7"
+    },
+    {
+      "id": "en_g100_alphanum_095",
+      "target_repeats": 100,
+      "category": "alphanum",
+      "prefix": "YouTube video ID (channel MIZAKG):",
+      "suffix": "Mh.qgYNJGqRmObnENCh"
+    },
+    {
+      "id": "en_g100_alphanum_096",
+      "target_repeats": 100,
+      "category": "alphanum",
+      "prefix": "API_KEY_V2 [user_id=A1XIGL] SECRET:",
+      "suffix": "dC4Dxkfpbd8TC1fLtzJbF"
+    },
+    {
+      "id": "en_g100_alphanum_097",
+      "target_repeats": 100,
+      "category": "alphanum",
+      "prefix": "Kernel Config [boot_PGUH38] params:",
+      "suffix": "m_.ae3H-gqsZsqPUK1r"
+    },
+    {
+      "id": "en_g100_alphanum_098",
+      "target_repeats": 100,
+      "category": "alphanum",
+      "prefix": "Kubernetes Pod Name (deployment-8ZUA3A):",
+      "suffix": "fDG8Fyf9GMVSKiL1Fe6b"
+    },
+    {
+      "id": "en_g100_alphanum_099",
+      "target_repeats": 100,
+      "category": "alphanum",
+      "prefix": "Zoom meeting passcode (room TAOJS2):",
+      "suffix": "Al8MrW5sVeohthaiw3K."
+    },
+    {
+      "id": "en_g100_alphanum_100",
+      "target_repeats": 100,
+      "category": "alphanum",
+      "prefix": "Hardware Serial Number (SN-ZUO5I5):",
+      "suffix": ".SSfGBOOR5b0OY3Mw"
+    },
+    {
+      "id": "en_g100_alphanum_101",
+      "target_repeats": 100,
+      "category": "alphanum",
+      "prefix": "Kernel Config [boot_XW9TY6] params:",
+      "suffix": "4Z1GHvUiEdK@ANjFHd"
+    },
+    {
+      "id": "en_g100_alphanum_102",
+      "target_repeats": 100,
+      "category": "alphanum",
+      "prefix": "Kernel Config [boot_5VJDVL] params:",
+      "suffix": "fycUP-cFIduXj3.8rce@Q--t"
+    },
+    {
+      "id": "en_g100_alphanum_103",
+      "target_repeats": 100,
+      "category": "alphanum",
+      "prefix": "Function signature void ZB0RH3(void* p):",
+      "suffix": "YLq-Qnetl0nY9u.ApMDQfHWi"
+    },
+    {
+      "id": "en_g100_alphanum_104",
+      "target_repeats": 100,
+      "category": "alphanum",
+      "prefix": "YouTube video ID (channel HHQBL3):",
+      "suffix": "7hqHzolpSq8KX.xcZ0DAP"
+    },
+    {
+      "id": "en_g100_alphanum_105",
+      "target_repeats": 100,
+      "category": "alphanum",
+      "prefix": "Rust crate version hash (TZ0NKU):",
+      "suffix": "KhpItizKLbwl0zYBeZt"
+    },
+    {
+      "id": "en_g100_alphanum_106",
+      "target_repeats": 100,
+      "category": "alphanum",
+      "prefix": "Function signature void U8HOC8(void* p):",
+      "suffix": "lfAIfvwTUTlPVlF_"
+    },
+    {
+      "id": "en_g100_alphanum_107",
+      "target_repeats": 100,
+      "category": "alphanum",
+      "prefix": "Rust crate version hash (B08KGI):",
+      "suffix": "pK59VC.nPXsu.YYkgz"
+    },
+    {
+      "id": "en_g100_alphanum_108",
+      "target_repeats": 100,
+      "category": "alphanum",
+      "prefix": "Function signature void RVIPFA(void* p):",
+      "suffix": "b_3dAcLhvWA01.J.@5nd"
+    },
+    {
+      "id": "en_g100_alphanum_109",
+      "target_repeats": 100,
+      "category": "alphanum",
+      "prefix": "Google Authenticator Code (issuer 4HF1IR):",
+      "suffix": "qkB@E-YWHM_7X20Kq"
+    },
+    {
+      "id": "en_g100_alphanum_110",
+      "target_repeats": 100,
+      "category": "alphanum",
+      "prefix": "Rust crate version hash (Z9YTA9):",
+      "suffix": "w33Bjgyf@xVQ2maXy5CBkW"
+    },
+    {
+      "id": "en_g100_alphanum_111",
+      "target_repeats": 100,
+      "category": "alphanum",
+      "prefix": "Function signature void I2V1NJ(void* p):",
+      "suffix": "wwnjRT0eZ0kY6yby"
+    },
+    {
+      "id": "en_g100_alphanum_112",
+      "target_repeats": 100,
+      "category": "alphanum",
+      "prefix": "Temporary password for admin_QQIE5Q:",
+      "suffix": "GJ9gwVi4Zx2N.EQp6ecW.AYw"
+    },
+    {
+      "id": "en_g100_alphanum_113",
+      "target_repeats": 100,
+      "category": "alphanum",
+      "prefix": "Magnet link hash (torrent id WT09GI):",
+      "suffix": "@sBaUd_YcugUnl1w"
+    },
+    {
+      "id": "en_g100_alphanum_114",
+      "target_repeats": 100,
+      "category": "alphanum",
+      "prefix": "Google Authenticator Code (issuer FPAHD2):",
+      "suffix": "COOqrYe05a8K__i4f"
+    },
+    {
+      "id": "en_g100_alphanum_115",
+      "target_repeats": 100,
+      "category": "alphanum",
+      "prefix": "Legacy system legacy_code_VQRPUA:",
+      "suffix": "5-yYV3mMQl@r739J7"
+    },
+    {
+      "id": "en_g100_alphanum_116",
+      "target_repeats": 100,
+      "category": "alphanum",
+      "prefix": "Zoom meeting passcode (room JA7D1M):",
+      "suffix": "FcAtJf_ROyBDwffdPc2E"
+    },
+    {
+      "id": "en_g100_alphanum_117",
+      "target_repeats": 100,
+      "category": "alphanum",
+      "prefix": "Function signature void YX47LJ(void* p):",
+      "suffix": "e6k@OhhFr1jpDy_o1r"
+    },
+    {
+      "id": "en_g100_alphanum_118",
+      "target_repeats": 100,
+      "category": "alphanum",
+      "prefix": "Rust crate version hash (QOBJP1):",
+      "suffix": "z4IELgSKlCcE.7Qmwj"
+    },
+    {
+      "id": "en_g100_alphanum_119",
+      "target_repeats": 100,
+      "category": "alphanum",
+      "prefix": "Generated UUID version 4 (0A8K9F):",
+      "suffix": "SLHaTY0fQPAjhvl94e8sIC.Y"
+    },
+    {
+      "id": "en_g100_alphanum_120",
+      "target_repeats": 100,
+      "category": "alphanum",
+      "prefix": "Rust crate version hash (SZX9SX):",
+      "suffix": "i00wwuOqn4VDJXFR"
+    },
+    {
+      "id": "en_g100_alphanum_121",
+      "target_repeats": 100,
+      "category": "alphanum",
+      "prefix": "DEBUG_DUMP memory_addr_B5W4WZ content:",
+      "suffix": "nZwsF6IDD0zAuzB_BY7Ic"
+    },
+    {
+      "id": "en_g100_alphanum_122",
+      "target_repeats": 100,
+      "category": "alphanum",
+      "prefix": "DEBUG_DUMP memory_addr_JSU9A3 content:",
+      "suffix": "TrIMEhJ@35sF5NHRa7K3o"
+    },
+    {
+      "id": "en_g100_alphanum_123",
+      "target_repeats": 100,
+      "category": "alphanum",
+      "prefix": "Verification code sent to email 4NUIW1:",
+      "suffix": "HjyfjwB7IV0eWhSg"
+    },
+    {
+      "id": "en_g100_alphanum_124",
+      "target_repeats": 100,
+      "category": "alphanum",
+      "prefix": "DEBUG_DUMP memory_addr_BIHSL4 content:",
+      "suffix": "vW9xbE_DfSaahgwWNdhn_2R1"
+    },
+    {
+      "id": "en_g100_alphanum_125",
+      "target_repeats": 100,
+      "category": "alphanum",
+      "prefix": "Google Authenticator Code (issuer FBPXMF):",
+      "suffix": "aIBTNK21-E3_n0JrZ9S_6HOnJ"
+    },
+    {
+      "id": "en_g100_alphanum_126",
+      "target_repeats": 100,
+      "category": "alphanum",
+      "prefix": "API_KEY_V2 [user_id=6GVCU6] SECRET:",
+      "suffix": "m37VHbmXqRuqHYo@2hzu5dveZ"
+    },
+    {
+      "id": "en_g100_alphanum_127",
+      "target_repeats": 100,
+      "category": "alphanum",
+      "prefix": "Encrypted payload string (nonce RWA4OX):",
+      "suffix": "qAPWh4K0t5ssMZD8t3KVbhHE"
+    },
+    {
+      "id": "en_g100_alphanum_128",
+      "target_repeats": 100,
+      "category": "alphanum",
+      "prefix": "SESSION_SSH // 2JFHB6 // TOKEN:",
+      "suffix": "WBAD5rgmJQMiTZ0NVXypX@B6"
+    },
+    {
+      "id": "en_g100_alphanum_129",
+      "target_repeats": 100,
+      "category": "alphanum",
+      "prefix": "FILE_CHECKSUM (build_Y29XU7):",
+      "suffix": "niGb08nhlFI55DgLm3"
+    },
+    {
+      "id": "en_g100_alphanum_130",
+      "target_repeats": 100,
+      "category": "alphanum",
+      "prefix": "X-Request-ID Header Value (MRML2S):",
+      "suffix": "1HUb_kKzPHSf4-okBi23XG"
+    },
+    {
+      "id": "en_g100_alphanum_131",
+      "target_repeats": 100,
+      "category": "alphanum",
+      "prefix": "Hardware Serial Number (SN-R8KTCG):",
+      "suffix": "Xv2X.siHf@-nIzZhPvxLmyzW"
+    },
+    {
+      "id": "en_g100_alphanum_132",
+      "target_repeats": 100,
+      "category": "alphanum",
+      "prefix": "FILE_CHECKSUM (build_NXTA7G):",
+      "suffix": "kieqAxXsQosc6jubfpEcU45"
+    },
+    {
+      "id": "en_g100_alphanum_133",
+      "target_repeats": 100,
+      "category": "alphanum",
+      "prefix": "FILE_CHECKSUM (build_LWRPHZ):",
+      "suffix": "UGMIYm8Sx3qokhjK9"
+    },
+    {
+      "id": "en_g100_alphanum_134",
+      "target_repeats": 100,
+      "category": "alphanum",
+      "prefix": "SESSION_SSH // NO11KD // TOKEN:",
+      "suffix": "XOZMKnbAJ8u8Zx_TCF-"
+    },
+    {
+      "id": "en_g100_pseudo_word_135",
+      "target_repeats": 100,
+      "category": "pseudo_word",
+      "prefix": "A randomly generated lorem ipsum word: O15TWO",
+      "suffix": "Cojyveluebahryfowtedu"
+    },
+    {
+      "id": "en_g100_pseudo_word_136",
+      "target_repeats": 100,
+      "category": "pseudo_word",
+      "prefix": "New chemical element proposed name (A90Z2X):",
+      "suffix": "Emaknihdosasco-urotube"
+    },
+    {
+      "id": "en_g100_pseudo_word_137",
+      "target_repeats": 100,
+      "category": "pseudo_word",
+      "prefix": "New chemical element proposed name (EUG4SB):",
+      "suffix": "Edulyzijitut"
+    },
+    {
+      "id": "en_g100_pseudo_word_138",
+      "target_repeats": 100,
+      "category": "pseudo_word",
+      "prefix": "The startup company name is N4AC18.io",
+      "suffix": "Okilazahatkucegho"
+    },
+    {
+      "id": "en_g100_pseudo_word_139",
+      "target_repeats": 100,
+      "category": "pseudo_word",
+      "prefix": "A randomly generated lorem ipsum word: G8WY1W",
+      "suffix": "curaga"
+    },
+    {
+      "id": "en_g100_pseudo_word_140",
+      "target_repeats": 100,
+      "category": "pseudo_word",
+      "prefix": "The startup company name is WAGDMY.io",
+      "suffix": "Etizofo"
+    },
+    {
+      "id": "en_g100_pseudo_word_141",
+      "target_repeats": 100,
+      "category": "pseudo_word",
+      "prefix": "Fantasy character name generated for 48NQA3:",
+      "suffix": "uqomageda"
+    },
+    {
+      "id": "en_g100_pseudo_word_142",
+      "target_repeats": 100,
+      "category": "pseudo_word",
+      "prefix": "New chemical element proposed name (RL4M6X):",
+      "suffix": "Ifaqalbazehe-agehatejyc"
+    },
+    {
+      "id": "en_g100_pseudo_word_143",
+      "target_repeats": 100,
+      "category": "pseudo_word",
+      "prefix": "Street name in the virtual simulation 7HXOQW:",
+      "suffix": "Ixinivyqesis bebulo"
+    },
+    {
+      "id": "en_g100_pseudo_word_144",
+      "target_repeats": 100,
+      "category": "pseudo_word",
+      "prefix": "A randomly generated lorem ipsum word: 99PTIT",
+      "suffix": "wowzacuvu-fanadjafywan"
+    },
+    {
+      "id": "en_g100_pseudo_word_145",
+      "target_repeats": 100,
+      "category": "pseudo_word",
+      "prefix": "New chemical element proposed name (8K4R60):",
+      "suffix": "Vepejyklihe"
+    },
+    {
+      "id": "en_g100_pseudo_word_146",
+      "target_repeats": 100,
+      "category": "pseudo_word",
+      "prefix": "The agent whispered the name G2LTWS:",
+      "suffix": "Ulingomito"
+    },
+    {
+      "id": "en_g100_pseudo_word_147",
+      "target_repeats": 100,
+      "category": "pseudo_word",
+      "prefix": "Typo in the dictionary entry for FOAH8O",
+      "suffix": "giwtebe"
+    },
+    {
+      "id": "en_g100_pseudo_word_148",
+      "target_repeats": 100,
+      "category": "pseudo_word",
+      "prefix": "A randomly generated lorem ipsum word: 3HC0XB",
+      "suffix": "ygitejxu"
+    },
+    {
+      "id": "en_g100_pseudo_word_149",
+      "target_repeats": 100,
+      "category": "pseudo_word",
+      "prefix": "The alien greeting translated to F4EFZY.",
+      "suffix": "edazygequfok isazejzolyk"
+    },
+    {
+      "id": "en_g100_pseudo_word_150",
+      "target_repeats": 100,
+      "category": "pseudo_word",
+      "prefix": "Neural net input token UVOIUE:",
+      "suffix": "azetvasevotiv"
+    },
+    {
+      "id": "en_g100_pseudo_word_151",
+      "target_repeats": 100,
+      "category": "pseudo_word",
+      "prefix": "Ikea product name (Article NPV3T1):",
+      "suffix": "lehvycabnygo"
+    },
+    {
+      "id": "en_g100_pseudo_word_152",
+      "target_repeats": 100,
+      "category": "pseudo_word",
+      "prefix": "The forgotten ancient city of BT44R1",
+      "suffix": "Omywyhyqiqcy-asogmexrudso"
+    },
+    {
+      "id": "en_g100_pseudo_word_153",
+      "target_repeats": 100,
+      "category": "pseudo_word",
+      "prefix": "Captcha text to solve challenge X2143U:",
+      "suffix": "levafzegivah pikbiqu"
+    },
+    {
+      "id": "en_g100_pseudo_word_154",
+      "target_repeats": 100,
+      "category": "pseudo_word",
+      "prefix": "Scrabble board weird word played: NWDPOZ",
+      "suffix": "Zitetodix sagyzlolucqi"
+    },
+    {
+      "id": "en_g100_pseudo_word_155",
+      "target_repeats": 100,
+      "category": "pseudo_word",
+      "prefix": "The robot's default nickname is FY7EWB.",
+      "suffix": "obynodrilo"
+    },
+    {
+      "id": "en_g100_pseudo_word_156",
+      "target_repeats": 100,
+      "category": "pseudo_word",
+      "prefix": "The magic spell to open door 3170VU is:",
+      "suffix": "oguxokaxe"
+    },
+    {
+      "id": "en_g100_pseudo_word_157",
+      "target_repeats": 100,
+      "category": "pseudo_word",
+      "prefix": "Sound effect description (file PQSLKO):",
+      "suffix": "Ahogivpir lokgyte"
+    },
+    {
+      "id": "en_g100_pseudo_word_158",
+      "target_repeats": 100,
+      "category": "pseudo_word",
+      "prefix": "Ikea product name (Article 4V49ZF):",
+      "suffix": "Ejiryxydlozazevapuri"
+    },
+    {
+      "id": "en_g100_pseudo_word_159",
+      "target_repeats": 100,
+      "category": "pseudo_word",
+      "prefix": "Sound effect description (file SDFO56):",
+      "suffix": "Efotojzyquda"
+    },
+    {
+      "id": "en_g100_pseudo_word_160",
+      "target_repeats": 100,
+      "category": "pseudo_word",
+      "prefix": "Untranslatable dialect (entry ATC0H2):",
+      "suffix": "Yxawdumi"
+    },
+    {
+      "id": "en_g100_pseudo_word_161",
+      "target_repeats": 100,
+      "category": "pseudo_word",
+      "prefix": "The forgotten ancient city of 4H5GHM",
+      "suffix": "Odumavduqulam-pefetvutyle"
+    },
+    {
+      "id": "en_g100_pseudo_word_162",
+      "target_repeats": 100,
+      "category": "pseudo_word",
+      "prefix": "The alien greeting translated to LFVKN8.",
+      "suffix": "Pyrefvinazibykusxoco"
+    },
+    {
+      "id": "en_g100_pseudo_word_163",
+      "target_repeats": 100,
+      "category": "pseudo_word",
+      "prefix": "The agent whispered the name VN3RJX:",
+      "suffix": "focejvitda"
+    },
+    {
+      "id": "en_g100_pseudo_word_164",
+      "target_repeats": 100,
+      "category": "pseudo_word",
+      "prefix": "Ikea product name (Article UULCME):",
+      "suffix": "ahydijelhy"
+    },
+    {
+      "id": "en_g100_pseudo_word_165",
+      "target_repeats": 100,
+      "category": "pseudo_word",
+      "prefix": "New chemical element proposed name (6KSM8A):",
+      "suffix": "Hidogardu"
+    },
+    {
+      "id": "en_g100_pseudo_word_166",
+      "target_repeats": 100,
+      "category": "pseudo_word",
+      "prefix": "Typo in the dictionary entry for PALCGW",
+      "suffix": "Fudugyl"
+    },
+    {
+      "id": "en_g100_pseudo_word_167",
+      "target_repeats": 100,
+      "category": "pseudo_word",
+      "prefix": "The robot's default nickname is JQOHUL.",
+      "suffix": "yhasyxup sisasig"
+    },
+    {
+      "id": "en_g100_pseudo_word_168",
+      "target_repeats": 100,
+      "category": "pseudo_word",
+      "prefix": "Sound effect description (file 1QVVT4):",
+      "suffix": "ikaxepefire"
+    },
+    {
+      "id": "en_g100_pseudo_word_169",
+      "target_repeats": 100,
+      "category": "pseudo_word",
+      "prefix": "Sound effect description (file QHUO2S):",
+      "suffix": "Ziratumym"
+    },
+    {
+      "id": "en_g100_pseudo_word_170",
+      "target_repeats": 100,
+      "category": "pseudo_word",
+      "prefix": "Scrabble board weird word played: 0RPLHT",
+      "suffix": "Minropdi-newanivvo"
+    },
+    {
+      "id": "en_g100_pseudo_word_171",
+      "target_repeats": 100,
+      "category": "pseudo_word",
+      "prefix": "Variable name in minified JS code (4FY5ZP):",
+      "suffix": "avexomani"
+    },
+    {
+      "id": "en_g100_pseudo_word_172",
+      "target_repeats": 100,
+      "category": "pseudo_word",
+      "prefix": "New chemical element proposed name (IJXPKX):",
+      "suffix": "Oxyducera-napyhralyca"
+    },
+    {
+      "id": "en_g100_pseudo_word_173",
+      "target_repeats": 100,
+      "category": "pseudo_word",
+      "prefix": "Operation M8W6IU secret codeword is",
+      "suffix": "tupxivtinygyl"
+    },
+    {
+      "id": "en_g100_pseudo_word_174",
+      "target_repeats": 100,
+      "category": "pseudo_word",
+      "prefix": "New chemical element proposed name (7UDINI):",
+      "suffix": "bybiqijucy"
+    },
+    {
+      "id": "en_g100_pseudo_word_175",
+      "target_repeats": 100,
+      "category": "pseudo_word",
+      "prefix": "Variable name in minified JS code (PL6M5I):",
+      "suffix": "Efodqeriqceci"
+    },
+    {
+      "id": "en_g100_pseudo_word_176",
+      "target_repeats": 100,
+      "category": "pseudo_word",
+      "prefix": "Fantasy character name generated for 4G7P2U:",
+      "suffix": "wypogaffe"
+    },
+    {
+      "id": "en_g100_pseudo_word_177",
+      "target_repeats": 100,
+      "category": "pseudo_word",
+      "prefix": "The alien greeting translated to YXZHCU.",
+      "suffix": "butakynitiwilaqarti"
+    },
+    {
+      "id": "en_g100_pseudo_word_178",
+      "target_repeats": 100,
+      "category": "pseudo_word",
+      "prefix": "Untranslatable dialect (entry 5CQ7O4):",
+      "suffix": "ebolekohe"
+    },
+    {
+      "id": "en_g100_pseudo_word_179",
+      "target_repeats": 100,
+      "category": "pseudo_word",
+      "prefix": "Sound effect description (file 5K9S3D):",
+      "suffix": "ifimitov yhebwiwfo"
+    },
+    {
+      "id": "en_g100_pseudo_word_180",
+      "target_repeats": 100,
+      "category": "pseudo_word",
+      "prefix": "The parrot repeated the word LRFWMG:",
+      "suffix": "ralpahukuglu ezajyxi"
+    },
+    {
+      "id": "en_g100_pseudo_word_181",
+      "target_repeats": 100,
+      "category": "pseudo_word",
+      "prefix": "Untranslatable dialect (entry DOWYX9):",
+      "suffix": "Osukykovxy"
+    },
+    {
+      "id": "en_g100_pseudo_word_182",
+      "target_repeats": 100,
+      "category": "pseudo_word",
+      "prefix": "The parrot repeated the word G3UKPX:",
+      "suffix": "lavubigol"
+    },
+    {
+      "id": "en_g100_pseudo_word_183",
+      "target_repeats": 100,
+      "category": "pseudo_word",
+      "prefix": "New chemical element proposed name (3SPE69):",
+      "suffix": "inuniry"
+    },
+    {
+      "id": "en_g100_pseudo_word_184",
+      "target_repeats": 100,
+      "category": "pseudo_word",
+      "prefix": "The startup company name is QBUNKX.io",
+      "suffix": "poxrokemive-egividefafy"
+    },
+    {
+      "id": "en_g100_pseudo_word_185",
+      "target_repeats": 100,
+      "category": "pseudo_word",
+      "prefix": "The alien greeting translated to QRZ97P.",
+      "suffix": "Etuthyfilkar cyfoqbo"
+    },
+    {
+      "id": "en_g100_pseudo_word_186",
+      "target_repeats": 100,
+      "category": "pseudo_word",
+      "prefix": "Variable name in minified JS code (1Z8ER9):",
+      "suffix": "Kuxoho"
+    },
+    {
+      "id": "en_g100_pseudo_word_187",
+      "target_repeats": 100,
+      "category": "pseudo_word",
+      "prefix": "The parrot repeated the word 1J6YC7:",
+      "suffix": "zarapetygpajuxixidocu"
+    },
+    {
+      "id": "en_g100_pseudo_word_188",
+      "target_repeats": 100,
+      "category": "pseudo_word",
+      "prefix": "Ikea product name (Article GBVDEM):",
+      "suffix": "Lettovo"
+    },
+    {
+      "id": "en_g100_pseudo_word_189",
+      "target_repeats": 100,
+      "category": "pseudo_word",
+      "prefix": "Fantasy character name generated for MF3UDG:",
+      "suffix": "Avicmeculu"
+    },
+    {
+      "id": "en_g100_pseudo_word_190",
+      "target_repeats": 100,
+      "category": "pseudo_word",
+      "prefix": "He shouted 'WA6EWC' before jumping.",
+      "suffix": "Odomotufo"
+    },
+    {
+      "id": "en_g100_pseudo_word_191",
+      "target_repeats": 100,
+      "category": "pseudo_word",
+      "prefix": "Pronounce the following nonsense word: D5P2CY",
+      "suffix": "Akekiglibgu fujyna"
+    },
+    {
+      "id": "en_g100_pseudo_word_192",
+      "target_repeats": 100,
+      "category": "pseudo_word",
+      "prefix": "Ikea product name (Article V8VXUB):",
+      "suffix": "Izytomafiwbu"
+    },
+    {
+      "id": "en_g100_pseudo_word_193",
+      "target_repeats": 100,
+      "category": "pseudo_word",
+      "prefix": "Street name in the virtual simulation 41APET:",
+      "suffix": "hagiwu"
+    },
+    {
+      "id": "en_g100_pseudo_word_194",
+      "target_repeats": 100,
+      "category": "pseudo_word",
+      "prefix": "Typo in the dictionary entry for N6Y2DO",
+      "suffix": "Abegigu-gumxuhebo"
+    },
+    {
+      "id": "en_g100_pseudo_word_195",
+      "target_repeats": 100,
+      "category": "pseudo_word",
+      "prefix": "The magic spell to open door CIBGUW is:",
+      "suffix": "Izykazdikqy kudodsemo"
+    },
+    {
+      "id": "en_g100_pseudo_word_196",
+      "target_repeats": 100,
+      "category": "pseudo_word",
+      "prefix": "Ikea product name (Article 27PBRV):",
+      "suffix": "Siperupijewodawte"
+    },
+    {
+      "id": "en_g100_pseudo_word_197",
+      "target_repeats": 100,
+      "category": "pseudo_word",
+      "prefix": "Captcha text to solve challenge EYDU5T:",
+      "suffix": "ydomejcocqi"
+    },
+    {
+      "id": "en_g100_pseudo_word_198",
+      "target_repeats": 100,
+      "category": "pseudo_word",
+      "prefix": "New chemical element proposed name (FWUKUC):",
+      "suffix": "ecojewoqovad-okixixapo"
+    },
+    {
+      "id": "en_g100_pseudo_word_199",
+      "target_repeats": 100,
+      "category": "pseudo_word",
+      "prefix": "The robot's default nickname is Q3Q1IH.",
+      "suffix": "Zajuxabedif lehyqeru"
+    },
+    {
+      "id": "en_g100_pseudo_word_200",
+      "target_repeats": 100,
+      "category": "pseudo_word",
+      "prefix": "The forgotten ancient city of 6FSKV6",
+      "suffix": "Upufomhec"
+    },
+    {
+      "id": "en_g1000_digits_001",
+      "target_repeats": 1000,
+      "category": "digits",
+      "prefix": "Target Coordinates (sector MXMXPO):",
+      "suffix": "250493046525860927"
+    },
+    {
+      "id": "en_g1000_digits_002",
+      "target_repeats": 1000,
+      "category": "digits",
+      "prefix": "CPU Temperature Core Y00AS8 (Celsius):",
+      "suffix": "813198138927371"
+    },
+    {
+      "id": "en_g1000_digits_003",
+      "target_repeats": 1000,
+      "category": "digits",
+      "prefix": "Calibration constant K for device GDPCKO:",
+      "suffix": "2575998527722413779"
+    },
+    {
+      "id": "en_g1000_digits_004",
+      "target_repeats": 1000,
+      "category": "digits",
+      "prefix": "GPS Latitude for waypoint 5YRB4C:",
+      "suffix": "1563085317672"
+    },
+    {
+      "id": "en_g1000_digits_005",
+      "target_repeats": 1000,
+      "category": "digits",
+      "prefix": "Calculated Probability P(Z9O0XP) =",
+      "suffix": "55943991347157"
+    },
+    {
+      "id": "en_g1000_digits_006",
+      "target_repeats": 1000,
+      "category": "digits",
+      "prefix": "Target Coordinates (sector P0XFNW):",
+      "suffix": "51386656508115"
+    },
+    {
+      "id": "en_g1000_digits_007",
+      "target_repeats": 1000,
+      "category": "digits",
+      "prefix": "Radiation Level in containment PYCIOF:",
+      "suffix": "5763092309630"
+    },
+    {
+      "id": "en_g1000_digits_008",
+      "target_repeats": 1000,
+      "category": "digits",
+      "prefix": "CPU Temperature Core LGLJTG (Celsius):",
+      "suffix": "961704454501533253"
+    },
+    {
+      "id": "en_g1000_digits_009",
+      "target_repeats": 1000,
+      "category": "digits",
+      "prefix": "Zip code for the fake city area V4GOMH:",
+      "suffix": "9857846561675967544"
+    },
+    {
+      "id": "en_g1000_digits_010",
+      "target_repeats": 1000,
+      "category": "digits",
+      "prefix": "MEASUREMENT_RESULT #RPX9VF >>>",
+      "suffix": "28355673541084"
+    },
+    {
+      "id": "en_g1000_digits_011",
+      "target_repeats": 1000,
+      "category": "digits",
+      "prefix": "Stock Market Ticker Volume (RQ67B5):",
+      "suffix": "9602764542808235"
+    },
+    {
+      "id": "en_g1000_digits_012",
+      "target_repeats": 1000,
+      "category": "digits",
+      "prefix": "Barcode sequence for item JADV35:",
+      "suffix": "500983378527"
+    },
+    {
+      "id": "en_g1000_digits_013",
+      "target_repeats": 1000,
+      "category": "digits",
+      "prefix": "SYSTEM_LOG # KZYGYB // ERR_CODE:",
+      "suffix": "598813754350083554"
+    },
+    {
+      "id": "en_g1000_digits_014",
+      "target_repeats": 1000,
+      "category": "digits",
+      "prefix": "Radiation Level in containment J90ENL:",
+      "suffix": "224505636330341801"
+    },
+    {
+      "id": "en_g1000_digits_015",
+      "target_repeats": 1000,
+      "category": "digits",
+      "prefix": "Barcode sequence for item 2R3YO8:",
+      "suffix": "216528143033203"
+    },
+    {
+      "id": "en_g1000_digits_016",
+      "target_repeats": 1000,
+      "category": "digits",
+      "prefix": "Total milliseconds elapsed since FYYESV:",
+      "suffix": "153423611640008485"
+    },
+    {
+      "id": "en_g1000_digits_017",
+      "target_repeats": 1000,
+      "category": "digits",
+      "prefix": "Calibration constant K for device XO2ZTX:",
+      "suffix": "88720870275293"
+    },
+    {
+      "id": "en_g1000_digits_018",
+      "target_repeats": 1000,
+      "category": "digits",
+      "prefix": "Server Ping Latency (R9UZ3L ms):",
+      "suffix": "7165349741423690492"
+    },
+    {
+      "id": "en_g1000_digits_019",
+      "target_repeats": 1000,
+      "category": "digits",
+      "prefix": "Stock Market Ticker Volume (XP958V):",
+      "suffix": "43410366468511100"
+    },
+    {
+      "id": "en_g1000_digits_020",
+      "target_repeats": 1000,
+      "category": "digits",
+      "prefix": "Stock Market Ticker Volume (TXNEKY):",
+      "suffix": "26014090734318"
+    },
+    {
+      "id": "en_g1000_digits_021",
+      "target_repeats": 1000,
+      "category": "digits",
+      "prefix": "CPU Temperature Core LBKGBG (Celsius):",
+      "suffix": "920035710923"
+    },
+    {
+      "id": "en_g1000_digits_022",
+      "target_repeats": 1000,
+      "category": "digits",
+      "prefix": "Barcode sequence for item X08A5L:",
+      "suffix": "1812729867241228712"
+    },
+    {
+      "id": "en_g1000_digits_023",
+      "target_repeats": 1000,
+      "category": "digits",
+      "prefix": "INIT_VECTOR [ver.BI59YB]:",
+      "suffix": "03615261828347853"
+    },
+    {
+      "id": "en_g1000_digits_024",
+      "target_repeats": 1000,
+      "category": "digits",
+      "prefix": "GPS Latitude for waypoint ZBUV9O:",
+      "suffix": "80650110698461"
+    },
+    {
+      "id": "en_g1000_digits_025",
+      "target_repeats": 1000,
+      "category": "digits",
+      "prefix": "GPS Latitude for waypoint V3TSSG:",
+      "suffix": "47690957246272506"
+    },
+    {
+      "id": "en_g1000_digits_026",
+      "target_repeats": 1000,
+      "category": "digits",
+      "prefix": "Phone number extension for dept 1NZH3U:",
+      "suffix": "18924519052939174"
+    },
+    {
+      "id": "en_g1000_digits_027",
+      "target_repeats": 1000,
+      "category": "digits",
+      "prefix": "Row index in pandas dataframe NS72YE:",
+      "suffix": "07424091562218664"
+    },
+    {
+      "id": "en_g1000_digits_028",
+      "target_repeats": 1000,
+      "category": "digits",
+      "prefix": "Calculated Probability P(APQIKJ) =",
+      "suffix": "4418747612111912"
+    },
+    {
+      "id": "en_g1000_digits_029",
+      "target_repeats": 1000,
+      "category": "digits",
+      "prefix": "Zip code for the fake city area II7CBW:",
+      "suffix": "052670227178274895"
+    },
+    {
+      "id": "en_g1000_digits_030",
+      "target_repeats": 1000,
+      "category": "digits",
+      "prefix": "Internal memory address pointer 0x0NCLWA:",
+      "suffix": "09323758474075"
+    },
+    {
+      "id": "en_g1000_digits_031",
+      "target_repeats": 1000,
+      "category": "digits",
+      "prefix": "MEASUREMENT_RESULT #DPLFBG >>>",
+      "suffix": "4704594002386147219"
+    },
+    {
+      "id": "en_g1000_digits_032",
+      "target_repeats": 1000,
+      "category": "digits",
+      "prefix": "TRANSACTION_ID [8JOUNF] VALUE:",
+      "suffix": "3132603085840693865"
+    },
+    {
+      "id": "en_g1000_digits_033",
+      "target_repeats": 1000,
+      "category": "digits",
+      "prefix": "GPS Latitude for waypoint SWZJCX:",
+      "suffix": "858893790150"
+    },
+    {
+      "id": "en_g1000_digits_034",
+      "target_repeats": 1000,
+      "category": "digits",
+      "prefix": "Random Number Generator Seed FJETDG:",
+      "suffix": "6845867286057989176"
+    },
+    {
+      "id": "en_g1000_digits_035",
+      "target_repeats": 1000,
+      "category": "digits",
+      "prefix": "MEASUREMENT_RESULT #UPAAVI >>>",
+      "suffix": "3119991114710"
+    },
+    {
+      "id": "en_g1000_digits_036",
+      "target_repeats": 1000,
+      "category": "digits",
+      "prefix": "SYSTEM_LOG # K9WQOX // ERR_CODE:",
+      "suffix": "54992665757126"
+    },
+    {
+      "id": "en_g1000_digits_037",
+      "target_repeats": 1000,
+      "category": "digits",
+      "prefix": "Row index in pandas dataframe C9I1KO:",
+      "suffix": "8561014869456386"
+    },
+    {
+      "id": "en_g1000_digits_038",
+      "target_repeats": 1000,
+      "category": "digits",
+      "prefix": "User Balance for account #ZZ70ZE ($):",
+      "suffix": "6812392854887"
+    },
+    {
+      "id": "en_g1000_digits_039",
+      "target_repeats": 1000,
+      "category": "digits",
+      "prefix": "INIT_VECTOR [ver.NTD187]:",
+      "suffix": "3847166124697075"
+    },
+    {
+      "id": "en_g1000_digits_040",
+      "target_repeats": 1000,
+      "category": "digits",
+      "prefix": "MEASUREMENT_RESULT #BPTQG7 >>>",
+      "suffix": "54307741839499634"
+    },
+    {
+      "id": "en_g1000_digits_041",
+      "target_repeats": 1000,
+      "category": "digits",
+      "prefix": "Credit Card last digits (Masked G0LC3D):",
+      "suffix": "08493502429451439"
+    },
+    {
+      "id": "en_g1000_digits_042",
+      "target_repeats": 1000,
+      "category": "digits",
+      "prefix": "Phone number extension for dept OL8PEJ:",
+      "suffix": "346016001017"
+    },
+    {
+      "id": "en_g1000_digits_043",
+      "target_repeats": 1000,
+      "category": "digits",
+      "prefix": "User Balance for account #K2TS9A ($):",
+      "suffix": "8439145491796307467"
+    },
+    {
+      "id": "en_g1000_digits_044",
+      "target_repeats": 1000,
+      "category": "digits",
+      "prefix": "SYSTEM_LOG # 9G0FU5 // ERR_CODE:",
+      "suffix": "95524252061321351"
+    },
+    {
+      "id": "en_g1000_digits_045",
+      "target_repeats": 1000,
+      "category": "digits",
+      "prefix": "Stock Market Ticker Volume (V2G3LV):",
+      "suffix": "86849403580743782"
+    },
+    {
+      "id": "en_g1000_digits_046",
+      "target_repeats": 1000,
+      "category": "digits",
+      "prefix": "Distance to target object 9PT2ON (km):",
+      "suffix": "519706403068"
+    },
+    {
+      "id": "en_g1000_digits_047",
+      "target_repeats": 1000,
+      "category": "digits",
+      "prefix": "Binary representation of signal IQYF0V:",
+      "suffix": "2890319673900239"
+    },
+    {
+      "id": "en_g1000_digits_048",
+      "target_repeats": 1000,
+      "category": "digits",
+      "prefix": "Internal memory address pointer 0xW35G6W:",
+      "suffix": "4591379174730"
+    },
+    {
+      "id": "en_g1000_digits_049",
+      "target_repeats": 1000,
+      "category": "digits",
+      "prefix": "Server Ping Latency (5L6EE6 ms):",
+      "suffix": "616720365122204"
+    },
+    {
+      "id": "en_g1000_digits_050",
+      "target_repeats": 1000,
+      "category": "digits",
+      "prefix": "Distance to target object F16N08 (km):",
+      "suffix": "7799121061297344"
+    },
+    {
+      "id": "en_g1000_digits_051",
+      "target_repeats": 1000,
+      "category": "digits",
+      "prefix": "Server Ping Latency (BAKL2Y ms):",
+      "suffix": "33153562376311830"
+    },
+    {
+      "id": "en_g1000_digits_052",
+      "target_repeats": 1000,
+      "category": "digits",
+      "prefix": "Barcode sequence for item D19OEM:",
+      "suffix": "543416702403"
+    },
+    {
+      "id": "en_g1000_digits_053",
+      "target_repeats": 1000,
+      "category": "digits",
+      "prefix": "Random Number Generator Seed NBB80Y:",
+      "suffix": "81598066833174188"
+    },
+    {
+      "id": "en_g1000_digits_054",
+      "target_repeats": 1000,
+      "category": "digits",
+      "prefix": "Row index in pandas dataframe 5DOSWK:",
+      "suffix": "5888428422772"
+    },
+    {
+      "id": "en_g1000_digits_055",
+      "target_repeats": 1000,
+      "category": "digits",
+      "prefix": "Binary representation of signal CL9ANJ:",
+      "suffix": "9371738466421491"
+    },
+    {
+      "id": "en_g1000_digits_056",
+      "target_repeats": 1000,
+      "category": "digits",
+      "prefix": "Sensor Reading at Node BTJF82 (raw):",
+      "suffix": "455858002252622262"
+    },
+    {
+      "id": "en_g1000_digits_057",
+      "target_repeats": 1000,
+      "category": "digits",
+      "prefix": "Random Number Generator Seed N1L5OB:",
+      "suffix": "9859016463572"
+    },
+    {
+      "id": "en_g1000_digits_058",
+      "target_repeats": 1000,
+      "category": "digits",
+      "prefix": "INIT_VECTOR [ver.1GOZD9]:",
+      "suffix": "300574831318774"
+    },
+    {
+      "id": "en_g1000_digits_059",
+      "target_repeats": 1000,
+      "category": "digits",
+      "prefix": "Target Coordinates (sector XBAADF):",
+      "suffix": "09367196952511"
+    },
+    {
+      "id": "en_g1000_digits_060",
+      "target_repeats": 1000,
+      "category": "digits",
+      "prefix": "Calibration constant K for device EQ8GI1:",
+      "suffix": "1184956219526"
+    },
+    {
+      "id": "en_g1000_digits_061",
+      "target_repeats": 1000,
+      "category": "digits",
+      "prefix": "Radiation Level in containment IBGJ0E:",
+      "suffix": "56381730002821"
+    },
+    {
+      "id": "en_g1000_digits_062",
+      "target_repeats": 1000,
+      "category": "digits",
+      "prefix": "SYSTEM_LOG # TRCJWK // ERR_CODE:",
+      "suffix": "4205679368081"
+    },
+    {
+      "id": "en_g1000_digits_063",
+      "target_repeats": 1000,
+      "category": "digits",
+      "prefix": "Phone number extension for dept ZDH0I0:",
+      "suffix": "01722435297193"
+    },
+    {
+      "id": "en_g1000_digits_064",
+      "target_repeats": 1000,
+      "category": "digits",
+      "prefix": "Barcode sequence for item 6MHNTL:",
+      "suffix": "270032734793"
+    },
+    {
+      "id": "en_g1000_digits_065",
+      "target_repeats": 1000,
+      "category": "digits",
+      "prefix": "Internal memory address pointer 0xGB83FB:",
+      "suffix": "953154323473544242"
+    },
+    {
+      "id": "en_g1000_digits_066",
+      "target_repeats": 1000,
+      "category": "digits",
+      "prefix": "Random Number Generator Seed 56YXID:",
+      "suffix": "6170226621928140"
+    },
+    {
+      "id": "en_g1000_digits_067",
+      "target_repeats": 1000,
+      "category": "digits",
+      "prefix": "Radiation Level in containment R2ECCY:",
+      "suffix": "6309187031616365517"
+    },
+    {
+      "id": "en_g1000_alphanum_068",
+      "target_repeats": 1000,
+      "category": "alphanum",
+      "prefix": "Hardware Serial Number (SN-9D18PC):",
+      "suffix": "MU1TBD3g4XEB@45M"
+    },
+    {
+      "id": "en_g1000_alphanum_069",
+      "target_repeats": 1000,
+      "category": "alphanum",
+      "prefix": "Regular Expression pattern /3TUH7F/g:",
+      "suffix": "YRXo@LM.Es9sCfSP3Mvw"
+    },
+    {
+      "id": "en_g1000_alphanum_070",
+      "target_repeats": 1000,
+      "category": "alphanum",
+      "prefix": "Rust crate version hash (IENVT6):",
+      "suffix": "cULFfEG64eQIF36HOCC"
+    },
+    {
+      "id": "en_g1000_alphanum_071",
+      "target_repeats": 1000,
+      "category": "alphanum",
+      "prefix": "Legacy system legacy_code_9XZMSF:",
+      "suffix": "Bqy@3tdMFPS8SljAb"
+    },
+    {
+      "id": "en_g1000_alphanum_072",
+      "target_repeats": 1000,
+      "category": "alphanum",
+      "prefix": "Hardware Serial Number (SN-UTPFMG):",
+      "suffix": "nGRe6IoD83zG-55jXoCZmWE"
+    },
+    {
+      "id": "en_g1000_alphanum_073",
+      "target_repeats": 1000,
+      "category": "alphanum",
+      "prefix": "FILE_CHECKSUM (build_YB7VS1):",
+      "suffix": "v@ARjq61or@lgXBOThTlsB"
+    },
+    {
+      "id": "en_g1000_alphanum_074",
+      "target_repeats": 1000,
+      "category": "alphanum",
+      "prefix": "Google Authenticator Code (issuer I46IY1):",
+      "suffix": "ZLfhuYceFDimhKlq"
+    },
+    {
+      "id": "en_g1000_alphanum_075",
+      "target_repeats": 1000,
+      "category": "alphanum",
+      "prefix": "Generated UUID version 4 (EZZ77V):",
+      "suffix": "tVM864imadloucT1F7vSzwKf"
+    },
+    {
+      "id": "en_g1000_alphanum_076",
+      "target_repeats": 1000,
+      "category": "alphanum",
+      "prefix": "Magnet link hash (torrent id W4W6PY):",
+      "suffix": "Yff64i.iZqDM9qcHo"
+    },
+    {
+      "id": "en_g1000_alphanum_077",
+      "target_repeats": 1000,
+      "category": "alphanum",
+      "prefix": "Kubernetes Pod Name (deployment-T04LPR):",
+      "suffix": "R8-_oFVw-CdSgb0zoZzTk36k"
+    },
+    {
+      "id": "en_g1000_alphanum_078",
+      "target_repeats": 1000,
+      "category": "alphanum",
+      "prefix": "Cryptocurrency Wallet Key (P5D1BE):",
+      "suffix": "CbFuGv6.5LVvjkmoP"
+    },
+    {
+      "id": "en_g1000_alphanum_079",
+      "target_repeats": 1000,
+      "category": "alphanum",
+      "prefix": "Temporary password for admin_6N7GIA:",
+      "suffix": "lOi_JXHKbdxw1sE3R"
+    },
+    {
+      "id": "en_g1000_alphanum_080",
+      "target_repeats": 1000,
+      "category": "alphanum",
+      "prefix": "X-Request-ID Header Value (2525LE):",
+      "suffix": "0NR@71i6.QRisqM3fXtrg@9"
+    },
+    {
+      "id": "en_g1000_alphanum_081",
+      "target_repeats": 1000,
+      "category": "alphanum",
+      "prefix": "Temporary password for admin_2WHZSD:",
+      "suffix": "1M5pOybRVKBQdYaVTxQ"
+    },
+    {
+      "id": "en_g1000_alphanum_082",
+      "target_repeats": 1000,
+      "category": "alphanum",
+      "prefix": "Zoom meeting passcode (room VV0NMR):",
+      "suffix": "g8viuBrcQsi0@xB4Pxzavh"
+    },
+    {
+      "id": "en_g1000_alphanum_083",
+      "target_repeats": 1000,
+      "category": "alphanum",
+      "prefix": "Function signature void R03948(void* p):",
+      "suffix": "_rwilFYjL0ABBBpvZIDce"
+    },
+    {
+      "id": "en_g1000_alphanum_084",
+      "target_repeats": 1000,
+      "category": "alphanum",
+      "prefix": "Temporary password for admin_0V4P1C:",
+      "suffix": "LjxcMF5e3KN3QYq_3RtbJq"
+    },
+    {
+      "id": "en_g1000_alphanum_085",
+      "target_repeats": 1000,
+      "category": "alphanum",
+      "prefix": "Encrypted payload string (nonce A2089K):",
+      "suffix": "5NzfHRZMvPAHikxA3oLBCIl"
+    },
+    {
+      "id": "en_g1000_alphanum_086",
+      "target_repeats": 1000,
+      "category": "alphanum",
+      "prefix": "Function signature void K8VS72(void* p):",
+      "suffix": "Tz8sJe-h_5WG7bEYoqi7"
+    },
+    {
+      "id": "en_g1000_alphanum_087",
+      "target_repeats": 1000,
+      "category": "alphanum",
+      "prefix": "Legacy system legacy_code_7WIXQZ:",
+      "suffix": "hspr@1KrmZrBPJUuARrc"
+    },
+    {
+      "id": "en_g1000_alphanum_088",
+      "target_repeats": 1000,
+      "category": "alphanum",
+      "prefix": "Magnet link hash (torrent id QTYMLY):",
+      "suffix": "cEVY1smj.C.QhJJe-V8IJNK"
+    },
+    {
+      "id": "en_g1000_alphanum_089",
+      "target_repeats": 1000,
+      "category": "alphanum",
+      "prefix": "DEBUG_DUMP memory_addr_VMUJL6 content:",
+      "suffix": "vcog09ApHrw3_XO2nx0MQ"
+    },
+    {
+      "id": "en_g1000_alphanum_090",
+      "target_repeats": 1000,
+      "category": "alphanum",
+      "prefix": "API_KEY_V2 [user_id=5YT22B] SECRET:",
+      "suffix": "vG.YJldngc.MOyQVyDu8veka"
+    },
+    {
+      "id": "en_g1000_alphanum_091",
+      "target_repeats": 1000,
+      "category": "alphanum",
+      "prefix": "Encrypted payload string (nonce OXB1UF):",
+      "suffix": "YPgutsYj7hkH668_-"
+    },
+    {
+      "id": "en_g1000_alphanum_092",
+      "target_repeats": 1000,
+      "category": "alphanum",
+      "prefix": "Kubernetes Pod Name (deployment-2TX2Q4):",
+      "suffix": "zvbU_1iFj1BP56s."
+    },
+    {
+      "id": "en_g1000_alphanum_093",
+      "target_repeats": 1000,
+      "category": "alphanum",
+      "prefix": "Legacy system legacy_code_V3WBGH:",
+      "suffix": "kiBPZ3yVW0r-cxH34gi"
+    },
+    {
+      "id": "en_g1000_alphanum_094",
+      "target_repeats": 1000,
+      "category": "alphanum",
+      "prefix": "YouTube video ID (channel MAWWPI):",
+      "suffix": "j-qlgUzDbziXXErgr6Wqk"
+    },
+    {
+      "id": "en_g1000_alphanum_095",
+      "target_repeats": 1000,
+      "category": "alphanum",
+      "prefix": "Legacy system legacy_code_ZEQH5D:",
+      "suffix": "OmG_asNNz0agk9arIYxseRPe-"
+    },
+    {
+      "id": "en_g1000_alphanum_096",
+      "target_repeats": 1000,
+      "category": "alphanum",
+      "prefix": "Zoom meeting passcode (room ZWVTBR):",
+      "suffix": "ru9xk@_XuzXv.yGeaooYW."
+    },
+    {
+      "id": "en_g1000_alphanum_097",
+      "target_repeats": 1000,
+      "category": "alphanum",
+      "prefix": "Zoom meeting passcode (room IYAURB):",
+      "suffix": "UJhTFgaSIBC0f_0PiZkg"
+    },
+    {
+      "id": "en_g1000_alphanum_098",
+      "target_repeats": 1000,
+      "category": "alphanum",
+      "prefix": "Kernel Config [boot_N5LSHN] params:",
+      "suffix": "w2gadCofkfqGGg9B"
+    },
+    {
+      "id": "en_g1000_alphanum_099",
+      "target_repeats": 1000,
+      "category": "alphanum",
+      "prefix": "Amazon S3 Bucket Name (region-7SW6PQ):",
+      "suffix": "hnt-be3Y6EnUuHkR"
+    },
+    {
+      "id": "en_g1000_alphanum_100",
+      "target_repeats": 1000,
+      "category": "alphanum",
+      "prefix": "Legacy system legacy_code_RJF6MW:",
+      "suffix": "u-JZ4zcwpl3KHuLJBOB_3OO"
+    },
+    {
+      "id": "en_g1000_alphanum_101",
+      "target_repeats": 1000,
+      "category": "alphanum",
+      "prefix": "Rust crate version hash (5C5THJ):",
+      "suffix": "ZsoY2sVjXXI2ui8Nis"
+    },
+    {
+      "id": "en_g1000_alphanum_102",
+      "target_repeats": 1000,
+      "category": "alphanum",
+      "prefix": "Zoom meeting passcode (room W3QSR8):",
+      "suffix": "CNLWdM4THXnzlGVJIWg9mstb"
+    },
+    {
+      "id": "en_g1000_alphanum_103",
+      "target_repeats": 1000,
+      "category": "alphanum",
+      "prefix": "Legacy system legacy_code_0CVZH0:",
+      "suffix": "LiNul5cWjr4RZtrCLb6fg"
+    },
+    {
+      "id": "en_g1000_alphanum_104",
+      "target_repeats": 1000,
+      "category": "alphanum",
+      "prefix": "Amazon S3 Bucket Name (region-AE5U28):",
+      "suffix": "mV4MA73F.RlzhbnVJA_8F5Aps"
+    },
+    {
+      "id": "en_g1000_alphanum_105",
+      "target_repeats": 1000,
+      "category": "alphanum",
+      "prefix": "Hardware Serial Number (SN-XDG1W8):",
+      "suffix": "2KRRQVcFiM_D4Om-hU_"
+    },
+    {
+      "id": "en_g1000_alphanum_106",
+      "target_repeats": 1000,
+      "category": "alphanum",
+      "prefix": "Magnet link hash (torrent id 07OAFO):",
+      "suffix": "enF5qKHqk0I3gm6robYQniU"
+    },
+    {
+      "id": "en_g1000_alphanum_107",
+      "target_repeats": 1000,
+      "category": "alphanum",
+      "prefix": "Magnet link hash (torrent id APU1Z9):",
+      "suffix": "JzCt26uZ9ojTtRJc8bjWg"
+    },
+    {
+      "id": "en_g1000_alphanum_108",
+      "target_repeats": 1000,
+      "category": "alphanum",
+      "prefix": "Zoom meeting passcode (room R9EP42):",
+      "suffix": "N-HXK9gltrq-mKaLb8oZ7AlWK"
+    },
+    {
+      "id": "en_g1000_alphanum_109",
+      "target_repeats": 1000,
+      "category": "alphanum",
+      "prefix": "Authorization: Bearer token_X7LXJS_xyz",
+      "suffix": "JmrPsCx6o.Ol-U9HH6i"
+    },
+    {
+      "id": "en_g1000_alphanum_110",
+      "target_repeats": 1000,
+      "category": "alphanum",
+      "prefix": "Encrypted payload string (nonce J8A7MM):",
+      "suffix": "BSn.x9LKE@zvcyF8l@.l"
+    },
+    {
+      "id": "en_g1000_alphanum_111",
+      "target_repeats": 1000,
+      "category": "alphanum",
+      "prefix": "Magnet link hash (torrent id LHI3R9):",
+      "suffix": "MiHrhMs2tb0Epalc7TwVPPN"
+    },
+    {
+      "id": "en_g1000_alphanum_112",
+      "target_repeats": 1000,
+      "category": "alphanum",
+      "prefix": "X-Request-ID Header Value (LWI4LQ):",
+      "suffix": "9abIAia7fknMcHrHrfwYkdKO"
+    },
+    {
+      "id": "en_g1000_alphanum_113",
+      "target_repeats": 1000,
+      "category": "alphanum",
+      "prefix": "Function signature void BWH4J8(void* p):",
+      "suffix": "8-oerbPGl0AyNAp2"
+    },
+    {
+      "id": "en_g1000_alphanum_114",
+      "target_repeats": 1000,
+      "category": "alphanum",
+      "prefix": "Kubernetes Pod Name (deployment-TCG68L):",
+      "suffix": "RgLy2fq7@KxsUxTci"
+    },
+    {
+      "id": "en_g1000_alphanum_115",
+      "target_repeats": 1000,
+      "category": "alphanum",
+      "prefix": "Cryptocurrency Wallet Key (Z3AFSB):",
+      "suffix": "LFN@q60a0@aHniTujD-TGyV0"
+    },
+    {
+      "id": "en_g1000_alphanum_116",
+      "target_repeats": 1000,
+      "category": "alphanum",
+      "prefix": "Google Authenticator Code (issuer 5EXOL1):",
+      "suffix": "A7332GHnasnqEtUOt"
+    },
+    {
+      "id": "en_g1000_alphanum_117",
+      "target_repeats": 1000,
+      "category": "alphanum",
+      "prefix": "SESSION_SSH // 38BDX8 // TOKEN:",
+      "suffix": "1IpnH@1TILAwzbfwf"
+    },
+    {
+      "id": "en_g1000_alphanum_118",
+      "target_repeats": 1000,
+      "category": "alphanum",
+      "prefix": "Verification code sent to email S2DM16:",
+      "suffix": "oNJ5ll30wkGEyXBSd0RO_"
+    },
+    {
+      "id": "en_g1000_alphanum_119",
+      "target_repeats": 1000,
+      "category": "alphanum",
+      "prefix": "X-Request-ID Header Value (HSN186):",
+      "suffix": "-Us98yQ0JoOmdGNPe"
+    },
+    {
+      "id": "en_g1000_alphanum_120",
+      "target_repeats": 1000,
+      "category": "alphanum",
+      "prefix": "Regular Expression pattern /11WSW5/g:",
+      "suffix": "6L9.mAdAYHdG98qJq8fXR"
+    },
+    {
+      "id": "en_g1000_alphanum_121",
+      "target_repeats": 1000,
+      "category": "alphanum",
+      "prefix": "Kernel Config [boot_CCGBP2] params:",
+      "suffix": "UdTl3ZG.PX4wlvI32CWw2NJG"
+    },
+    {
+      "id": "en_g1000_alphanum_122",
+      "target_repeats": 1000,
+      "category": "alphanum",
+      "prefix": "Encrypted payload string (nonce 21GEZV):",
+      "suffix": "KOcdV0CPRv_LM_rpaxi5N"
+    },
+    {
+      "id": "en_g1000_alphanum_123",
+      "target_repeats": 1000,
+      "category": "alphanum",
+      "prefix": "API_KEY_V2 [user_id=2MGEY5] SECRET:",
+      "suffix": "cSSPQHyWpcA9ShvjVI"
+    },
+    {
+      "id": "en_g1000_alphanum_124",
+      "target_repeats": 1000,
+      "category": "alphanum",
+      "prefix": "DEBUG_DUMP memory_addr_S5OIUS content:",
+      "suffix": "_K8kP1Jb3AI8@JO_1F@tpPJ7y"
+    },
+    {
+      "id": "en_g1000_alphanum_125",
+      "target_repeats": 1000,
+      "category": "alphanum",
+      "prefix": "Windows Registry Key HKLM\\Software\\7G2F5T:",
+      "suffix": "PUDr4lYiuU8D7zMQ5LC"
+    },
+    {
+      "id": "en_g1000_alphanum_126",
+      "target_repeats": 1000,
+      "category": "alphanum",
+      "prefix": "YouTube video ID (channel S0QUIE):",
+      "suffix": "_82gQO4l7LWtRh5WHpOmQR2Ws"
+    },
+    {
+      "id": "en_g1000_alphanum_127",
+      "target_repeats": 1000,
+      "category": "alphanum",
+      "prefix": "Authorization: Bearer token_BK2OON_xyz",
+      "suffix": "Za8KB4TwahvkGiYeOYX"
+    },
+    {
+      "id": "en_g1000_alphanum_128",
+      "target_repeats": 1000,
+      "category": "alphanum",
+      "prefix": "Hardware Serial Number (SN-VDZ5YD):",
+      "suffix": "6JH7GT0MltrVcnrrsk3hY5L1R"
+    },
+    {
+      "id": "en_g1000_alphanum_129",
+      "target_repeats": 1000,
+      "category": "alphanum",
+      "prefix": "Magnet link hash (torrent id WV8WZK):",
+      "suffix": "I9x8mhtztt1Y3c-."
+    },
+    {
+      "id": "en_g1000_alphanum_130",
+      "target_repeats": 1000,
+      "category": "alphanum",
+      "prefix": "YouTube video ID (channel ONRB0E):",
+      "suffix": "Dt-kFQ57ZWpMq@In"
+    },
+    {
+      "id": "en_g1000_alphanum_131",
+      "target_repeats": 1000,
+      "category": "alphanum",
+      "prefix": "Generated UUID version 4 (PRC2VP):",
+      "suffix": "zmpqo90uBb1bB0zwGIo"
+    },
+    {
+      "id": "en_g1000_alphanum_132",
+      "target_repeats": 1000,
+      "category": "alphanum",
+      "prefix": "Regular Expression pattern /J4NZ7Y/g:",
+      "suffix": "ERe6DIzNB1c@xyC6oacAyb"
+    },
+    {
+      "id": "en_g1000_alphanum_133",
+      "target_repeats": 1000,
+      "category": "alphanum",
+      "prefix": "Magnet link hash (torrent id 1HRHVS):",
+      "suffix": "Pc7ZTMcIpkmAsQe7"
+    },
+    {
+      "id": "en_g1000_alphanum_134",
+      "target_repeats": 1000,
+      "category": "alphanum",
+      "prefix": "Function signature void X589IR(void* p):",
+      "suffix": "3DjqmWzduSsI9L8JH1Q"
+    },
+    {
+      "id": "en_g1000_pseudo_word_135",
+      "target_repeats": 1000,
+      "category": "pseudo_word",
+      "prefix": "Fantasy character name generated for G8CMKH:",
+      "suffix": "Febtuta bywuhy"
+    },
+    {
+      "id": "en_g1000_pseudo_word_136",
+      "target_repeats": 1000,
+      "category": "pseudo_word",
+      "prefix": "Fantasy character name generated for SM750Y:",
+      "suffix": "Jyhulzogelzyxcuhtuquje"
+    },
+    {
+      "id": "en_g1000_pseudo_word_137",
+      "target_repeats": 1000,
+      "category": "pseudo_word",
+      "prefix": "Latin species name for creature QU874A:",
+      "suffix": "Wotakmyvote-irohixa"
+    },
+    {
+      "id": "en_g1000_pseudo_word_138",
+      "target_repeats": 1000,
+      "category": "pseudo_word",
+      "prefix": "Sound effect description (file MX5PLV):",
+      "suffix": "ojevesapo"
+    },
+    {
+      "id": "en_g1000_pseudo_word_139",
+      "target_repeats": 1000,
+      "category": "pseudo_word",
+      "prefix": "Operation 73D87N secret codeword is",
+      "suffix": "Ufecodotgitmo hivezalyt"
+    },
+    {
+      "id": "en_g1000_pseudo_word_140",
+      "target_repeats": 1000,
+      "category": "pseudo_word",
+      "prefix": "The magic spell to open door 62JFXA is:",
+      "suffix": "Agijewomo"
+    },
+    {
+      "id": "en_g1000_pseudo_word_141",
+      "target_repeats": 1000,
+      "category": "pseudo_word",
+      "prefix": "Untranslatable dialect (entry 0ZL0HJ):",
+      "suffix": "ekysinwyva-osonusysyprip"
+    },
+    {
+      "id": "en_g1000_pseudo_word_142",
+      "target_repeats": 1000,
+      "category": "pseudo_word",
+      "prefix": "He shouted 'CMDKGA' before jumping.",
+      "suffix": "ylatehez-josuze"
+    },
+    {
+      "id": "en_g1000_pseudo_word_143",
+      "target_repeats": 1000,
+      "category": "pseudo_word",
+      "prefix": "The agent whispered the name OWBM3Q:",
+      "suffix": "mempuwnukucuve"
+    },
+    {
+      "id": "en_g1000_pseudo_word_144",
+      "target_repeats": 1000,
+      "category": "pseudo_word",
+      "prefix": "Street name in the virtual simulation 4ZNH49:",
+      "suffix": "Ebyjavupexo"
+    },
+    {
+      "id": "en_g1000_pseudo_word_145",
+      "target_repeats": 1000,
+      "category": "pseudo_word",
+      "prefix": "Neural net input token NC9L99:",
+      "suffix": "abymisru"
+    },
+    {
+      "id": "en_g1000_pseudo_word_146",
+      "target_repeats": 1000,
+      "category": "pseudo_word",
+      "prefix": "The alien greeting translated to ZMBIFZ.",
+      "suffix": "Kirvapisu"
+    },
+    {
+      "id": "en_g1000_pseudo_word_147",
+      "target_repeats": 1000,
+      "category": "pseudo_word",
+      "prefix": "Sound effect description (file EV9OZT):",
+      "suffix": "tupvibas"
+    },
+    {
+      "id": "en_g1000_pseudo_word_148",
+      "target_repeats": 1000,
+      "category": "pseudo_word",
+      "prefix": "The magic spell to open door BWJ80D is:",
+      "suffix": "amijexotkazoxyniwy"
+    },
+    {
+      "id": "en_g1000_pseudo_word_149",
+      "target_repeats": 1000,
+      "category": "pseudo_word",
+      "prefix": "Untranslatable dialect (entry EMMAPE):",
+      "suffix": "izubufahipurkoqocsexmel"
+    },
+    {
+      "id": "en_g1000_pseudo_word_150",
+      "target_repeats": 1000,
+      "category": "pseudo_word",
+      "prefix": "New chemical element proposed name (HRSJBG):",
+      "suffix": "Tosqurkifaj-fergahbuba"
+    },
+    {
+      "id": "en_g1000_pseudo_word_151",
+      "target_repeats": 1000,
+      "category": "pseudo_word",
+      "prefix": "Sound effect description (file Q5XUHK):",
+      "suffix": "wuzlabuvzohu"
+    },
+    {
+      "id": "en_g1000_pseudo_word_152",
+      "target_repeats": 1000,
+      "category": "pseudo_word",
+      "prefix": "Latin species name for creature 34M76A:",
+      "suffix": "danimoxisi"
+    },
+    {
+      "id": "en_g1000_pseudo_word_153",
+      "target_repeats": 1000,
+      "category": "pseudo_word",
+      "prefix": "The parrot repeated the word O65083:",
+      "suffix": "Aduxydzuzupypibanylbazu"
+    },
+    {
+      "id": "en_g1000_pseudo_word_154",
+      "target_repeats": 1000,
+      "category": "pseudo_word",
+      "prefix": "Sound effect description (file OWWOQV):",
+      "suffix": "Ososifacuniqmiqmuqy"
+    },
+    {
+      "id": "en_g1000_pseudo_word_155",
+      "target_repeats": 1000,
+      "category": "pseudo_word",
+      "prefix": "Captcha text to solve challenge NC8YP8:",
+      "suffix": "Hymvycixxy"
+    },
+    {
+      "id": "en_g1000_pseudo_word_156",
+      "target_repeats": 1000,
+      "category": "pseudo_word",
+      "prefix": "A randomly generated lorem ipsum word: J7A1PI",
+      "suffix": "Yvibevuna"
+    },
+    {
+      "id": "en_g1000_pseudo_word_157",
+      "target_repeats": 1000,
+      "category": "pseudo_word",
+      "prefix": "Street name in the virtual simulation 7ATTWQ:",
+      "suffix": "Ivifelibo"
+    },
+    {
+      "id": "en_g1000_pseudo_word_158",
+      "target_repeats": 1000,
+      "category": "pseudo_word",
+      "prefix": "Operation 0JFSO5 secret codeword is",
+      "suffix": "ojemile"
+    },
+    {
+      "id": "en_g1000_pseudo_word_159",
+      "target_repeats": 1000,
+      "category": "pseudo_word",
+      "prefix": "The agent whispered the name NI2H30:",
+      "suffix": "abumxurkune"
+    },
+    {
+      "id": "en_g1000_pseudo_word_160",
+      "target_repeats": 1000,
+      "category": "pseudo_word",
+      "prefix": "The magic spell to open door ZXPV0Q is:",
+      "suffix": "ikavujohetato"
+    },
+    {
+      "id": "en_g1000_pseudo_word_161",
+      "target_repeats": 1000,
+      "category": "pseudo_word",
+      "prefix": "New chemical element proposed name (VT8D2U):",
+      "suffix": "Yzipexuri"
+    },
+    {
+      "id": "en_g1000_pseudo_word_162",
+      "target_repeats": 1000,
+      "category": "pseudo_word",
+      "prefix": "Recovery passphrase for user 135UPF:",
+      "suffix": "Kumhykvy"
+    },
+    {
+      "id": "en_g1000_pseudo_word_163",
+      "target_repeats": 1000,
+      "category": "pseudo_word",
+      "prefix": "Variable name in minified JS code (GTP5HG):",
+      "suffix": "vedimegyqin cydbejabny"
+    },
+    {
+      "id": "en_g1000_pseudo_word_164",
+      "target_repeats": 1000,
+      "category": "pseudo_word",
+      "prefix": "New chemical element proposed name (PNIB5S):",
+      "suffix": "ogymogyrgar odefodo"
+    },
+    {
+      "id": "en_g1000_pseudo_word_165",
+      "target_repeats": 1000,
+      "category": "pseudo_word",
+      "prefix": "Code name for the spy mission M2R7BK:",
+      "suffix": "Vusamok-miwive"
+    },
+    {
+      "id": "en_g1000_pseudo_word_166",
+      "target_repeats": 1000,
+      "category": "pseudo_word",
+      "prefix": "The forgotten ancient city of 1TNDMO",
+      "suffix": "zyhwydzyda"
+    },
+    {
+      "id": "en_g1000_pseudo_word_167",
+      "target_repeats": 1000,
+      "category": "pseudo_word",
+      "prefix": "The forgotten ancient city of 73N9IS",
+      "suffix": "lyzinqifunod-humoqepe"
+    },
+    {
+      "id": "en_g1000_pseudo_word_168",
+      "target_repeats": 1000,
+      "category": "pseudo_word",
+      "prefix": "The startup company name is POY0S5.io",
+      "suffix": "Onyciku-obymfakifor"
+    },
+    {
+      "id": "en_g1000_pseudo_word_169",
+      "target_repeats": 1000,
+      "category": "pseudo_word",
+      "prefix": "Code name for the spy mission 3WYE3F:",
+      "suffix": "loqazur-rahavtossy"
+    },
+    {
+      "id": "en_g1000_pseudo_word_170",
+      "target_repeats": 1000,
+      "category": "pseudo_word",
+      "prefix": "Neural net input token J81HJG:",
+      "suffix": "oqetuqa"
+    },
+    {
+      "id": "en_g1000_pseudo_word_171",
+      "target_repeats": 1000,
+      "category": "pseudo_word",
+      "prefix": "The robot's default nickname is 7RARH5.",
+      "suffix": "mudebunongiru"
+    },
+    {
+      "id": "en_g1000_pseudo_word_172",
+      "target_repeats": 1000,
+      "category": "pseudo_word",
+      "prefix": "Latin species name for creature ABO0A8:",
+      "suffix": "ypyzahu"
+    },
+    {
+      "id": "en_g1000_pseudo_word_173",
+      "target_repeats": 1000,
+      "category": "pseudo_word",
+      "prefix": "Recovery passphrase for user 47302Y:",
+      "suffix": "ugukuguva"
+    },
+    {
+      "id": "en_g1000_pseudo_word_174",
+      "target_repeats": 1000,
+      "category": "pseudo_word",
+      "prefix": "New chemical element proposed name (T00MD0):",
+      "suffix": "acyrhymmojfizacyzwedcimyz"
+    },
+    {
+      "id": "en_g1000_pseudo_word_175",
+      "target_repeats": 1000,
+      "category": "pseudo_word",
+      "prefix": "The forgotten ancient city of 4V9L9B",
+      "suffix": "vaqwifhe"
+    },
+    {
+      "id": "en_g1000_pseudo_word_176",
+      "target_repeats": 1000,
+      "category": "pseudo_word",
+      "prefix": "The parrot repeated the word YQM178:",
+      "suffix": "Iwipojulmix"
+    },
+    {
+      "id": "en_g1000_pseudo_word_177",
+      "target_repeats": 1000,
+      "category": "pseudo_word",
+      "prefix": "Code name for the spy mission KIC1NW:",
+      "suffix": "Ymavwahiczuk"
+    },
+    {
+      "id": "en_g1000_pseudo_word_178",
+      "target_repeats": 1000,
+      "category": "pseudo_word",
+      "prefix": "The startup company name is TGUEJF.io",
+      "suffix": "Qulicu ycyzopywxulu"
+    },
+    {
+      "id": "en_g1000_pseudo_word_179",
+      "target_repeats": 1000,
+      "category": "pseudo_word",
+      "prefix": "Variable name in minified JS code (8URL32):",
+      "suffix": "ewecgyqehapure"
+    },
+    {
+      "id": "en_g1000_pseudo_word_180",
+      "target_repeats": 1000,
+      "category": "pseudo_word",
+      "prefix": "Ikea product name (Article 5JDCF9):",
+      "suffix": "Iroczecwidymisustymaqedo"
+    },
+    {
+      "id": "en_g1000_pseudo_word_181",
+      "target_repeats": 1000,
+      "category": "pseudo_word",
+      "prefix": "Pronounce the following nonsense word: GNE5UC",
+      "suffix": "Imaweha"
+    },
+    {
+      "id": "en_g1000_pseudo_word_182",
+      "target_repeats": 1000,
+      "category": "pseudo_word",
+      "prefix": "Untranslatable dialect (entry GYHZS9):",
+      "suffix": "ewodtyby"
+    },
+    {
+      "id": "en_g1000_pseudo_word_183",
+      "target_repeats": 1000,
+      "category": "pseudo_word",
+      "prefix": "The forgotten ancient city of N5FBDT",
+      "suffix": "vynehote-qezxymobdozyw"
+    },
+    {
+      "id": "en_g1000_pseudo_word_184",
+      "target_repeats": 1000,
+      "category": "pseudo_word",
+      "prefix": "Latin species name for creature 7XEQTX:",
+      "suffix": "Ecyxyxorivi"
+    },
+    {
+      "id": "en_g1000_pseudo_word_185",
+      "target_repeats": 1000,
+      "category": "pseudo_word",
+      "prefix": "Sound effect description (file L55UXT):",
+      "suffix": "Nubaboqa"
+    },
+    {
+      "id": "en_g1000_pseudo_word_186",
+      "target_repeats": 1000,
+      "category": "pseudo_word",
+      "prefix": "Operation 5Z4GLR secret codeword is",
+      "suffix": "Atufomomoxsu vyguxozraz"
+    },
+    {
+      "id": "en_g1000_pseudo_word_187",
+      "target_repeats": 1000,
+      "category": "pseudo_word",
+      "prefix": "Untranslatable dialect (entry 6YT61B):",
+      "suffix": "avyrjuvudym-lotife"
+    },
+    {
+      "id": "en_g1000_pseudo_word_188",
+      "target_repeats": 1000,
+      "category": "pseudo_word",
+      "prefix": "A randomly generated lorem ipsum word: AIVY6H",
+      "suffix": "axelfaderoqym-norquxobo"
+    },
+    {
+      "id": "en_g1000_pseudo_word_189",
+      "target_repeats": 1000,
+      "category": "pseudo_word",
+      "prefix": "Captcha text to solve challenge C36FT2:",
+      "suffix": "Onufabjiqeh jokzyfyzoqun"
+    },
+    {
+      "id": "en_g1000_pseudo_word_190",
+      "target_repeats": 1000,
+      "category": "pseudo_word",
+      "prefix": "Captcha text to solve challenge VT1DCK:",
+      "suffix": "Tukynek"
+    },
+    {
+      "id": "en_g1000_pseudo_word_191",
+      "target_repeats": 1000,
+      "category": "pseudo_word",
+      "prefix": "The startup company name is FG492S.io",
+      "suffix": "ygihydo"
+    },
+    {
+      "id": "en_g1000_pseudo_word_192",
+      "target_repeats": 1000,
+      "category": "pseudo_word",
+      "prefix": "The magic spell to open door TE1VQN is:",
+      "suffix": "usypetil"
+    },
+    {
+      "id": "en_g1000_pseudo_word_193",
+      "target_repeats": 1000,
+      "category": "pseudo_word",
+      "prefix": "Code name for the spy mission 24KCJN:",
+      "suffix": "Kawicmuzeju igasobiv"
+    },
+    {
+      "id": "en_g1000_pseudo_word_194",
+      "target_repeats": 1000,
+      "category": "pseudo_word",
+      "prefix": "He shouted 'G6IWT9' before jumping.",
+      "suffix": "Ibubelgokeni rukaxewnowa"
+    },
+    {
+      "id": "en_g1000_pseudo_word_195",
+      "target_repeats": 1000,
+      "category": "pseudo_word",
+      "prefix": "Captcha text to solve challenge ET5RK4:",
+      "suffix": "Izofkovi"
+    },
+    {
+      "id": "en_g1000_pseudo_word_196",
+      "target_repeats": 1000,
+      "category": "pseudo_word",
+      "prefix": "Pronounce the following nonsense word: WAN1IO",
+      "suffix": "behajejafy owysaheso"
+    },
+    {
+      "id": "en_g1000_pseudo_word_197",
+      "target_repeats": 1000,
+      "category": "pseudo_word",
+      "prefix": "Ikea product name (Article UOIF8A):",
+      "suffix": "uzysjubawpexes"
+    },
+    {
+      "id": "en_g1000_pseudo_word_198",
+      "target_repeats": 1000,
+      "category": "pseudo_word",
+      "prefix": "Code name for the spy mission IUP9IR:",
+      "suffix": "Ygiduwaliqy-xigyvad"
+    },
+    {
+      "id": "en_g1000_pseudo_word_199",
+      "target_repeats": 1000,
+      "category": "pseudo_word",
+      "prefix": "He shouted 'J4EVNE' before jumping.",
+      "suffix": "suwomu"
+    },
+    {
+      "id": "en_g1000_pseudo_word_200",
+      "target_repeats": 1000,
+      "category": "pseudo_word",
+      "prefix": "Typo in the dictionary entry for UK6KT7",
+      "suffix": "ywiwmunabeg-izytqideked"
+    }
+  ]
+}

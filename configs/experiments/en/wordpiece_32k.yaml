@@ -1,0 +1,14 @@
+defaults:
+  - _self_
+  - /base@_here_
+  - /base/en@_here_
+
+tokenizer:
+  type: "wordpiece"
+  vocab_size: 32768
+  min_frequency: 2
+  limit_alphabet: 1000
+
+experiment:
+  id: "en/wordpiece_32k"
+  description: "WordPiece tokenizer with 32k vocabulary size for English language"

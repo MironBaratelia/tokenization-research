@@ -1,0 +1,59 @@
+model:
+  hidden_size: 768
+  num_layers: 12
+  num_heads: 12
+  intermediate_size: 3072
+  hidden_act: "silu"
+  max_position_embeddings: 512
+  initializer_range: 0.02
+  rms_norm_eps: 1e-5
+  use_cache: true
+  tie_word_embeddings: true
+  rope_theta: 10000.0
+  label_smoothing: 0.0
+
+training:
+  batch_size: 32
+  gradient_accumulation_steps: 1
+  learning_rate: 4e-4
+  weight_decay: 1e-6
+  warmup_ratio: 0.03
+  warmup_min_steps: 10000
+  lr_scheduler_type: "cosine"
+  save_steps: 2500
+  eval_steps: 2500
+  logging_steps: 250
+  seed: 42
+  fp16: true
+  bf16: false
+  early_stopping_patience: 10
+  early_stopping_min_delta: 0.0001
+  early_stopping_min_steps: 100000
+
+optimizer:
+  type: "adamw"
+  betas: [0.9, 0.9998]
+  eps: 1e-8
+
+inference:
+  batch_size: 64
+
+generation:
+  do_sample: true
+
+external_model_eval:
+  external_gen_total_tokens: 512
+  external_gen_plateau_max_batch: 1024
+  external_gen_batch_size: 32
+  external_gen_reprobe: false
+  external_gen_tune_warmup: 1
+  external_gen_temperature: 1.0
+  external_gen_repetition_penalty: 1.0
+  external_gen_do_sample: true
+  external_gen_suppress_eos_first_step: false
+  external_gen_torch_compile: false
+
+paths:
+  data_dir: "data/base"
+  tokenizers_dir: "project_tokenizers/trained"
+  outputs_dir: "outputs"

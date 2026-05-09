@@ -1,0 +1,61 @@
+{
+    "test_indomain": {
+        "ppl": 2.4366768112646753,
+        "char_ppl": 3.2075576143995015,
+        "compression_ratio": 0.7641593094037459,
+        "oov_rate": 0.0,
+        "vocab_utilization": 0.9664429530201343,
+        "avg_token_length_vocab": 1.0,
+        "avg_token_length_text": 0.8757701355639539,
+        "token_length_histogram_legend": "Keys n_chars=k: count of tokens whose decode([id], skip_special_tokens=False) is a Unicode string of length k. n_chars=0 only for truly empty decode.",
+        "token_length_dist_vocab": {
+            "n_chars=0": 4,
+            "n_chars=1": 442,
+            "n_chars=5": 1
+        },
+        "token_length_dist_text": {
+            "n_chars=0": 10416504,
+            "n_chars=1": 73180516,
+            "n_chars=5": 7579
+        }
+    },
+    "ood_science": {
+        "ppl": 2.710455060708461,
+        "char_ppl": 3.633893132344431,
+        "compression_ratio": 0.7727761099038216,
+        "oov_rate": 0.0,
+        "vocab_utilization": 0.4988814317673378,
+        "avg_token_length_vocab": 1.0,
+        "avg_token_length_text": 0.8857269005763758,
+        "token_length_histogram_legend": "Keys n_chars=k: count of tokens whose decode([id], skip_special_tokens=False) is a Unicode string of length k. n_chars=0 only for truly empty decode.",
+        "token_length_dist_vocab": {
+            "n_chars=0": 4,
+            "n_chars=1": 442,
+            "n_chars=5": 1
+        },
+        "token_length_dist_text": {
+            "n_chars=0": 128244,
+            "n_chars=1": 911314,
+            "n_chars=5": 2297
+        }
+    },
+    "ood_fiction": {
+        "ppl": 3.097891191126487,
+        "char_ppl": 4.5956134806421485,
+        "compression_ratio": 0.7414070850759827,
+        "oov_rate": 0.0,
+        "vocab_utilization": 0.32662192393736017,
+        "avg_token_length_vocab": 1.0,
+        "avg_token_length_text": 0.8629478090290279,
+        "token_length_histogram_legend": "Keys n_chars=k: count of tokens whose decode([id], skip_special_tokens=False) is a Unicode string of length k. n_chars=0 only for truly empty decode.",
+        "token_length_dist_vocab": {
+            "n_chars=0": 4,
+            "n_chars=1": 442,
+            "n_chars=5": 1
+        },
+        "token_length_dist_text": {
+            "n_chars=0": 162926,
+            "n_chars=1": 1025862
+        }
+    }
+}

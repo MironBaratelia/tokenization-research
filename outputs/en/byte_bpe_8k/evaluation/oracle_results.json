@@ -1,0 +1,8 @@
+{
+    "oracle_ppl": 20.691890338123706,
+    "throughput_chars_per_sec": 45963.189040273515,
+    "oov_rate": 0.0,
+    "total_tokens": 72717,
+    "total_chars": 300241,
+    "total_time_sec": 6.532205581665039
+}

@@ -1,0 +1,44 @@
+{
+  "experiment": "ru/bpe_32k",
+  "source_log": "C:\\Users\\miron\\vkr\\outputs/ru/bpe_32k/logs/metrics.jsonl",
+  "val_ppl_convergence": {
+    "p_init": 254.94665567173664,
+    "p_min": 20.75987244001697,
+    "step_at_p_min": 135000,
+    "num_val_points": 64,
+    "convergence_ppl_threshold_by_delta": {
+      "0.8": {
+        "threshold_ppl": 67.5972290863609,
+        "first_step": 7500,
+        "val_ppl_at_first_hit": 59.31667565821882
+      },
+      "0.9": {
+        "threshold_ppl": 44.17855076318894,
+        "first_step": 12500,
+        "val_ppl_at_first_hit": 41.20257082726967
+      },
+      "0.95": {
+        "threshold_ppl": 32.469211601602964,
+        "first_step": 25000,
+        "val_ppl_at_first_hit": 29.80784288042069
+      }
+    }
+  },
+  "training_throughput": {
+    "median_train_tokens_per_sec_recent": 40529.43545348605,
+    "train_tps_samples_used": 50,
+    "max_train_tokens_per_sec_seen": 40775.30511577688,
+    "approx_train_chars_per_sec": 169292.84142764346,
+    "approx_chars_per_sec_formula": "median(Speed/TPS) × compression_ratio(test_indomain)"
+  },
+  "notes": [
+    "Val/PPL из логов — по валидационному лоадеру MIRON; не смешивать с «чистой» LM CE для BPB.",
+    "Чекпоинтов .pt в репозитории нет — полные test PPL, word-PPL, BPB, oracle, canary, MIRON нужно считать через scripts/04_evaluate.py после сохранения весов."
+  ],
+  "compression_ratio_test_indomain": 4.177034284672774,
+  "training_config_snippet": {
+    "eval_steps": 2500,
+    "logging_steps": 250,
+    "max_steps": 304328
+  }
+}

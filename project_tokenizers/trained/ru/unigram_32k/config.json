@@ -1,0 +1,12 @@
+{
+  "type": "unigram",
+  "language": "ru",
+  "vocab_size": 32768,
+  "min_frequency": 2,
+  "special_tokens": [
+    "<unk>",
+    "<pad>",
+    "<bos>",
+    "<eos>"
+  ]
+}

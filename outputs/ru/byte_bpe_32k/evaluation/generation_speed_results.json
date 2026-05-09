@@ -1,0 +1,39 @@
+{
+    "generation_chars_per_sec_median": 359.486403339794,
+    "generation_chars_per_sec_mean": 358.2173669779214,
+    "generation_chars_per_sec_min": 354.52722792072547,
+    "generation_chars_per_sec_max": 361.7030868519924,
+    "generation_chars_per_sec_mad": 2.216683512198415,
+    "generation_speed_runs": [
+        {
+            "elapsed_sec": 1.9194049999932759,
+            "generated_chars": 690,
+            "chars_per_sec": 359.486403339794
+        },
+        {
+            "elapsed_sec": 1.9440050999983214,
+            "generated_chars": 690,
+            "chars_per_sec": 354.9373404424689
+        },
+        {
+            "elapsed_sec": 1.9076419999764767,
+            "generated_chars": 690,
+            "chars_per_sec": 361.7030868519924
+        },
+        {
+            "elapsed_sec": 1.914365300006466,
+            "generated_chars": 690,
+            "chars_per_sec": 360.4327763346261
+        },
+        {
+            "elapsed_sec": 1.9462539000087418,
+            "generated_chars": 690,
+            "chars_per_sec": 354.52722792072547
+        }
+    ],
+    "generation_speed_num_prompts": 4,
+    "generation_speed_batch_size": 1,
+    "generation_speed_max_new_tokens": 32,
+    "generation_speed_seed_mode": "tokenized",
+    "generation_speed_source": "data/base\\ru\\test_indomain.txt"
+}

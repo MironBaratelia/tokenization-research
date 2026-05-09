@@ -1,0 +1,13 @@
+defaults:
+  - _self_
+  - /base@_here_
+  - /base/ru@_here_
+
+tokenizer:
+  type: "byte_bpe"
+  vocab_size: 32768
+
+experiment:
+  id: "ru/byte_bpe_32k"
+  description: "Byte BPE tokenizer with 32k vocabulary size for Russian language"
+

@@ -1,0 +1,56 @@
+{
+    "test_indomain": {
+        "ppl": 2.198953757455078,
+        "char_ppl": 2.203318740778041,
+        "compression_ratio": 0.9974896857184763,
+        "oov_rate": 4.5836859407230316e-05,
+        "vocab_utilization": 0.8374164810690423,
+        "avg_token_length_vocab": 0.9955456570155902,
+        "avg_token_length_text": 0.9974896857184763,
+        "token_length_histogram_legend": "Ключи вида n_chars=k: сколько раз встретился токен, для которого decode([id], skip_special_tokens=False) даёт строку из k символов Unicode. n_chars=0 — только если декодирование реально пустое (не длина «спецсимвола как числа», а пустая строка; раньше при skip_special_tokens=True BOS/EOS/PAD тоже попадали сюда).",
+        "token_length_dist_vocab": {
+            "n_chars=0": 4,
+            "n_chars=1": 894
+        },
+        "token_length_dist_text": {
+            "n_chars=0": 184179,
+            "n_chars=1": 73184722
+        }
+    },
+    "ood_science": {
+        "ppl": 2.4257019351971065,
+        "char_ppl": 2.435061203074033,
+        "compression_ratio": 0.9956729525138476,
+        "oov_rate": 0.0018583484283198324,
+        "vocab_utilization": 0.2583518930957684,
+        "avg_token_length_vocab": 0.9955456570155902,
+        "avg_token_length_text": 0.9956729525138476,
+        "token_length_histogram_legend": "Ключи вида n_chars=k: сколько раз встретился токен, для которого decode([id], skip_special_tokens=False) даёт строку из k символов Unicode. n_chars=0 — только если декодирование реально пустое (не длина «спецсимвола как числа», а пустая строка; раньше при skip_special_tokens=True BOS/EOS/PAD тоже попадали сюда).",
+        "token_length_dist_vocab": {
+            "n_chars=0": 4,
+            "n_chars=1": 894
+        },
+        "token_length_dist_text": {
+            "n_chars=0": 3963,
+            "n_chars=1": 911904
+        }
+    },
+    "ood_fiction": {
+        "ppl": 2.781396953044637,
+        "char_ppl": 2.788369964477378,
+        "compression_ratio": 0.9975582789513143,
+        "oov_rate": 0.0,
+        "vocab_utilization": 0.16146993318485522,
+        "avg_token_length_vocab": 0.9955456570155902,
+        "avg_token_length_text": 0.9975582789513143,
+        "token_length_histogram_legend": "Ключи вида n_chars=k: сколько раз встретился токен, для которого decode([id], skip_special_tokens=False) даёт строку из k символов Unicode. n_chars=0 — только если декодирование реально пустое (не длина «спецсимвола как числа», а пустая строка; раньше при skip_special_tokens=True BOS/EOS/PAD тоже попадали сюда).",
+        "token_length_dist_vocab": {
+            "n_chars=0": 4,
+            "n_chars=1": 894
+        },
+        "token_length_dist_text": {
+            "n_chars=0": 2511,
+            "n_chars=1": 1025862
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "bytebpe",
+  "language": "ru",
+  "vocab_size": 8192,
+  "min_frequency": 2,
+  "special_tokens": [
+    "[UNK]",
+    "[PAD]",
+    "[CLS]",
+    "[SEP]"
+  ]
+}

@@ -1,0 +1,85 @@
+{
+    "generation_chars_per_sec_median": 208.25383999317836,
+    "generation_chars_per_sec_mean": 208.2907727938407,
+    "generation_chars_per_sec_min": 207.39874889195534,
+    "generation_chars_per_sec_max": 210.07759028802946,
+    "generation_chars_per_sec_mad": 0.21398080410193643,
+    "generation_chars_per_sec_rel_mad": 0.0010274999208127239,
+    "generation_steps_per_sec_median": 30.15440217095795,
+    "generation_steps_per_sec_mean": 30.15974990680046,
+    "generation_steps_per_sec_min": 30.030588074853263,
+    "generation_steps_per_sec_max": 30.41847461184137,
+    "generation_steps_per_sec_mad": 0.03098364584281299,
+    "generation_steps_per_sec_rel_mad": 0.0010274999208126797,
+    "generation_chars_per_step_mean": 6.90625,
+    "generation_speed_elapsed_sec_median": 135.83422999992035,
+    "generation_speed_generated_chars_median": 28288,
+    "generation_speed_generated_steps_median": 4096,
+    "generation_speed_prompt_passes_per_run": 8,
+    "generation_speed_nominal_steps_per_prompt_pass": 512,
+    "generation_speed_target_generated_steps_per_run": 4096,
+    "generation_speed_runs": [
+        {
+            "elapsed_sec": 135.83422999992035,
+            "generated_chars": 28288,
+            "generated_steps": 4096,
+            "chars_per_sec": 208.25383999317836,
+            "steps_per_sec": 30.15440217095795,
+            "chars_per_step": 6.90625
+        },
+        {
+            "elapsed_sec": 135.96107580000535,
+            "generated_chars": 28288,
+            "generated_steps": 4096,
+            "chars_per_sec": 208.05954817252842,
+            "steps_per_sec": 30.126269418646647,
+            "chars_per_step": 6.90625
+        },
+        {
+            "elapsed_sec": 136.36975049995817,
+            "generated_chars": 28288,
+            "generated_steps": 4096,
+            "chars_per_sec": 207.4360325240067,
+            "steps_per_sec": 30.035986609810923,
+            "chars_per_step": 6.90625
+        },
+        {
+            "elapsed_sec": 134.6550098999869,
+            "generated_chars": 28288,
+            "generated_steps": 4096,
+            "chars_per_sec": 210.07759028802946,
+            "steps_per_sec": 30.41847461184137,
+            "chars_per_step": 6.90625
+        },
+        {
+            "elapsed_sec": 136.39426540001296,
+            "generated_chars": 28288,
+            "generated_steps": 4096,
+            "chars_per_sec": 207.39874889195534,
+            "steps_per_sec": 30.030588074853263,
+            "chars_per_step": 6.90625
+        },
+        {
+            "elapsed_sec": 135.6948035999667,
+            "generated_chars": 28288,
+            "generated_steps": 4096,
+            "chars_per_sec": 208.4678207972803,
+            "steps_per_sec": 30.185385816800764,
+            "chars_per_step": 6.90625
+        },
+        {
+            "elapsed_sec": 135.77686319989152,
+            "generated_chars": 28288,
+            "generated_steps": 4096,
+            "chars_per_sec": 208.3418288899062,
+            "steps_per_sec": 30.167142644692298,
+            "chars_per_step": 6.90625
+        }
+    ],
+    "generation_speed_num_prompts": 16,
+    "generation_speed_batch_size": 1,
+    "generation_speed_max_new_tokens": 32,
+    "generation_speed_method": "tokenized_prompt_batch1_median_mad",
+    "generation_speed_seed_mode": "tokenized",
+    "generation_speed_source": "data/base\\ru\\test_indomain.txt"
+}

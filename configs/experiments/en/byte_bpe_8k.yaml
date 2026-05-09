@@ -1,0 +1,12 @@
+defaults:
+  - _self_
+  - /base@_here_
+  - /base/en@_here_
+
+tokenizer:
+  type: "byte_bpe"
+  vocab_size: 8192
+
+experiment:
+  id: "en/byte_bpe_8k"
+  description: "Byte BPE tokenizer with 8k vocabulary size for English language"

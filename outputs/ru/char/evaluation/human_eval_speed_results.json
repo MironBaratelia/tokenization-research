@@ -1,0 +1,67 @@
+{
+    "generation_chars_per_sec_median": 68.77380408673478,
+    "generation_chars_per_sec_mean": 68.7759646958303,
+    "generation_chars_per_sec_min": 68.36895172309379,
+    "generation_chars_per_sec_max": 69.11030059049885,
+    "generation_chars_per_sec_mad": 0.24173206531544622,
+    "generation_chars_per_sec_rel_mad": 0.003514885769741388,
+    "generation_steps_per_sec_median": 68.77380408673478,
+    "generation_steps_per_sec_mean": 68.7759646958303,
+    "generation_steps_per_sec_min": 68.36895172309379,
+    "generation_steps_per_sec_max": 69.11030059049885,
+    "generation_steps_per_sec_mad": 0.24173206531544622,
+    "generation_steps_per_sec_rel_mad": 0.003514885769741388,
+    "generation_chars_per_step_mean": 1.0,
+    "generation_speed_elapsed_sec_median": 27.91760649997741,
+    "generation_speed_generated_chars_median": 1920,
+    "generation_speed_generated_steps_median": 1920,
+    "generation_speed_prompt_passes_per_run": 2,
+    "generation_speed_nominal_steps_per_prompt_pass": 960,
+    "generation_speed_target_generated_steps_per_run": 1024,
+    "generation_speed_runs": [
+        {
+            "elapsed_sec": 27.819822999997996,
+            "generated_chars": 1920,
+            "generated_steps": 1920,
+            "chars_per_sec": 69.01553615205023,
+            "steps_per_sec": 69.01553615205023,
+            "chars_per_step": 1.0
+        },
+        {
+            "elapsed_sec": 27.78167629998643,
+            "generated_chars": 1920,
+            "generated_steps": 1920,
+            "chars_per_sec": 69.11030059049885,
+            "steps_per_sec": 69.11030059049885,
+            "chars_per_step": 1.0
+        },
+        {
+            "elapsed_sec": 28.082922900095582,
+            "generated_chars": 1920,
+            "generated_steps": 1920,
+            "chars_per_sec": 68.36895172309379,
+            "steps_per_sec": 68.36895172309379,
+            "chars_per_step": 1.0
+        },
+        {
+            "elapsed_sec": 27.91760649997741,
+            "generated_chars": 1920,
+            "generated_steps": 1920,
+            "chars_per_sec": 68.77380408673478,
+            "steps_per_sec": 68.77380408673478,
+            "chars_per_step": 1.0
+        },
+        {
+            "elapsed_sec": 27.983756799949333,
+            "generated_chars": 1920,
+            "generated_steps": 1920,
+            "chars_per_sec": 68.61123092677379,
+            "steps_per_sec": 68.61123092677379,
+            "chars_per_step": 1.0
+        }
+    ],
+    "generation_speed_num_prompts": 15,
+    "generation_speed_batch_size": 1,
+    "generation_speed_max_new_tokens": 64,
+    "generation_speed_method": "human_eval_prompts_tokenized_batch1_median_mad"
+}

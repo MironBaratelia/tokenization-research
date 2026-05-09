@@ -1,0 +1,73 @@
+defaults:
+  - /base@_here_
+  - /base/ru@_here_
+  - _self_
+
+tokenizer:
+  type: "neural_segmenter"
+  vocab_size: 32768
+  base_tokenizer_type: "bpe"
+  max_segment_length: 512
+  char_max_length: 1024
+  d_model: 64
+  nhead: 2
+  num_layers: 2
+  ff_mult: 2
+  segmenter_pretrain_epochs: 3
+  segmenter_pretrain_batch_size: 128
+  segmenter_pretrain_lr: 2.0e-4
+  segmenter_pretrain_lambda_mean: 6.0
+  segmenter_pretrain_lambda_interior: 0.05
+  segmenter_pretrain_lambda_oov: 0.5
+  boundary_target_rate: 0.2225
+  boundary_selection_mode: threshold
+  segmenter_pretrain_calibration_batches: 256
+  temperature: 1.0
+  min_temperature: 0.1
+  temperature_decay: 0.95
+  locked_runtime_decode_mode: greedy_boundaries
+  training_stage: "joint"
+
+training:
+  neural_train_mode: joint
+  learning_rate: 2.0e-4
+  num_workers: 0
+  prefetch_factor: 2
+  max_grad_norm: 2.0
+  segmenter_online_training: true
+  segmenter_lr_ratio: 0.001
+  segmenter_lr_ratio_start: 0.001
+  segmenter_sparse_update_interval: 1
+  segmenter_joint_decode_mode: greedy_boundaries
+  segmenter_unfreeze_step: 10000
+  segmenter_unfreeze_from_end_steps: 0
+  segmenter_freeze_step: 0
+  lambda_len: 0.0
+  lambda_entropy: 0.001
+  lambda_boundary_bce: 0.6
+  lambda_boundary_ceiling: 4.0
+  boundary_ceiling_slack: 0.01
+  min_soft_boundary_mean: 0.022
+  lambda_boundary_floor: 4.0
+  batch_size: 32
+  gradient_accumulation_steps: 1
+  gradient_checkpointing: true
+  fp16: false
+  bf16: true
+  lambda_interior: 0.1
+  lambda_oov_segment: 1.5
+  boundary_warmup_steps: 0
+  joint_lm_ramp_steps: 1000
+  ramp_lm_update_interval: 1
+  segmenter_lr_decay_start: 10000
+  segmenter_lr_decay_steps: 20000
+  warmup_boundary_bce_weight: 1.5
+  warmup_boundary_floor_weight: 0.0
+  warmup_boundary_mean_weight: 12.0
+  warmup_boundary_pos_weight: 1.5
+  warmup_interior_weight: 0.0
+  warmup_oov_weight: 0.2
+
+experiment:
+  id: "ru/neural_segmenter_32k"
+  description: "Neural segmenter tokenizer with 32k vocabulary size for Russian language"

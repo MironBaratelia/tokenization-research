@@ -1,0 +1,32 @@
+# Core dependencies
+torch>=1.12.0
+transformers>=4.20.0
+datasets>=2.0.0
+numpy>=1.21.0
+pyarrow>=8.0.0
+tqdm>=4.64.0
+pyyaml>=6.0
+hydra-core>=1.2.0
+omegaconf>=2.2.0
+
+# Evaluation dependencies
+scikit-learn>=1.1.0
+sacrebleu>=2.3.0
+rouge-score>=0.1.2
+python-Levenshtein>=0.24.0
+
+# Visualization and logging
+tensorboard>=2.9.0
+matplotlib>=3.5.0
+seaborn>=0.11.0
+wandb>=0.12.0
+
+# Development dependencies
+pytest>=7.0.0
+black>=22.0.0
+flake8>=4.0.0
+mypy>=0.950
+
+# Optional dependencies for specific tokenizers
+sentencepiece>=0.1.96
+tokenizers>=0.12.0

@@ -1,0 +1,8 @@
+Basic text: Hello world! This is a test sentence.
+Numbers and symbols: 12345 67.89 100% #tag @user
+Whitespace: Double  space. Tab	character.
+Newlines:
+Line 1
+Line 2
+Complex: word_with_underscores camelCase 123text
+Contractions: I'm, don't, it's, we'll.

@@ -1,0 +1,12 @@
+{
+  "type": "charlevel",
+  "language": "ru",
+  "vocab_size": 898,
+  "min_frequency": 20,
+  "special_tokens": [
+    "[UNK]",
+    "[PAD]",
+    "[CLS]",
+    "[SEP]"
+  ]
+}

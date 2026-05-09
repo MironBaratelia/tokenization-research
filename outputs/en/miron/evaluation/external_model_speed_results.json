@@ -1,0 +1,86 @@
+{
+    "generation_quality": {
+        "num_examples": 2048,
+        "avg_generated_words": 87.46533203125,
+        "avg_generated_chars": 485.16748046875,
+        "distinct": {
+            "distinct_1": 0.07829553003701244,
+            "distinct_2": 0.35406960656422765,
+            "distinct_3": 0.6362171704764245,
+            "distinct_4": 0.7908951643206058
+        },
+        "repeat": {
+            "repeat_1": 0.4523968191875226,
+            "repeat_2": 0.21970716718129374,
+            "repeat_3": 0.14772928514799658,
+            "repeat_4": 0.11648825206842034
+        },
+        "repeat_3_p95": 0.7619047619047619
+    },
+    "generation_chars_per_sec_median": 177.503506425826,
+    "generation_chars_per_sec_mean": 176.19234759855485,
+    "generation_chars_per_sec_min": 172.81458465466955,
+    "generation_chars_per_sec_max": 177.95977446568804,
+    "generation_chars_per_sec_mad": 0.4562680398620387,
+    "generation_chars_per_sec_rel_mad": 0.002570473389790195,
+    "generation_steps_per_sec_median": 32.46584614238171,
+    "generation_steps_per_sec_mean": 32.226031833292566,
+    "generation_steps_per_sec_min": 31.608230336016543,
+    "generation_steps_per_sec_max": 32.549298735967724,
+    "generation_steps_per_sec_mad": 0.08345259358601709,
+    "generation_steps_per_sec_rel_mad": 0.0025704733897902645,
+    "generation_chars_per_step_mean": 5.4673919677734375,
+    "generation_speed_elapsed_sec_median": 4037.227288799826,
+    "generation_speed_generated_chars_median": 716622,
+    "generation_speed_generated_steps_median": 131072,
+    "generation_speed_prompt_passes_per_run": 1,
+    "generation_speed_nominal_steps_per_prompt_pass": 131072,
+    "generation_speed_target_generated_steps_per_run": 1024,
+    "generation_speed_runs": [
+        {
+            "elapsed_sec": 4146.7680603000335,
+            "generated_chars": 716622,
+            "generated_steps": 131072,
+            "chars_per_sec": 172.81458465466955,
+            "steps_per_sec": 31.608230336016543,
+            "chars_per_step": 5.4673919677734375
+        },
+        {
+            "elapsed_sec": 4092.3200528000016,
+            "generated_chars": 716622,
+            "generated_steps": 131072,
+            "chars_per_sec": 175.11386957862226,
+            "steps_per_sec": 32.028775440063484,
+            "chars_per_step": 5.4673919677734375
+        },
+        {
+            "elapsed_sec": 4026.8763103999663,
+            "generated_chars": 716622,
+            "generated_steps": 131072,
+            "chars_per_sec": 177.95977446568804,
+            "steps_per_sec": 32.549298735967724,
+            "chars_per_step": 5.4673919677734375
+        },
+        {
+            "elapsed_sec": 4037.227288799826,
+            "generated_chars": 716622,
+            "generated_steps": 131072,
+            "chars_per_sec": 177.503506425826,
+            "steps_per_sec": 32.46584614238171,
+            "chars_per_step": 5.4673919677734375
+        },
+        {
+            "elapsed_sec": 4035.7154273001943,
+            "generated_chars": 716622,
+            "generated_steps": 131072,
+            "chars_per_sec": 177.57000286796844,
+            "steps_per_sec": 32.47800851203335,
+            "chars_per_step": 5.4673919677734375
+        }
+    ],
+    "generation_speed_num_prompts": 2048,
+    "generation_speed_batch_size": 1,
+    "generation_speed_max_new_tokens": 64,
+    "generation_speed_method": "external_eval_prompts_tokenized_batch1_median_mad",
+    "generation_speed_source": "data/base\\en\\test_indomain.txt"
+}

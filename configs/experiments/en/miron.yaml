@@ -1,0 +1,54 @@
+defaults:
+  - /base@_here_
+  - /base/en@_here_
+  - _self_
+
+model:
+  max_position_embeddings: 256
+
+tokenizer:
+  type: miron
+  id: en/miron
+  vocab_size: 50000
+  d_model: 768
+  max_word_length: 24
+  min_char_frequency: 100
+
+training:
+  gradient_checkpointing: true
+  num_workers: 0
+  encoder_lr_ratio: 0.5
+  decoder_lr_ratio: 0.1
+  freeze_except_modules_steps: 5000
+  freeze_except_modules:
+    - enc_proj
+    - dec_proj
+
+miron:
+  nhead: 8
+  nlayers: 2
+  d_ff: 1024
+  encoder_char_dim: 128
+  decoder_char_dim: 128
+  encoder_pooling: flatten
+  decoder_conditioning: flatten
+  encoder_dropout: 0.1
+  encoder_max_pos: 64
+  init_gain: 1.1
+
+experiment:
+  id: en/miron
+  description: "MIRON with 24x128 flattened char states projected to 768 for English"
+
+generation:
+  do_sample: true
+  temperature: 0.5
+  max_new_tokens: 512
+
+external_model_eval:
+  external_gen_do_sample: true
+  external_gen_max_new_tokens_cap: 128
+  external_gen_temperature: 0.5
+  external_gen_repetition_penalty: 1.08
+  trim_repeated_ngram: 3
+  trim_min_words: 32

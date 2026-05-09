@@ -1,0 +1,67 @@
+{
+    "generation_chars_per_sec_median": 249.6294165203362,
+    "generation_chars_per_sec_mean": 245.3851020569381,
+    "generation_chars_per_sec_min": 235.2518621873787,
+    "generation_chars_per_sec_max": 255.3136957086313,
+    "generation_chars_per_sec_mad": 5.684279188295079,
+    "generation_chars_per_sec_rel_mad": 0.022770870787305653,
+    "generation_steps_per_sec_median": 67.20253501388748,
+    "generation_steps_per_sec_mean": 66.05992652121722,
+    "generation_steps_per_sec_min": 63.33196514298473,
+    "generation_steps_per_sec_max": 68.7327952552681,
+    "generation_steps_per_sec_mad": 1.530260241380617,
+    "generation_steps_per_sec_rel_mad": 0.02277087078730567,
+    "generation_chars_per_step_mean": 3.7145833333333327,
+    "generation_speed_elapsed_sec_median": 28.570350800058804,
+    "generation_speed_generated_chars_median": 7132,
+    "generation_speed_generated_steps_median": 1920,
+    "generation_speed_prompt_passes_per_run": 2,
+    "generation_speed_nominal_steps_per_prompt_pass": 960,
+    "generation_speed_target_generated_steps_per_run": 1024,
+    "generation_speed_runs": [
+        {
+            "elapsed_sec": 28.413494100095704,
+            "generated_chars": 7132,
+            "generated_steps": 1920,
+            "chars_per_sec": 251.0074957650484,
+            "steps_per_sec": 67.57352662211062,
+            "chars_per_step": 3.714583333333333
+        },
+        {
+            "elapsed_sec": 30.316444399999455,
+            "generated_chars": 7132,
+            "generated_steps": 1920,
+            "chars_per_sec": 235.2518621873787,
+            "steps_per_sec": 63.33196514298473,
+            "chars_per_step": 3.714583333333333
+        },
+        {
+            "elapsed_sec": 27.934263299917802,
+            "generated_chars": 7132,
+            "generated_steps": 1920,
+            "chars_per_sec": 255.3136957086313,
+            "steps_per_sec": 68.7327952552681,
+            "chars_per_step": 3.714583333333333
+        },
+        {
+            "elapsed_sec": 28.570350800058804,
+            "generated_chars": 7132,
+            "generated_steps": 1920,
+            "chars_per_sec": 249.6294165203362,
+            "steps_per_sec": 67.20253501388748,
+            "chars_per_step": 3.714583333333333
+        },
+        {
+            "elapsed_sec": 30.25584599992726,
+            "generated_chars": 7132,
+            "generated_steps": 1920,
+            "chars_per_sec": 235.72304010329594,
+            "steps_per_sec": 63.458810571835144,
+            "chars_per_step": 3.714583333333333
+        }
+    ],
+    "generation_speed_num_prompts": 15,
+    "generation_speed_batch_size": 1,
+    "generation_speed_max_new_tokens": 64,
+    "generation_speed_method": "human_eval_prompts_tokenized_batch1_median_mad"
+}

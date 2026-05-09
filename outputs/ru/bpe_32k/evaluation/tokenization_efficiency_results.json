@@ -1,0 +1,1541 @@
+{
+  "experiment": "ru/bpe_32k",
+  "language": "ru",
+  "splits": {
+    "test_indomain": {
+      "compression_ratio": 4.177034284672774,
+      "subword_fertility": 1.6937116789219226,
+      "oov_rate": 3.709604786975084e-05,
+      "vocab_utilization": 0.87823486328125,
+      "avg_token_length_vocab": 4.885772705078125,
+      "avg_token_length_text": 3.6101777888389592,
+      "token_entropy_bits": 12.446099324619341,
+      "strr": 0.2900649990553868,
+      "token_length_dist_vocab": {
+        "0": 5,
+        "1": 5096,
+        "2": 2361,
+        "3": 4283,
+        "4": 4663,
+        "5": 4017,
+        "6": 3573,
+        "7": 2797,
+        "8": 2033,
+        "9": 1395,
+        "10": 994,
+        "11": 641,
+        "12": 444,
+        "13": 240,
+        "14": 104,
+        "15": 67,
+        "16": 33,
+        "17": 9,
+        "18": 8,
+        "20": 2,
+        "28": 1,
+        "32": 2
+      },
+      "token_length_dist_text": {
+        "0": 799586,
+        "1": 2876318,
+        "2": 3447808,
+        "3": 2992113,
+        "4": 2081915,
+        "5": 1629529,
+        "6": 1224970,
+        "7": 847013,
+        "8": 564446,
+        "9": 363033,
+        "10": 240102,
+        "11": 154466,
+        "12": 99863,
+        "13": 52088,
+        "14": 20896,
+        "15": 13188,
+        "16": 4388,
+        "17": 939,
+        "18": 1223,
+        "20": 223,
+        "28": 40,
+        "32": 107
+      },
+      "total_chars": 72739936,
+      "total_tokens": 17414254,
+      "total_words": 10281711,
+      "vocabulary_frequency_analysis": {
+        "types_observed": 28778,
+        "hapax_types": 507,
+        "hapax_fraction_of_types": 0.01761762457432761,
+        "gini_type_frequencies": 0.7135520433743727,
+        "cumulative_mass_by_rank_cap": [
+          {
+            "rank_cap": 1,
+            "cumulative_token_mass": 0.022406472307111173
+          },
+          {
+            "rank_cap": 2,
+            "cumulative_token_mass": 0.04481294461422235
+          },
+          {
+            "rank_cap": 5,
+            "cumulative_token_mass": 0.088873459638294
+          },
+          {
+            "rank_cap": 10,
+            "cumulative_token_mass": 0.11762427491869591
+          },
+          {
+            "rank_cap": 20,
+            "cumulative_token_mass": 0.14880189527498566
+          },
+          {
+            "rank_cap": 50,
+            "cumulative_token_mass": 0.19542416229831033
+          },
+          {
+            "rank_cap": 100,
+            "cumulative_token_mass": 0.24324671042469004
+          },
+          {
+            "rank_cap": 200,
+            "cumulative_token_mass": 0.30734127341889006
+          },
+          {
+            "rank_cap": 500,
+            "cumulative_token_mass": 0.4059619780439633
+          },
+          {
+            "rank_cap": 1000,
+            "cumulative_token_mass": 0.4946709747084199
+          },
+          {
+            "rank_cap": 2000,
+            "cumulative_token_mass": 0.5914205110365336
+          },
+          {
+            "rank_cap": 4000,
+            "cumulative_token_mass": 0.6950067456234416
+          },
+          {
+            "rank_cap": 8000,
+            "cumulative_token_mass": 0.808035934240996
+          },
+          {
+            "rank_cap": 16000,
+            "cumulative_token_mass": 0.9236663252988041
+          },
+          {
+            "rank_cap": 28778,
+            "cumulative_token_mass": 1.0
+          }
+        ],
+        "top_tokens_decoded_preview": [
+          {
+            "id": 2,
+            "count": 390192,
+            "freq": 0.022406472307111173,
+            "decoded_preview": ""
+          },
+          {
+            "id": 3,
+            "count": 390192,
+            "freq": 0.022406472307111173,
+            "decoded_preview": ""
+          },
+          {
+            "id": 4929,
+            "count": 319934,
+            "freq": 0.018371961268050872,
+            "decoded_preview": "в"
+          },
+          {
+            "id": 4933,
+            "count": 297626,
+            "freq": 0.01709094170786759,
+            "decoded_preview": "и"
+          },
+          {
+            "id": 4955,
+            "count": 149721,
+            "freq": 0.008597612048153196,
+            "decoded_preview": "на"
+          },
+          {
+            "id": 20,
+            "count": 122633,
+            "freq": 0.0070421047034228395,
+            "decoded_preview": "."
+          },
+          {
+            "id": 4931,
+            "count": 104581,
+            "freq": 0.006005482635087326,
+            "decoded_preview": "с"
+          },
+          {
+            "id": 4972,
+            "count": 102868,
+            "freq": 0.0059071149415875065,
+            "decoded_preview": "не"
+          },
+          {
+            "id": 5002,
+            "count": 85429,
+            "freq": 0.00490569392177236,
+            "decoded_preview": "что"
+          },
+          {
+            "id": 5121,
+            "count": 85163,
+            "freq": 0.004890419078531874,
+            "decoded_preview": "-"
+          },
+          {
+            "id": 18,
+            "count": 66413,
+            "freq": 0.003813714902745762,
+            "decoded_preview": ","
+          },
+          {
+            "id": 32,
+            "count": 66076,
+            "freq": 0.0037943629396929666,
+            "decoded_preview": ":"
+          },
+          {
+            "id": 4944,
+            "count": 60996,
+            "freq": 0.003502647888333316,
+            "decoded_preview": "по"
+          },
+          {
+            "id": 5013,
+            "count": 58254,
+            "freq": 0.003345190669666355,
+            "decoded_preview": "В"
+          },
+          {
+            "id": 5128,
+            "count": 52568,
+            "freq": 0.0030186765393452972,
+            "decoded_preview": "—"
+          },
+          {
+            "id": 4986,
+            "count": 50315,
+            "freq": 0.002889299765582838,
+            "decoded_preview": "к"
+          },
+          {
+            "id": 5093,
+            "count": 48731,
+            "freq": 0.002798339796812427,
+            "decoded_preview": "как"
+          },
+          {
+            "id": 5091,
+            "count": 47153,
+            "freq": 0.0027077243733782683,
+            "decoded_preview": "для"
+          },
+          {
+            "id": 5031,
+            "count": 46633,
+            "freq": 0.0026778637775698,
+            "decoded_preview": "из"
+          },
+          {
+            "id": 4999,
+            "count": 45796,
+            "freq": 0.002629799703162708,
+            "decoded_preview": "от"
+          },
+          {
+            "id": 4990,
+            "count": 39716,
+            "freq": 0.0022806604290944647,
+            "decoded_preview": "а"
+          },
+          {
+            "id": 4985,
+            "count": 38563,
+            "freq": 0.0022144503003114573,
+            "decoded_preview": "за"
+          },
+          {
+            "id": 15,
+            "count": 38221,
+            "freq": 0.002194811216145119,
+            "decoded_preview": ")"
+          },
+          {
+            "id": 5141,
+            "count": 34093,
+            "freq": 0.0019577640248040484,
+            "decoded_preview": "или"
+          },
+          {
+            "id": 4939,
+            "count": 33219,
+            "freq": 0.0019075752541567385,
+            "decoded_preview": "о"
+          },
+          {
+            "id": 5057,
+            "count": 32665,
+            "freq": 0.001875762234776178,
+            "decoded_preview": "это"
+          },
+          {
+            "id": 4971,
+            "count": 32090,
+            "freq": 0.0018427433067187374,
+            "decoded_preview": "у"
+          },
+          {
+            "id": 5158,
+            "count": 31440,
+            "freq": 0.0018054175619581522,
+            "decoded_preview": "его"
+          },
+          {
+            "id": 37,
+            "count": 29040,
+            "freq": 0.00166759942745753,
+            "decoded_preview": "?"
+          },
+          {
+            "id": 4942,
+            "count": 28997,
+            "freq": 0.0016651301858810605,
+            "decoded_preview": "ли"
+          },
+          {
+            "id": 5085,
+            "count": 27734,
+            "freq": 0.001592603392600108,
+            "decoded_preview": "но"
+          },
+          {
+            "id": 5001,
+            "count": 27632,
+            "freq": 0.0015867461218838316,
+            "decoded_preview": "при"
+          },
+          {
+            "id": 5010,
+            "count": 27021,
+            "freq": 0.0015516599218088813,
+            "decoded_preview": "до"
+          },
+          {
+            "id": 5183,
+            "count": 26583,
+            "freq": 0.0015265081122625178,
+            "decoded_preview": "он"
+          },
+          {
+            "id": 136,
+            "count": 25349,
+            "freq": 0.0014556466214401145,
+            "decoded_preview": "»"
+          },
+          {
+            "id": 4957,
+            "count": 24880,
+            "freq": 0.0014287146609897846,
+            "decoded_preview": "ла"
+          },
+          {
+            "id": 5021,
+            "count": 24708,
+            "freq": 0.0014188376946839066,
+            "decoded_preview": "вы"
+          },
+          {
+            "id": 5086,
+            "count": 24410,
+            "freq": 0.0014017252763167461,
+            "decoded_preview": "А"
+          },
+          {
+            "id": 5171,
+            "count": 24203,
+            "freq": 0.0013898384622160673,
+            "decoded_preview": "По"
+          },
+          {
+            "id": 5073,
+            "count": 23156,
+            "freq": 0.0013297153010401708,
+            "decoded_preview": "я"
+          },
+          {
+            "id": 553,
+            "count": 22719,
+            "freq": 0.001304620915716516,
+            "decoded_preview": "л"
+          },
+          {
+            "id": 19,
+            "count": 22716,
+            "freq": 0.00130444864304839,
+            "decoded_preview": "-"
+          },
+          {
+            "id": 5415,
+            "count": 22562,
+            "freq": 0.001295605312751267,
+            "decoded_preview": ")."
+          },
+          {
+            "id": 560,
+            "count": 22400,
+            "freq": 0.001286302588672475,
+            "decoded_preview": "т"
+          },
+          {
+            "id": 4949,
+            "count": 21960,
+            "freq": 0.0012610359306806942,
+            "decoded_preview": "ка"
+          },
+          {
+            "id": 33,
+            "count": 21830,
+            "freq": 0.0012535707817285771,
+            "decoded_preview": ";"
+          },
+          {
+            "id": 5026,
+            "count": 21265,
+            "freq": 0.0012211260958982222,
+            "decoded_preview": "ной"
+          },
+          {
+            "id": 5027,
+            "count": 21086,
+            "freq": 0.0012108471600333843,
+            "decoded_preview": "("
+          },
+          {
+            "id": 5347,
+            "count": 21085,
+            "freq": 0.0012107897358106755,
+            "decoded_preview": "–"
+          },
+          {
+            "id": 5257,
+            "count": 20549,
+            "freq": 0.00118001035243887,
+            "decoded_preview": "был"
+          },
+          {
+            "id": 554,
+            "count": 19979,
+            "freq": 0.0011472785454949722,
+            "decoded_preview": "м"
+          },
+          {
+            "id": 4961,
+            "count": 19849,
+            "freq": 0.0011398133965428551,
+            "decoded_preview": "та"
+          },
+          {
+            "id": 4975,
+            "count": 19743,
+            "freq": 0.0011337264289357442,
+            "decoded_preview": "ми"
+          },
+          {
+            "id": 5041,
+            "count": 19724,
+            "freq": 0.001132635368704281,
+            "decoded_preview": "ные"
+          },
+          {
+            "id": 5023,
+            "count": 19577,
+            "freq": 0.0011241940079661178,
+            "decoded_preview": "С"
+          },
+          {
+            "id": 5113,
+            "count": 19502,
+            "freq": 0.0011198871912629735,
+            "decoded_preview": "И"
+          },
+          {
+            "id": 4963,
+            "count": 19383,
+            "freq": 0.001113053708760651,
+            "decoded_preview": "ки"
+          },
+          {
+            "id": 5066,
+            "count": 19006,
+            "freq": 0.0010914047767995115,
+            "decoded_preview": "ный"
+          },
+          {
+            "id": 5024,
+            "count": 18605,
+            "freq": 0.0010683776634933658,
+            "decoded_preview": "то"
+          },
+          {
+            "id": 6,
+            "count": 18556,
+            "freq": 0.0010655638765806447,
+            "decoded_preview": ""
+          },
+          {
+            "id": 5276,
+            "count": 18408,
+            "freq": 0.001057065091619773,
+            "decoded_preview": "чтобы"
+          },
+          {
+            "id": 5045,
+            "count": 18329,
+            "freq": 0.0010525285780257942,
+            "decoded_preview": "ного"
+          },
+          {
+            "id": 5028,
+            "count": 18306,
+            "freq": 0.0010512078209034966,
+            "decoded_preview": "ных"
+          },
+          {
+            "id": 4932,
+            "count": 18203,
+            "freq": 0.0010452931259645117,
+            "decoded_preview": "но"
+          }
+        ]
+      }
+    },
+    "ood_science": {
+      "compression_ratio": 3.928030613875584,
+      "subword_fertility": 1.8357397144057785,
+      "oov_rate": 0.0014166691861494673,
+      "vocab_utilization": 0.494598388671875,
+      "avg_token_length_vocab": 4.885772705078125,
+      "avg_token_length_text": 3.399686432369163,
+      "token_entropy_bits": 11.523041467636968,
+      "strr": 0.29503377575420087,
+      "token_length_dist_vocab": {
+        "0": 5,
+        "1": 5096,
+        "2": 2361,
+        "3": 4283,
+        "4": 4663,
+        "5": 4017,
+        "6": 3573,
+        "7": 2797,
+        "8": 2033,
+        "9": 1395,
+        "10": 994,
+        "11": 641,
+        "12": 444,
+        "13": 240,
+        "14": 104,
+        "15": 67,
+        "16": 33,
+        "17": 9,
+        "18": 8,
+        "20": 2,
+        "28": 1,
+        "32": 2
+      },
+      "token_length_dist_text": {
+        "0": 11622,
+        "1": 62008,
+        "2": 41338,
+        "3": 29444,
+        "4": 21338,
+        "5": 18998,
+        "6": 13926,
+        "7": 10125,
+        "8": 8046,
+        "9": 5164,
+        "10": 3405,
+        "11": 2484,
+        "12": 1849,
+        "13": 837,
+        "14": 492,
+        "15": 282,
+        "16": 70,
+        "17": 8,
+        "18": 92,
+        "20": 1
+      },
+      "total_chars": 909453,
+      "total_tokens": 231529,
+      "total_words": 126123,
+      "vocabulary_frequency_analysis": {
+        "types_observed": 16207,
+        "hapax_types": 4199,
+        "hapax_fraction_of_types": 0.25908558030480655,
+        "gini_type_frequencies": 0.7723924718610237,
+        "cumulative_mass_by_rank_cap": [
+          {
+            "rank_cap": 1,
+            "cumulative_token_mass": 0.017812023547806106
+          },
+          {
+            "rank_cap": 2,
+            "cumulative_token_mass": 0.03562404709561221
+          },
+          {
+            "rank_cap": 5,
+            "cumulative_token_mass": 0.07406847522340614
+          },
+          {
+            "rank_cap": 10,
+            "cumulative_token_mass": 0.11214145960117307
+          },
+          {
+            "rank_cap": 20,
+            "cumulative_token_mass": 0.1562180115665856
+          },
+          {
+            "rank_cap": 50,
+            "cumulative_token_mass": 0.22210608606265306
+          },
+          {
+            "rank_cap": 100,
+            "cumulative_token_mass": 0.2882489882476925
+          },
+          {
+            "rank_cap": 200,
+            "cumulative_token_mass": 0.3714826220473461
+          },
+          {
+            "rank_cap": 500,
+            "cumulative_token_mass": 0.505327626344864
+          },
+          {
+            "rank_cap": 1000,
+            "cumulative_token_mass": 0.616099927006984
+          },
+          {
+            "rank_cap": 2000,
+            "cumulative_token_mass": 0.7307076003438014
+          },
+          {
+            "rank_cap": 4000,
+            "cumulative_token_mass": 0.8440411352357589
+          },
+          {
+            "rank_cap": 8000,
+            "cumulative_token_mass": 0.9407849556643012
+          },
+          {
+            "rank_cap": 16000,
+            "cumulative_token_mass": 0.9991059435319117
+          },
+          {
+            "rank_cap": 16207,
+            "cumulative_token_mass": 1.0
+          }
+        ],
+        "top_tokens_decoded_preview": [
+          {
+            "id": 2,
+            "count": 4124,
+            "freq": 0.017812023547806106,
+            "decoded_preview": ""
+          },
+          {
+            "id": 3,
+            "count": 4124,
+            "freq": 0.017812023547806106,
+            "decoded_preview": ""
+          },
+          {
+            "id": 4933,
+            "count": 3135,
+            "freq": 0.01354042042249567,
+            "decoded_preview": "и"
+          },
+          {
+            "id": 6,
+            "count": 3046,
+            "freq": 0.013156019332351455,
+            "decoded_preview": ""
+          },
+          {
+            "id": 4929,
+            "count": 2720,
+            "freq": 0.011747988372946801,
+            "decoded_preview": "в"
+          },
+          {
+            "id": 14,
+            "count": 2169,
+            "freq": 0.009368156904750593,
+            "decoded_preview": "("
+          },
+          {
+            "id": 15,
+            "count": 2065,
+            "freq": 0.008918969114020275,
+            "decoded_preview": ")"
+          },
+          {
+            "id": 20,
+            "count": 1709,
+            "freq": 0.007381364753443413,
+            "decoded_preview": "."
+          },
+          {
+            "id": 4955,
+            "count": 1499,
+            "freq": 0.006474350945237962,
+            "decoded_preview": "на"
+          },
+          {
+            "id": 18,
+            "count": 1373,
+            "freq": 0.00593014266031469,
+            "decoded_preview": ","
+          },
+          {
+            "id": 33,
+            "count": 1313,
+            "freq": 0.005670995857970276,
+            "decoded_preview": ";"
+          },
+          {
+            "id": 5002,
+            "count": 1117,
+            "freq": 0.004824449636978521,
+            "decoded_preview": "что"
+          },
+          {
+            "id": 5458,
+            "count": 1114,
+            "freq": 0.0048114922968613,
+            "decoded_preview": "="
+          },
+          {
+            "id": 1793,
+            "count": 1113,
+            "freq": 0.004807173183488893,
+            "decoded_preview": "∈"
+          },
+          {
+            "id": 32,
+            "count": 1029,
+            "freq": 0.0044443676602067125,
+            "decoded_preview": ":"
+          },
+          {
+            "id": 5091,
+            "count": 1005,
+            "freq": 0.004340708939268947,
+            "decoded_preview": "для"
+          },
+          {
+            "id": 4931,
+            "count": 957,
+            "freq": 0.004133391497393415,
+            "decoded_preview": "с"
+          },
+          {
+            "id": 5027,
+            "count": 860,
+            "freq": 0.0037144375002699445,
+            "decoded_preview": "("
+          },
+          {
+            "id": 7674,
+            "count": 853,
+            "freq": 0.003684203706663096,
+            "decoded_preview": "|"
+          },
+          {
+            "id": 5415,
+            "count": 844,
+            "freq": 0.003645331686311434,
+            "decoded_preview": ")."
+          },
+          {
+            "id": 122,
+            "count": 689,
+            "freq": 0.0029758691135883626,
+            "decoded_preview": "­"
+          },
+          {
+            "id": 4972,
+            "count": 684,
+            "freq": 0.002954273546726328,
+            "decoded_preview": "не"
+          },
+          {
+            "id": 1806,
+            "count": 652,
+            "freq": 0.0028160619188093068,
+            "decoded_preview": "∥"
+          },
+          {
+            "id": 5347,
+            "count": 601,
+            "freq": 0.002595787136816554,
+            "decoded_preview": "–"
+          },
+          {
+            "id": 5741,
+            "count": 588,
+            "freq": 0.0025396386629752644,
+            "decoded_preview": "T"
+          },
+          {
+            "id": 62,
+            "count": 586,
+            "freq": 0.0025310004362304505,
+            "decoded_preview": "X"
+          },
+          {
+            "id": 58,
+            "count": 584,
+            "freq": 0.002522362209485637,
+            "decoded_preview": "T"
+          },
+          {
+            "id": 5013,
+            "count": 581,
+            "freq": 0.002509404869368416,
+            "decoded_preview": "В"
+          },
+          {
+            "id": 4944,
+            "count": 564,
+            "freq": 0.0024359799420374984,
+            "decoded_preview": "по"
+          },
+          {
+            "id": 5293,
+            "count": 535,
+            "freq": 0.002310725654237698,
+            "decoded_preview": "),"
+          },
+          {
+            "id": 5585,
+            "count": 516,
+            "freq": 0.0022286625001619667,
+            "decoded_preview": "C"
+          },
+          {
+            "id": 29467,
+            "count": 514,
+            "freq": 0.0022200242734171528,
+            "decoded_preview": "−"
+          },
+          {
+            "id": 5128,
+            "count": 508,
+            "freq": 0.0021941095931827114,
+            "decoded_preview": "—"
+          },
+          {
+            "id": 5560,
+            "count": 502,
+            "freq": 0.00216819491294827,
+            "decoded_preview": "A"
+          },
+          {
+            "id": 5031,
+            "count": 488,
+            "freq": 0.002107727325734573,
+            "decoded_preview": "из"
+          },
+          {
+            "id": 23,
+            "count": 487,
+            "freq": 0.0021034082123621662,
+            "decoded_preview": "1"
+          },
+          {
+            "id": 8579,
+            "count": 483,
+            "freq": 0.0020861317588725388,
+            "decoded_preview": ":"
+          },
+          {
+            "id": 6492,
+            "count": 480,
+            "freq": 0.002073174418755318,
+            "decoded_preview": "f"
+          },
+          {
+            "id": 554,
+            "count": 462,
+            "freq": 0.0019954303780519937,
+            "decoded_preview": "м"
+          },
+          {
+            "id": 24,
+            "count": 456,
+            "freq": 0.001969515697817552,
+            "decoded_preview": "2"
+          },
+          {
+            "id": 5093,
+            "count": 448,
+            "freq": 0.0019349627908382967,
+            "decoded_preview": "как"
+          },
+          {
+            "id": 4986,
+            "count": 446,
+            "freq": 0.001926324564093483,
+            "decoded_preview": "к"
+          },
+          {
+            "id": 84,
+            "count": 442,
+            "freq": 0.0019090481106038553,
+            "decoded_preview": "n"
+          },
+          {
+            "id": 4999,
+            "count": 438,
+            "freq": 0.0018917716571142276,
+            "decoded_preview": "от"
+          },
+          {
+            "id": 5028,
+            "count": 436,
+            "freq": 0.0018831334303694137,
+            "decoded_preview": "ных"
+          },
+          {
+            "id": 1798,
+            "count": 432,
+            "freq": 0.0018658569768797862,
+            "decoded_preview": "∗"
+          },
+          {
+            "id": 8325,
+            "count": 425,
+            "freq": 0.0018356231832729378,
+            "decoded_preview": "x"
+          },
+          {
+            "id": 76,
+            "count": 421,
+            "freq": 0.0018183467297833102,
+            "decoded_preview": "f"
+          },
+          {
+            "id": 71,
+            "count": 417,
+            "freq": 0.0018010702762936825,
+            "decoded_preview": "a"
+          },
+          {
+            "id": 25614,
+            "count": 390,
+            "freq": 0.0016844542152386957,
+            "decoded_preview": "алге"
+          },
+          {
+            "id": 6404,
+            "count": 387,
+            "freq": 0.001671496875121475,
+            "decoded_preview": "["
+          },
+          {
+            "id": 46,
+            "count": 373,
+            "freq": 0.0016110292879077783,
+            "decoded_preview": "H"
+          },
+          {
+            "id": 6639,
+            "count": 372,
+            "freq": 0.0016067101745353713,
+            "decoded_preview": "a"
+          },
+          {
+            "id": 5254,
+            "count": 370,
+            "freq": 0.0015980719477905576,
+            "decoded_preview": "У"
+          },
+          {
+            "id": 4990,
+            "count": 368,
+            "freq": 0.0015894337210457436,
+            "decoded_preview": "а"
+          },
+          {
+            "id": 6244,
+            "count": 364,
+            "freq": 0.0015721572675561162,
+            "decoded_preview": "H"
+          },
+          {
+            "id": 9335,
+            "count": 355,
+            "freq": 0.0015332852472044539,
+            "decoded_preview": "2."
+          },
+          {
+            "id": 5001,
+            "count": 354,
+            "freq": 0.0015289661338320469,
+            "decoded_preview": "при"
+          },
+          {
+            "id": 5024,
+            "count": 350,
+            "freq": 0.0015116896803424192,
+            "decoded_preview": "то"
+          },
+          {
+            "id": 4961,
+            "count": 350,
+            "freq": 0.0015116896803424192,
+            "decoded_preview": "та"
+          },
+          {
+            "id": 21504,
+            "count": 348,
+            "freq": 0.0015030514535976055,
+            "decoded_preview": "→"
+          },
+          {
+            "id": 19,
+            "count": 346,
+            "freq": 0.0014944132268527918,
+            "decoded_preview": "-"
+          },
+          {
+            "id": 6026,
+            "count": 346,
+            "freq": 0.0014944132268527918,
+            "decoded_preview": "X"
+          },
+          {
+            "id": 5026,
+            "count": 341,
+            "freq": 0.001472817659990757,
+            "decoded_preview": "ной"
+          }
+        ]
+      }
+    },
+    "ood_fiction": {
+      "compression_ratio": 3.762488284738058,
+      "subword_fertility": 1.6793010502834835,
+      "oov_rate": 0.0,
+      "vocab_utilization": 0.45556640625,
+      "avg_token_length_vocab": 4.885772705078125,
+      "avg_token_length_text": 3.1880456360188036,
+      "token_entropy_bits": 11.248492676581652,
+      "strr": 0.2834198081184715,
+      "token_length_dist_vocab": {
+        "0": 5,
+        "1": 5096,
+        "2": 2361,
+        "3": 4283,
+        "4": 4663,
+        "5": 4017,
+        "6": 3573,
+        "7": 2797,
+        "8": 2033,
+        "9": 1395,
+        "10": 994,
+        "11": 641,
+        "12": 444,
+        "13": 240,
+        "14": 104,
+        "15": 67,
+        "16": 33,
+        "17": 9,
+        "18": 8,
+        "20": 2,
+        "28": 1,
+        "32": 2
+      },
+      "token_length_dist_text": {
+        "0": 11514,
+        "1": 37099,
+        "2": 65257,
+        "3": 60299,
+        "4": 38220,
+        "5": 24726,
+        "6": 16325,
+        "7": 8735,
+        "8": 4238,
+        "9": 2201,
+        "10": 1185,
+        "11": 674,
+        "12": 316,
+        "13": 128,
+        "14": 70,
+        "15": 19,
+        "16": 4,
+        "32": 4
+      },
+      "total_chars": 1019687,
+      "total_tokens": 271014,
+      "total_words": 161385,
+      "vocabulary_frequency_analysis": {
+        "types_observed": 14928,
+        "hapax_types": 3371,
+        "hapax_fraction_of_types": 0.22581725616291531,
+        "gini_type_frequencies": 0.779899979222171,
+        "cumulative_mass_by_rank_cap": [
+          {
+            "rank_cap": 1,
+            "cumulative_token_mass": 0.022865977403381376
+          },
+          {
+            "rank_cap": 2,
+            "cumulative_token_mass": 0.043909170743946804
+          },
+          {
+            "rank_cap": 5,
+            "cumulative_token_mass": 0.09492129557882618
+          },
+          {
+            "rank_cap": 10,
+            "cumulative_token_mass": 0.14026950637236452
+          },
+          {
+            "rank_cap": 20,
+            "cumulative_token_mass": 0.18908617267004657
+          },
+          {
+            "rank_cap": 50,
+            "cumulative_token_mass": 0.2584368335215155
+          },
+          {
+            "rank_cap": 100,
+            "cumulative_token_mass": 0.32293165666718326
+          },
+          {
+            "rank_cap": 200,
+            "cumulative_token_mass": 0.4017172544591792
+          },
+          {
+            "rank_cap": 500,
+            "cumulative_token_mass": 0.5288361486860458
+          },
+          {
+            "rank_cap": 1000,
+            "cumulative_token_mass": 0.6347494963359827
+          },
+          {
+            "rank_cap": 2000,
+            "cumulative_token_mass": 0.7474152626801568
+          },
+          {
+            "rank_cap": 4000,
+            "cumulative_token_mass": 0.8594500653102791
+          },
+          {
+            "rank_cap": 8000,
+            "cumulative_token_mass": 0.9544857461238165
+          },
+          {
+            "rank_cap": 14928,
+            "cumulative_token_mass": 1.0
+          }
+        ],
+        "top_tokens_decoded_preview": [
+          {
+            "id": 4933,
+            "count": 6197,
+            "freq": 0.022865977403381376,
+            "decoded_preview": "и"
+          },
+          {
+            "id": 2,
+            "count": 5703,
+            "freq": 0.02104319334056543,
+            "decoded_preview": ""
+          },
+          {
+            "id": 3,
+            "count": 5703,
+            "freq": 0.02104319334056543,
+            "decoded_preview": ""
+          },
+          {
+            "id": 9302,
+            "count": 4516,
+            "freq": 0.016663345805013764,
+            "decoded_preview": "--"
+          },
+          {
+            "id": 4929,
+            "count": 3606,
+            "freq": 0.013305585689300185,
+            "decoded_preview": "в"
+          },
+          {
+            "id": 4972,
+            "count": 3413,
+            "freq": 0.012593445357066425,
+            "decoded_preview": "не"
+          },
+          {
+            "id": 4955,
+            "count": 2487,
+            "freq": 0.009176647700856782,
+            "decoded_preview": "на"
+          },
+          {
+            "id": 7,
+            "count": 2218,
+            "freq": 0.008184079051266724,
+            "decoded_preview": "!"
+          },
+          {
+            "id": 6330,
+            "count": 2154,
+            "freq": 0.007947928889282472,
+            "decoded_preview": "..."
+          },
+          {
+            "id": 20,
+            "count": 2018,
+            "freq": 0.007446109795065938,
+            "decoded_preview": "."
+          },
+          {
+            "id": 4931,
+            "count": 1860,
+            "freq": 0.006863114082667316,
+            "decoded_preview": "с"
+          },
+          {
+            "id": 5002,
+            "count": 1703,
+            "freq": 0.006283808216549698,
+            "decoded_preview": "что"
+          },
+          {
+            "id": 5183,
+            "count": 1431,
+            "freq": 0.005280170028116629,
+            "decoded_preview": "он"
+          },
+          {
+            "id": 37,
+            "count": 1338,
+            "freq": 0.004937014323983263,
+            "decoded_preview": "?"
+          },
+          {
+            "id": 4985,
+            "count": 1278,
+            "freq": 0.004715623547123027,
+            "decoded_preview": "за"
+          },
+          {
+            "id": 4944,
+            "count": 1220,
+            "freq": 0.004501612462824799,
+            "decoded_preview": "по"
+          },
+          {
+            "id": 18,
+            "count": 1220,
+            "freq": 0.004501612462824799,
+            "decoded_preview": ","
+          },
+          {
+            "id": 5158,
+            "count": 1206,
+            "freq": 0.004449954614890743,
+            "decoded_preview": "его"
+          },
+          {
+            "id": 4986,
+            "count": 990,
+            "freq": 0.003652947818193894,
+            "decoded_preview": "к"
+          },
+          {
+            "id": 4957,
+            "count": 984,
+            "freq": 0.0036308087405078704,
+            "decoded_preview": "ла"
+          },
+          {
+            "id": 5093,
+            "count": 944,
+            "freq": 0.003483214889267713,
+            "decoded_preview": "как"
+          },
+          {
+            "id": 4999,
+            "count": 891,
+            "freq": 0.0032876530363745047,
+            "decoded_preview": "от"
+          },
+          {
+            "id": 5073,
+            "count": 850,
+            "freq": 0.0031363693388533434,
+            "decoded_preview": "я"
+          },
+          {
+            "id": 4971,
+            "count": 840,
+            "freq": 0.003099470876043304,
+            "decoded_preview": "у"
+          },
+          {
+            "id": 5532,
+            "count": 765,
+            "freq": 0.002822732404968009,
+            "decoded_preview": "ее"
+          },
+          {
+            "id": 553,
+            "count": 733,
+            "freq": 0.002704657323975883,
+            "decoded_preview": "л"
+          },
+          {
+            "id": 5085,
+            "count": 709,
+            "freq": 0.002616101013231789,
+            "decoded_preview": "но"
+          },
+          {
+            "id": 5656,
+            "count": 689,
+            "freq": 0.00254230408761171,
+            "decoded_preview": "Он"
+          },
+          {
+            "id": 5031,
+            "count": 671,
+            "freq": 0.0024758868545536393,
+            "decoded_preview": "из"
+          },
+          {
+            "id": 33,
+            "count": 659,
+            "freq": 0.002431608699181592,
+            "decoded_preview": ";"
+          },
+          {
+            "id": 572,
+            "count": 641,
+            "freq": 0.0023651914661235213,
+            "decoded_preview": "ю"
+          },
+          {
+            "id": 4990,
+            "count": 635,
+            "freq": 0.002343052388437498,
+            "decoded_preview": "а"
+          },
+          {
+            "id": 5231,
+            "count": 629,
+            "freq": 0.002320913310751474,
+            "decoded_preview": "же"
+          },
+          {
+            "id": 5476,
+            "count": 621,
+            "freq": 0.0022913945405034428,
+            "decoded_preview": "она"
+          },
+          {
+            "id": 4939,
+            "count": 601,
+            "freq": 0.002217597614883364,
+            "decoded_preview": "о"
+          },
+          {
+            "id": 4942,
+            "count": 599,
+            "freq": 0.002210217922321356,
+            "decoded_preview": "ли"
+          },
+          {
+            "id": 5142,
+            "count": 589,
+            "freq": 0.002173319459511317,
+            "decoded_preview": "все"
+          },
+          {
+            "id": 5321,
+            "count": 584,
+            "freq": 0.002154870228106297,
+            "decoded_preview": "было"
+          },
+          {
+            "id": 5021,
+            "count": 570,
+            "freq": 0.002103212380172242,
+            "decoded_preview": "вы"
+          },
+          {
+            "id": 5018,
+            "count": 569,
+            "freq": 0.002099522533891238,
+            "decoded_preview": "бы"
+          },
+          {
+            "id": 5409,
+            "count": 540,
+            "freq": 0.001992516991742124,
+            "decoded_preview": "Я"
+          },
+          {
+            "id": 5013,
+            "count": 536,
+            "freq": 0.0019777576066181083,
+            "decoded_preview": "В"
+          },
+          {
+            "id": 5024,
+            "count": 533,
+            "freq": 0.0019666880677750966,
+            "decoded_preview": "то"
+          },
+          {
+            "id": 5113,
+            "count": 524,
+            "freq": 0.001933479451246061,
+            "decoded_preview": "И"
+          },
+          {
+            "id": 32,
+            "count": 519,
+            "freq": 0.0019150302198410415,
+            "decoded_preview": ":"
+          },
+          {
+            "id": 5206,
+            "count": 507,
+            "freq": 0.0018707520644689942,
+            "decoded_preview": "лся"
+          },
+          {
+            "id": 5057,
+            "count": 479,
+            "freq": 0.001767436368600884,
+            "decoded_preview": "это"
+          },
+          {
+            "id": 5389,
+            "count": 460,
+            "freq": 0.0016973292892618094,
+            "decoded_preview": "только"
+          },
+          {
+            "id": 5147,
+            "count": 458,
+            "freq": 0.0016899495966998014,
+            "decoded_preview": "так"
+          },
+          {
+            "id": 4949,
+            "count": 450,
+            "freq": 0.00166043082645177,
+            "decoded_preview": "ка"
+          },
+          {
+            "id": 5010,
+            "count": 446,
+            "freq": 0.0016456714413277543,
+            "decoded_preview": "до"
+          },
+          {
+            "id": 4984,
+            "count": 441,
+            "freq": 0.0016272222099227346,
+            "decoded_preview": "про"
+          },
+          {
+            "id": 5932,
+            "count": 432,
+            "freq": 0.0015940135933936992,
+            "decoded_preview": "ему"
+          },
+          {
+            "id": 5357,
+            "count": 430,
+            "freq": 0.0015866339008316914,
+            "decoded_preview": "лась"
+          },
+          {
+            "id": 5257,
+            "count": 429,
+            "freq": 0.0015829440545506875,
+            "decoded_preview": "был"
+          },
+          {
+            "id": 5086,
+            "count": 427,
+            "freq": 0.0015755643619886795,
+            "decoded_preview": "А"
+          },
+          {
+            "id": 6726,
+            "count": 421,
+            "freq": 0.001553425284302656,
+            "decoded_preview": "Она"
+          },
+          {
+            "id": 4956,
+            "count": 414,
+            "freq": 0.0015275963603356285,
+            "decoded_preview": "ло"
+          },
+          {
+            "id": 4977,
+            "count": 402,
+            "freq": 0.0014833182049635812,
+            "decoded_preview": "ру"
+          },
+          {
+            "id": 5001,
+            "count": 395,
+            "freq": 0.0014574892809965537,
+            "decoded_preview": "при"
+          },
+          {
+            "id": 5103,
+            "count": 387,
+            "freq": 0.0014279705107485222,
+            "decoded_preview": "под"
+          },
+          {
+            "id": 5290,
+            "count": 384,
+            "freq": 0.0014169009719055105,
+            "decoded_preview": "лись"
+          },
+          {
+            "id": 4932,
+            "count": 384,
+            "freq": 0.0014169009719055105,
+            "decoded_preview": "но"
+          },
+          {
+            "id": 5468,
+            "count": 384,
+            "freq": 0.0014169009719055105,
+            "decoded_preview": "Но"
+          }
+        ]
+      }
+    }
+  }
+}

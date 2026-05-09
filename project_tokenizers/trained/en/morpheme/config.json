@@ -1,0 +1,12 @@
+{
+  "type": "morpheme",
+  "language": "en",
+  "vocab_size": 32768,
+  "min_frequency": 2,
+  "special_tokens": [
+    "[UNK]",
+    "[PAD]",
+    "[CLS]",
+    "[SEP]"
+  ]
+}
